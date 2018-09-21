@@ -7,10 +7,10 @@ Solubility of a gas in a solution increases in accord with its partial pressure 
 \
 When a gas comes into contact with a liquid, some of its molecules dissolve into the liquid. Once the dissolved gas’ concentration increases such that the gas’ rate of dissolving equals the rate at which gas escapes solution, equilibrium is established.\
 \
-When one increases the pressure of a gas, one increases the number of molecules per unit volume; this increases the rate at which molecules collide with the liquid’s surface and dissolve into it. Eventually, a new equilibrium is established, with a greater amount of gas dissolved into the liquid. Given this information, the converse is true; as the partial pressure of a gas decreases, so does the gas’ solubility.\
+When one increases the pressure of a gas, one increases the number of molecules per unit volume; this increases the rate at which molecules collide with the liquid’s surface and dissolve into it. Eventually, a new equilibrium is established, with a greater amount of gas dissolved into the liquid. Given this information, the converse is true; as the partial pressure of a gas decreases, so does the gas’s solubility.\
 \
 An example of this phenomenon is as follows. A carbonated drink is bottled [under CO2] with a partial pressure greater than 1 atm. When the bottle is opened, the ambient pressure immediately drops, the dissolved gas’ solubility decreases, and the dissolved gas escapes from the drink as bubbles.\
-Henry’s Law describes the relationship between pressure & a gas’ solubility:\
+Henry’s Law describes the relationship between pressure & a gas’s solubility:\
 C = kP, ∆C = k∆P\
 Where:\
 C = dissolved gas's concentration at equilibrium [mol/L]\
@@ -21,3 +21,24 @@ Gases that react with water don’t obey Henry’s law; they’re more soluble t
 The fluidized bed reactor will be raised above the input of water; therefore, the ambient pressure of the fluidized bed will be lower than that of the influent water. This should decrease the solubility of the dissolved gases. The amount of pressure change is determined by the change in height, as shown in the following equation:\
 ∆P = ⍴g∆h\
 In conjunction with the nucleation sites present in the fluidized bed, this will encourage bubbles to form, and to leave the influent water. 
+
+## Henry’s Law and Gas Solubility Explained
+#### Citation
+URL: https://www.youtube.com/watch?v=9JtTpPEesOk
+#### Summary of Information
+This video reiterated much of the information given in the Averill-Eldredge textbook, using an example of carbon dioxide escaping a liter of soda. When there is gas above some body of water, the pressure of that gas directly correlates to the solubility of that gas into the water. If air pressure above is halved, so is its solubility (and visa versa). This relationship can be expressed using Henry’s Law:\
+S = kP\
+Where:\
+S = solubility\
+k = Henry's Law Constant\
+P = partial pressure
+#### Application to Research
+It is important to build the fluidized bed reactor at the appropriate altitude to minimize the amount of gas able to enter the water. Air pressure decreases at heightened altitudes. In turn, the solubility of gas will also decrease at higher altitudes, resulting in less air getting trapped in the water.  
+
+## The Use of Henry’s Law Constants in the Determination of Factors the Influence VOC Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant
+#### Citation
+Yu, Hui-Zhi. “The Use of Henry's Law Constants in the Determination of Factors That Influence Voc Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant.” Master’s thesis, New Jersey Institute of Technology, 1992. Online database name, http://archives.njit.edu/vol01/etd/1990s/1992/njit-etd1992-013/njit-etd1992-013.pdf, pp. Page A-Page B.
+#### Quotations
+#### Summary of Information
+This is a 64 page thesis; we may not read through its entirety, but rather focus on particular sections. 
+#### Application to Research

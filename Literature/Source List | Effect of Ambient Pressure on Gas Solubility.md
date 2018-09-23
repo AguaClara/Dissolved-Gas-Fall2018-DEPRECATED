@@ -1,5 +1,5 @@
 # Resources Related to the Effect of Ambient Pressure on Gas Solubility
-## Effects of Temperature and Pressure on Solubility
+## Source 1: Effects of Temperature and Pressure on Solubility
 #### Citation
 Averill, Bruce, and Patricia Eldredge. “Effects of Temperature and Pressure on Solubility.” Principles of General Chemistry, Vol. 1, n.d., https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html. Creative Commons, 17 September 2018. 
 #### Summary of Information
@@ -22,7 +22,7 @@ The fluidized bed reactor will be raised above the input of water; therefore, th
 ∆P = ⍴g∆h\
 In conjunction with the nucleation sites present in the fluidized bed, this will encourage bubbles to form, and to leave the influent water. 
 
-## Henry’s Law and Gas Solubility Explained
+## Source 2: Henry’s Law and Gas Solubility Explained
 #### Citation
 URL: https://www.youtube.com/watch?v=9JtTpPEesOk
 #### Summary of Information
@@ -35,7 +35,7 @@ P = partial pressure
 #### Application to Research
 It is important to build the fluidized bed reactor at the appropriate altitude to minimize the amount of gas able to enter the water. Air pressure decreases at heightened altitudes. In turn, the solubility of gas will also decrease at higher altitudes, resulting in less air getting trapped in the water.  
 
-## The Use of Henry’s Law Constants in the Determination of Factors the Influence VOC Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant
+## Source 3: The Use of Henry’s Law Constants in the Determination of Factors the Influence VOC Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant
 #### Citation
 Yu, Hui-Zhi. “The Use of Henry's Law Constants in the Determination of Factors That Influence Voc Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant.” Master’s thesis, New Jersey Institute of Technology, 1992. Online database name, http://archives.njit.edu/vol01/etd/1990s/1992/njit-etd1992-013/njit-etd1992-013.pdf, pp. Page A-Page B.
 #### Quotations

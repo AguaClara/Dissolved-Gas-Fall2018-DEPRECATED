@@ -1,4 +1,4 @@
-# Resources Related to Bubble Formation in Fluidized Beds
+# Sources Related to Bubble Formation in Fluidized Beds
 
 ## Source 1: Bubble Growth and Rise in Soft Sediments
 #### Citation

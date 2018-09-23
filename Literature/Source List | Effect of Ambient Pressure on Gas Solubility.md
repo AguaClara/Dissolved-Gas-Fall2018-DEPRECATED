@@ -22,7 +22,7 @@ The fluidized bed reactor will be raised above the input of water; therefore, th
 ∆P = ⍴g∆h\
 In conjunction with the nucleation sites present in the fluidized bed, this will encourage bubbles to form, and to leave the influent water. 
 
-## Source 2: Henry’s Law and Gas Solubility Explained
+## Source 2: Henry’s Law and Gas Solubility Explained [reconsider this source]
 #### Citation
 URL: https://www.youtube.com/watch?v=9JtTpPEesOk
 #### Summary of Information

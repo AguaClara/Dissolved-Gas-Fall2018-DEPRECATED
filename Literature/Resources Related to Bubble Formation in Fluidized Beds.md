@@ -1,6 +1,6 @@
 # Resources Related to Bubble Formation in Fluidized Beds
 
-## Bubble Growth and Rise in Soft Sediments
+## Source 1: Bubble Growth and Rise in Soft Sediments
 #### Citation
 Boudreau, Bernard P., et al. “Bubble Growth and Rise in Soft Sediments.” GeoScienceWorld, 5 June 2005, https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments.
 #### Quotations
@@ -13,7 +13,7 @@ This article is more about bubble formation and rise in muddy, soft sediments th
 #### Application to Research
 Bubble formation is a crucial part of the method we want to use to remove dissolved gas from influent water.  By creating a fluidized bed reactor using sand, we will be able to create spherical bubbles that rise up and out of the system.  Sand will be a useful medium for this experiment as opposed to mud, gelatin, or other soft sediments because it acts fluidly when under the stress of a bubble rising.
 
-## Estimation of Bubble Diameter in Gaseous Fluidized Beds
+## Source 2: Estimation of Bubble Diameter in Gaseous Fluidized Beds
 #### Citation
 Mori, S., and C. Y. Wen. “Estimation of Bubble Diameter in Gaseous Fluidized Beds.” AIChE Journal, vol. 21, no. 1, Jan. 1975, pp. 109–15. Wiley Online Library, doi:10.1002/aic.690210114.
 #### Summary of Information
@@ -29,7 +29,7 @@ k = tbd by data (.30 in this experiment)\
 #### Application to Research
 We want the bubbles formed in our fluidized reactor to have a large enough diameter such that their buoyancy allows them to float to the top of the water.  In this article, the graphs show that as bubbles rise to the surface, their diameters become larger.  Seeing that the diameter of the fluidized bed reactor does have an effect on the size of the bubbles formed, we can use this information to find the maximum bubble size.
 
-## Bubble Formation at an Orifice in a Fluidized Bed
+## Source 3: Bubble Formation at an Orifice in a Fluidized Bed
 #### Citation
 Harrison, D., and L. S. Leung. “Bubble Formation at an Orifice in a Fluidized Bed | Nature.” Nature | International Journal of Science, 29 Apr. 1961, https://www.nature.com/articles/190433a0.
 #### Summary of Information

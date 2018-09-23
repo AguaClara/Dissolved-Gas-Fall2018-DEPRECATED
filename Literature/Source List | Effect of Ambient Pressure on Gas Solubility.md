@@ -39,6 +39,8 @@ It is important to build the fluidized bed reactor at the appropriate altitude t
 #### Citation
 Yu, Hui-Zhi. “The Use of Henry's Law Constants in the Determination of Factors That Influence Voc Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant.” Master’s thesis, New Jersey Institute of Technology, 1992. Online database name, http://archives.njit.edu/vol01/etd/1990s/1992/njit-etd1992-013/njit-etd1992-013.pdf, pp. Page A-Page B.
 #### Quotations
+[To be completed]
 #### Summary of Information
-This is a 64 page thesis; we may not read through its entirety, but rather focus on particular sections. 
+[To be completed]
 #### Application to Research
+[To be completed]

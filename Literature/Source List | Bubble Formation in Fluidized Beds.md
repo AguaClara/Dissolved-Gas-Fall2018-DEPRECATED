@@ -8,7 +8,7 @@ Boudreau, Bernard P., et al. “Bubble Growth and Rise in Soft Sediments.” Geo
 understood and no rheological model has found wide acceptance.”\
 “The sand appears to be displaced spherically and thus to behave like a fluid or an elastic-plastic solid in response to the stress created by the bubble.”
 #### Summary of Information
-Bubbles in soft, sandy sediments grow spherically showing that sand acts fluidly in response to growth stresses. Sand is displaced by the bubble, which is why it would be good to use in our reactor. Bubbles in muddy substances and gelatin are more disk-shaped because they form from fractures in the sediment.\
+Bubbles in soft, sandy sediments grow spherically showing that sand acts fluidly in response to growth stresses __clarify__. Sand is displaced __clarify__ by the bubble, which is why it would be good to use in our reactor. Bubbles in muddy substances and gelatin are more disk-shaped because they form from fractures in the sediment.
 This article is more about bubble formation and rise in muddy, soft sediments that fragment under stress, but it does have brief descriptions of the behavior of bubble formation in sand.
 #### Application to Research
 Bubble formation is a crucial part of the method we want to use to remove dissolved gas from influent water.  By creating a fluidized bed reactor using sand, we will be able to create spherical bubbles that rise up and out of the system.  Sand will be a useful medium for this experiment as opposed to mud, gelatin, or other soft sediments because it acts fluidly when under the stress of a bubble rising.
@@ -53,6 +53,6 @@ Schulz, Piotr. Instability and the Formation of Bubbles and the Plugs in Fluidiz
 #### Summary of Information
 Bubble formation is less predictable in liquid-fluidized beds than in gas-fluidized beds. There are two common types of issues that come up during liquid-fluidized bed experiments:\
 1. Large bubbles with same diameter as fluidized bed rise slowly and displace particles\
-2. Slowly rising bands of particle deficient regions and rapid particle rain (common in tubes up to 4-5cm).
+2. Slowly rising bands __clarify__ of particle deficient regions and rapid particle rain (common in tubes up to 4-5cm).
 #### Application to Research
-If we have problems forming bubbles in our fluidized bed of sand and water, it could be because of the density ratio of sand to water. We may want to consider using a solid material with a higher density if we find that bubble formation is not present in the sand/water fluidized bed. In addition, if we run into a problem with bands of fluid low and high in particle density, we may want to consider using a tube with a larger diameter (>5cm).
+If we have problems forming bubbles in our fluidized bed of sand and water, it could be because of the density ratio of sand to water. We may want to consider using a solid material with a higher density if we find that bubble formation is not present in the sand/water fluidized bed. In addition, if we run into a problem with bands of fluid low and high in particle density __clarify__, we may want to consider using a tube with a larger diameter (>5cm).

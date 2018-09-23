@@ -43,7 +43,7 @@ Note: formula inaccurate for flows greater than 10mL/sec
 #### Application to Research
 Bubble formation and size can be fairly accurately predicted for gas-solid fluidized beds using the given formula.
 
-## Instability and the Formation of Bubbles and Plugs in Fluidized Beds
+## Source 4: Instability and the Formation of Bubbles and Plugs in Fluidized Beds
 #### Citation
 Schulz, Piotr. Instability and the Formation of Bubbles and the Plugs in Fluidized Beds. Vol. 24, no. 1, 2004, p. 27.
 #### Quotations

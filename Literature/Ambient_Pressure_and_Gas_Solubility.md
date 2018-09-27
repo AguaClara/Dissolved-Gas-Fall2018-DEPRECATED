@@ -36,7 +36,7 @@ P = partial pressure
 It is important to build the fluidized bed reactor at the appropriate altitude to minimize the amount of gas able to enter the water. Air pressure decreases at heightened altitudes. In turn, the solubility of gas will also decrease at higher altitudes, resulting in less air getting trapped in the water.  
 
 ## Source 3: The Use of Henry’s Law Constants in the Determination of Factors the Influence VOC Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant
-#### Citation
+#### Citation (APA)
 Yu, Hui-Zhi. “The Use of Henry's Law Constants in the Determination of Factors That Influence Voc Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant.” Master’s thesis, New Jersey Institute of Technology, 1992. Online database name, http://archives.njit.edu/vol01/etd/1990s/1992/njit-etd1992-013/njit-etd1992-013.pdf, pp. Page A-Page B.
 #### Quotations
 [To be completed]
@@ -44,3 +44,13 @@ Yu, Hui-Zhi. “The Use of Henry's Law Constants in the Determination of Factors
 [To be completed]
 #### Application to Research
 [To be completed]
+
+## Source 4: Effect of pressure on bubble size in dissolved air flotation
+#### Citation
+Han, M., Park, Y., Lee, J., & Shim, J. (2002). Effect of pressure on bubble size in dissolved air flotation. Water Science and Technology: Water Supply, 2(5–6), 41–46. https://doi.org/10.2166/ws.2002.0148
+#### Quotations
+" The bubble size decreased as the pressure increased up to a pressure of 3.5 atmospheres. Above this critical pressure, the bubble size did not decrease with further increases in pressure."
+#### Summary of Information
+As pressure increases up to the critical pressure, bubble size decreases.
+#### Application to Research
+In order to increase the size of the bubbles so they are large enough to float to the surface of the water, we need to decrease the pressure. 

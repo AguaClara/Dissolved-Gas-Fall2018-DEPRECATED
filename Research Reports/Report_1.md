@@ -16,7 +16,10 @@ The overall system design is currently thought to be as follows. Influent water 
 
 According to Henry's Law, gas becomes less soluble at lower pressures, thus making the formation of bubbles more likely. Bubble formation will be further encouraged by the composition of the reactor itself. Figure 1 shows the general premise of the apparatus' design, without specifying the design of the reactor itself.  
 
-  ![Figure 1](/Images/Figure1_General.png)
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure1_%20General.png?raw=true" height=450>
+
+
+**Figure 1**: The above diagram depicts the general design of the system to remove excess dissolved gas from influent water, as described in the above paragraph.
 
 While technical details are discussed in the Literature Review section, the main attributes of these two options are as follows.
 

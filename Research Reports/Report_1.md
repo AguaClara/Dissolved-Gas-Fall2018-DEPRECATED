@@ -19,21 +19,23 @@ According to Henry's Law, gas becomes less soluble at lower pressures, thus maki
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure1_%20General.png?raw=true" height=450>
 
 
-**Figure 1**: The above diagram depicts the general design of the system to remove excess dissolved gas from influent water, as described in the above paragraph.
+**Figure 1**: The above diagram depicts (not to scale) the general design of the system to remove excess dissolved gas from influent water, as described in the above paragraph.
 
 While technical details are discussed in the Literature Review section, the main attributes of these two options are as follows.
 
 A fluidized bed reactor consists of an enclosed space containing a suspension of particles, such as sand; they are kept in suspension by a carefully chosen flow rate directed upwards. These particles provide surfaces on which bubbles can form; the bubbles will then rise from the reactor, and leave the sand particles behind. Figure 2 displays this design.
 
-**Insert figure 2$**
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%202_%20Fluidized%20Bed.png?raw=true" height=450>
+
+**Figure 2**: The above diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as described in the above paragraph.
 
 A vertical plate reactor would consist of an enclosed space containing a series of parallel, vertically aligned, textured plates. The texture/indentation of said plates would provide sites for bubbles to form. After reaching a critical size, in theory, these bubbles would then depart from the plate and flow upwards into the effluent. Figure 3 displays this design.
 
-**Insert figure 3$**
-
-The subteam intends to first design and fabricate a prototype fluidized bed reactor, and to evaluate its feasibility as a solution. The vertical plate reactor will be considered at a later time, and the pros and cons as to each design will be evaluated.
+**Figure 3**: The above diagram depicts (not to scale) the general concept of a vertical plate reactor as described in the above paragraph.
 
 Tentatively, the subteam considers that the vertical plate reactor has the potential benefit of keeping bubbles stationary while they grow. In the case of the fluidized sand reactor, bubbles may immediately travel upward along with the sand particle, departing the fluid at a relatively small size, carrying a high internal pressure, and being likely to redisperse into solution.
+
+The subteam intends to first design and fabricate a prototype fluidized bed reactor, and to evaluate its feasibility as a solution. The vertical plate reactor will be considered at a later time, and the pros and cons as to each design will be evaluated.
 
 ## Literature Review
 Etc.

@@ -31,6 +31,8 @@ A fluidized bed reactor consists of an enclosed space containing a suspension of
 
 A vertical plate reactor would consist of an enclosed space containing a series of parallel, vertically aligned, textured plates. The texture/indentation of said plates would provide sites for bubbles to form. After reaching a critical size, in theory, these bubbles would then depart from the plate and flow upwards into the effluent. Figure 3 displays this design.
 
+<img src="" height=450>
+
 **Figure 3**: The above diagram depicts (not to scale) the general concept of a vertical plate reactor as described in the above paragraph.
 
 Tentatively, the subteam considers that the vertical plate reactor has the potential benefit of keeping bubbles stationary while they grow. In the case of the fluidized sand reactor, bubbles may immediately travel upward along with the sand particle, departing the fluid at a relatively small size, carrying a high internal pressure, and being likely to redisperse into solution.
@@ -38,6 +40,8 @@ Tentatively, the subteam considers that the vertical plate reactor has the poten
 The subteam intends to first design and fabricate a prototype fluidized bed reactor, and to evaluate its feasibility as a solution. The vertical plate reactor will be considered at a later time, and the pros and cons as to each design will be evaluated.
 
 ## Literature Review
+According to ____________, pressure at __________ height changes in ____ way. According to _______, the size of a bubble indicates the pressure in __________ way. Taken together, this means that we want to maximize bubble diameter and maximize the height of the reactor, within reason (talk about Henry's Law)
+
 Etc.
 Mention Henry’s Law
 NEED: Source about bubble pressure vs diameter

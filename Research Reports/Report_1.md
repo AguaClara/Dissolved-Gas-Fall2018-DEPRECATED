@@ -16,7 +16,7 @@ For the sake of efficiency, the term “supersaturated water” will be used in 
 
 The current conception of the overall system design is as follows: influent water will flow from its source at a high elevation. Once the influent water has descended from its source and is near to the AguaClara plant, piping will direct this influent water upwards into a reactor. Atmospheric pressure decreases with height; according to Henry’s Law, gas becomes less soluble at lower pressures, making bubble formation more likely. Aspects of the reactor will further encourage bubble formation (a.k.a nucleation) in the reactor. The water, now containing gas bubbles, will flow upward out of the reactor. Piping will direct the water downward into a basin containing a vent where gaseous bubbles may exit the water. The water, no longer supersaturated, then flows into the treatment plant. Figure 1 illustrates this design.
 <p style="text-align: center;">
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure1_%20General.png?raw=true" height=450>
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%201_%20GeneralUpdated.png?raw=true" height=450>
 </p>
 
 
@@ -30,7 +30,7 @@ A fluidized bed reactor consists of an enclosed reactor containing a suspension 
 </p>
 **Figure 2**: The above diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.
 
-A vertical plate reactor consists of an enclosed reactor containing a series of parallel, vertically aligned, textured plates. Supersaturated water enters the bottom of the reactor and flows upward along the plates to reach the exit pipe. The texturization of the plates provides sites for bubbles to form while the water flows. In theory, after reaching a specific critical diameter, these bubbles detach from the plates and flow upwards into the effluent. Figure 3 illustrates this design.
+A vertical plate reactor consists of an enclosed reactor containing a series of parallel, vertically aligned, textured plates. Supersaturated water enters the bottom of the reactor and flows upward along the plates to reach the exit pipe. The texturization of the plates provides sites for bubbles to form while the water flows. In theory, after reaching a specific critical diameter, these bubbles detach from the plates and flow upwards as effluent. Figure 3 illustrates this design.
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure3_VerticalPlateReactor.png?raw=true" height=450>
 

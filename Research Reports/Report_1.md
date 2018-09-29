@@ -42,16 +42,46 @@ The subteam considers that the vertical plate reactor design has the potential b
 The subteam intends to first design and fabricate a prototype fluidized bed reactor, and to evaluate its feasibility as a solution. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merits of both designs.
 
 ## Literature Review
-According to ____________, pressure at __________ height changes in ____ way. According to _______, the size of a bubble indicates the pressure in __________ way. Taken together, this means that we want to maximize bubble diameter and maximize the height of the reactor, within reason (talk about Henry's Law)
+The subteam concentrated its research on two subjects in particular: the effect of ambient pressure on gas solubility, and bubble nucleation sites. Understanding these topics is necessary to understanding the subteam’s potential fluidized bed reactor.
 
-Etc.
-Mention Henry’s Law
-NEED: Source about bubble pressure vs diameter
-Catalyzing bubble growth
-Venting the bubbles
-When in doubt, say: “For details on this topic, see the Literature Review section.
-Insert a figure / diagram after this explanation of our tentative design
+The subteam’s research is summarized as follows: gas solubility decreases with decreasing ambient pressure. Therefore, to catalyze bubble growth for ease of gas removal, the subteam aims to design a reactor exerting minimal pressure on gas molecules. Such pressures can be controlled by altering the reactor’s height. Pressure control, combined with providing nucleation sites in a fluidized bed reactor, will help the dissolved gas form stable bubbles that will escape from the water. The subteam hypothesizes that this will solve the problems that the plants at El PODA, Nicaragua and Tamara, Honduras are facing.
+
+The solubility of a gas in a solution changes proportionally to the partial pressure above said solution [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
+
+A formula that illustrates this relationship is Henry's Law, given below.
+
+$C=k\Delta P$
+
+C is the dissolved gas’s concentration at equilibrium, P is the dissolved gas’s partial pressure at the interface of liquid and gas, and k is the Henry’s Law constant, which is determined experimentally for each combination of gas, solvent, and temperature. In this case, the interface may be considered as the border between the bubble and the surrounding water.
+
+This partial pressure can be minimized through control of two components.
+
+The first of these components is the water pressure at the site of bubble formation. As the height difference between the fluidized bed and the vent changes, the water pressure changes, given by the following relation.
+
+$\Delta P = \rho*g*\delta h$
+
+Second, a bubble’s pressure can be expressed as a function of its diameter. As pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size. In order to further minimize the pressure within bubbles, the subteam may explore methods to encourage the growth of large bubbles.
+
+Because of the reactor’s dependence on gas solubility and bubble formation, much of the subteam’s research was also directed toward bubble nucleation sites. To catalyze bubble formation, the fluidized sand bed must provide the dissolved gas particles with nucleation sites in the reactor.
+
+Typically, small, solid particles can provide a place for bubbles to grow large enough so they rise to the top of the reactor and escape. [(Boudreau et al. (2005))](https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments) found that bubbles that form in sand-like sediments are spherical, in contrast to the oblate spheroid-shaped bubbles that form in muddy sediments. His research suggests that the difference in shape is caused by the differences in responses to the stress of the materials; while mud fractures under stress, sand “acts fluidly or plastically in response to growth stresses.” This gives the subteam an idea of what type of materials to use in the reactor because the subteam needs the particles to have a fluid-like behavior.
+
+Bubble formation and size in gas-solid fluidized beds is fairly predictable at low gas velocities, as proven by [Harrison and Leung (1961)](https://www.nature.com/articles/190433a0). However, Schultz (2004) states that this is not the case for liquid-solid fluidized beds: “In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.” (Schultz 2004). This could cause problems for the subteam, but luckily there are solutions to commonly reported issues.
+
+If bubble formation is slow or inconsistent, it may be due to the ratio between the density of the particles and the density of water. Schultz found that bubble formation was present in fluidized beds with high ratios, so the subteam may want to consider using more dense particles if problems arise.
+
+In the following weeks, the subteam plans to test the effectiveness of a fluidized bed reactor in removing excess dissolved gas. 
 
 
 ## Bibliography
-Etc.
+Averill, B., & Eldredge, P. (n.d.). Principles of General Chemistry (Vol. 1). Creative Commons. Retrieved from https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html
+
+Boudreau, B. P., Algar, C., Johnson, B. D., Croudace, I., Reed, A., Furukawa, Y., … Gardiner, Bruce S. (2005, June 5). Bubble growth and rise in soft sediments. Retrieved September 17, 2018, from https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments
+
+Harrison, D., & Leung, L. S. (1961, April 29). Bubble Formation at an Orifice in a Fluidized Bed | Nature. Retrieved September 20, 2018, from https://www.nature.com/articles/190433a0
+
+Mori, S., & Wen, C. Y. (1975). Estimation of bubble diameter in gaseous fluidized beds. AIChE Journal, 21(1), 109–115. https://doi.org/10.1002/aic.690210114
+
+Scardina, P... (2004). Effects of Dissolved Gas Supersaturation and Bubble Formation on Water Treatment Plant Performance (Unpublished doctoral dissertation). Virginia Polytechnic Institute and State University. Blacksburg, Virginia. https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1
+
+Schulz, P. (2004). Instability and the formation of bubbles and the plugs in fluidized beds, 24(1), 27.

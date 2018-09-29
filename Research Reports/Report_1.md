@@ -28,6 +28,7 @@ A fluidized bed reactor consists of an enclosed reactor containing a suspension 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%202_%20Fluidized%20Bed.png?raw=true" height=450>
 </p>
+
 **Figure 2**: The above diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.
 
 A vertical plate reactor consists of an enclosed reactor containing a series of parallel, vertically aligned, textured plates. Supersaturated water enters the bottom of the reactor and flows upward along the plates to reach the exit pipe. The texturization of the plates provides sites for bubbles to form while the water flows. In theory, after reaching a specific critical diameter, these bubbles detach from the plates and flow upwards as effluent. Figure 3 illustrates this design.
@@ -35,6 +36,7 @@ A vertical plate reactor consists of an enclosed reactor containing a series of 
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure3_VerticalPlateReactor.png?raw=true" height=450>
 
 </p>
+
 **Figure 3**: The above diagram depicts (not to scale) the general concept of a vertical plate reactor as the above paragraph describes. The plates, depicted by brown lines, extend outward in the plane of the page.
 
 The subteam considers that the vertical plate reactor design has the potential benefit of keeping bubbles stationary while they grow and accumulate. In the case of a fluidized bed reactor, bubbles may immediately travel upward once they form, since their formation site is mobile. They may depart the fluid at a smaller size, carrying a high internal pressure, and being likely to rupture and disperse into solution.

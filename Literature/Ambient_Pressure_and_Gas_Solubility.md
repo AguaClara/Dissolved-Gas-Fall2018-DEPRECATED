@@ -61,7 +61,7 @@ In order to increase the size of the bubbles so they are large enough to float t
 Hodanbosi, C. (n.d.). Fluids Pressure and Depth. Retrieved from https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html
 
 #### Summary of information
-$$ P = r * g * h ##
+$$ P = r * g * h $$
 
 Key:
 r (rho): the density of the fluid

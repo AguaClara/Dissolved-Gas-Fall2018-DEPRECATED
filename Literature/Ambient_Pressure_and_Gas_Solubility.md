@@ -55,12 +55,12 @@ As pressure increases up to the critical pressure, bubble size decreases.
 #### Application to Research
 In order to increase the size of the bubbles so they are large enough to float to the surface of the water, we need to decrease the pressure.
 
-##Source 5: The effect of height on pressure
+## Source 5: The effect of height on pressure
 
-####Citation
+#### Citation
 Hodanbosi, C. (n.d.). Fluids Pressure and Depth. Retrieved from https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html
 
-####Summary of information
+#### Summary of information
 $$ P = r * g * h ##
 
 Key:

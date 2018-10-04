@@ -1,7 +1,7 @@
 # Resources Related to the Effect of Ambient Pressure on Gas Solubility
 ## Source 1: Effects of Temperature and Pressure on Solubility
 #### Citation
-Averill, Bruce, and Patricia Eldredge. “Effects of Temperature and Pressure on Solubility.” Principles of General Chemistry, Vol. 1, n.d., https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html. Creative Commons, 17 September 2018. 
+Averill, Bruce, and Patricia Eldredge. “Effects of Temperature and Pressure on Solubility.” Principles of General Chemistry, Vol. 1, n.d., https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html. Creative Commons, 17 September 2018.
 #### Summary of Information
 Solubility of a gas in a solution increases in accord with its partial pressure above said solution.\
 \
@@ -20,7 +20,7 @@ Gases that react with water don’t obey Henry’s law; they’re more soluble t
 #### Application to Research
 The fluidized bed reactor will be raised above the input of water; therefore, the ambient pressure of the fluidized bed will be lower than that of the influent water. This should decrease the solubility of the dissolved gases. The amount of pressure change is determined by the change in height, as shown in the following equation:\
 ∆P = ⍴g∆h\
-In conjunction with the nucleation sites present in the fluidized bed, this will encourage bubbles to form, and to leave the influent water. 
+In conjunction with the nucleation sites present in the fluidized bed, this will encourage bubbles to form, and to leave the influent water.
 
 ## Source 2: Henry’s Law and Gas Solubility Explained [reconsider this source]
 #### Citation
@@ -53,4 +53,17 @@ Han, M., Park, Y., Lee, J., & Shim, J. (2002). Effect of pressure on bubble size
 #### Summary of Information
 As pressure increases up to the critical pressure, bubble size decreases.
 #### Application to Research
-In order to increase the size of the bubbles so they are large enough to float to the surface of the water, we need to decrease the pressure. 
+In order to increase the size of the bubbles so they are large enough to float to the surface of the water, we need to decrease the pressure.
+
+##Source 5: The effect of height on pressure
+
+####Citation
+Hodanbosi, C. (n.d.). Fluids Pressure and Depth. Retrieved from https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html
+
+####Summary of information
+$$ P = r * g * h ##
+
+Key:
+r (rho): the density of the fluid
+g: the acceleration of gravity
+h: the height of the fluid above the object

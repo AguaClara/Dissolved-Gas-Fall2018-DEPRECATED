@@ -5,7 +5,7 @@
 Boudreau, Bernard P., et al. “Bubble Growth and Rise in Soft Sediments.” GeoScienceWorld, 5 June 2005, https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments.
 #### Quotations
 “The mechanics of uncemented soft sediments during bubble growth are not widely
-understood and no rheological model has found wide acceptance.”\
+understood and no rheological model has found wide acceptance.”
 “The sand appears to be displaced spherically and thus to behave like a fluid or an elastic-plastic solid in response to the stress created by the bubble.”
 #### Summary of Information
 Bubbles in soft, sandy sediments grow spherically showing that sand acts fluidly in response to growth stresses __clarify__. Sand is displaced __clarify__ by the bubble, which is why it would be good to use in our reactor. Bubbles in muddy substances and gelatin are more disk-shaped because they form from fractures in the sediment.
@@ -17,15 +17,14 @@ Bubble formation is a crucial part of the method we want to use to remove dissol
 #### Citation
 Mori, S., and C. Y. Wen. “Estimation of Bubble Diameter in Gaseous Fluidized Beds.” AIChE Journal, vol. 21, no. 1, Jan. 1975, pp. 109–15. Wiley Online Library, doi:10.1002/aic.690210114.
 #### Summary of Information
-The surface of a fluidized bed has an effect on the volume of a bubble, and its relationship is shown by the formula:\
-(Dbm-Db)/(Dbm-Db0)=exp(-kh/Dt)\
-Where:\
-Dbm = max diameter of bubble\
-Db = diameter of bubble\
-Db0 = diameter of bubble at start\
-Dt = diameter of bed\
-h = height above distributor plate\
-k = tbd by data (.30 in this experiment)\
+The surface of a fluidized bed has an effect on the volume of a bubble, and its relationship is shown by the formula:
+$$ \frac{D_{bm}-D_b}{D_{bm}-D_{bo}} = e^{\frac{-kh}{D_t}}$$ 
+$ D_{bm} =$ max diameter of bubble
+$D_b =$ diameter of bubble
+$D_{bo} =$ diameter of bubble at start
+$D_t =$ diameter of bed
+$h =$ height above distributor plate
+$k =$ constant tbd by data (.30 in this experiment)
 #### Application to Research
 We want the bubbles formed in our fluidized reactor to have a large enough diameter such that their buoyancy allows them to float to the top of the water.  In this article, the graphs show that as bubbles rise to the surface, their diameters become larger.  Seeing that the diameter of the fluidized bed reactor does have an effect on the size of the bubbles formed, we can use this information to find the maximum bubble size.
 
@@ -33,12 +32,11 @@ We want the bubbles formed in our fluidized reactor to have a large enough diame
 #### Citation
 Harrison, D., and L. S. Leung. “Bubble Formation at an Orifice in a Fluidized Bed | Nature.” Nature | International Journal of Science, 29 Apr. 1961, https://www.nature.com/articles/190433a0.
 #### Summary of Information
-The relationship between flow and bubble volume is as shown:\
-V = 1.378*(G^(1.2)/g^(0.6))
-Where:\
-V = bubble volume\
-G = gas flow\
-g = acceleration due to gravity\
+The relationship between flow and bubble volume is as shown:
+$$V = 1.378\frac{G^{1.2}}{g^{0.6}}$$
+$V =$ bubble volume
+$G =$ gas flow
+$g =$ acceleration due to gravity
 Note: formula inaccurate for flows greater than 10mL/sec
 #### Application to Research
 Bubble formation and size can be fairly accurately predicted for gas-solid fluidized beds using the given formula.

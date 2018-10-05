@@ -20,4 +20,4 @@ The subteam is considering the use of a clear, colorless, plastic pipe as the bo
 
 The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is **2.459%**. The subteam believes this is an acceptable percent difference for the pipe to be a usable component for the prototype.
 
-The overall average cross-sectional area of the pipe is 496.2mm^2, with a standard deviation of **to be inserted later**.
+The overall average cross-sectional area of the pipe is 496.2mm^2, with a standard deviation of 13.44mm^2.

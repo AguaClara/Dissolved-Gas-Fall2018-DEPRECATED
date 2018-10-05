@@ -62,3 +62,11 @@ Engineering Toolbox. (2010). Dirt and Mud - Densities. Retrieved October 5, 2018
 #### Useful information
 
 $\rho_{sand} =$ 1905 kg/m^3 (wet)
+
+## Source 6: Diameter of a Grain of sand
+#### Citation
+Price, I. (2000). Diameter of a Grain of Sand. Retrieved October 5, 2018, from https://hypertextbook.com/facts/2000/IlanaPrice.shtml
+
+#### Useful information
+
+The diameter of a grain of sand can vary from 0.05mm up to 2 mm, with the average size of .2mm. Sand particles between 0.05mm and 0.2mm in diameter are considered fine sand, and grains of sand with a diameter from .2mm to 2mm are considered coarse.

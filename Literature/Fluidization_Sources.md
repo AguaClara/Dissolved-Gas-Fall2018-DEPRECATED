@@ -39,7 +39,7 @@ Guevara, D. E. (2010). *Bed height and material density effects on fluidized bed
 
 Determined that $U_{mf}$ (minimum fluidization velocty) is increased when the sand density of size is increased.
 
-## Source 4:Filtration Theory
+## Source 4: Filtration Theory
 #### Citation
 Weber-Shirk, M. *Filtration Theory: On removing little particles with big particles* [PowerPoint Slides]. Retrieved from https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf.
 
@@ -54,3 +54,11 @@ $k =$ Kozeny constant, approximately equal to 5 for most filtration conditions
 $\rho_w =$ density of water
 $\rho_s =$ density of sand particles
 $v =$ kinematic viscosity
+
+## Source 5: Densities of Materials
+#### Citation
+Engineering Toolbox. (2010). Dirt and Mud - Densities. Retrieved October 5, 2018, from https://www.engineeringtoolbox.com/dirt-mud-densities-d_1727.html
+
+#### Useful information
+
+$\rho_{sand} =$ 1905 kg/m^3 (wet)

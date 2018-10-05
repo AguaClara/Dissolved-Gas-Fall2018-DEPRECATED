@@ -1,4 +1,4 @@
-Our objective is to maximize bubble formation in the bed reactor. Bubble formation is is affected by the following:
+Our objective is to maximize bubble formation in the bed reactor. Bubble formation is affected by the following:
 
 1.Pressure: We want to minimize pressure to maximize bubble formation.
 -We can minimize pressure of the bubbles by building the sand bed at the maximum altitude

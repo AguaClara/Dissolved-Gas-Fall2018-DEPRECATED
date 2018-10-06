@@ -13,7 +13,6 @@ for n in range(100):
         values.append(float(item))
 
 total=0
-
 for n in range(len(values)):
     total += values[n]
 

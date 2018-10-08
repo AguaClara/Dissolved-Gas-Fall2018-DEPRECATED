@@ -8,6 +8,7 @@ Department of Chemical Engineering. (2017, February). *Fluidization: A Unit Oper
 $$ \epsilon=\frac{V_t-V_p}{V_t} $$
 $$ \epsilon=1-\frac{m}{\rho_p A H} $$
 $\rho_p =$ density of particles
+$m =$ the total mass of the particles in the bed
 $V_t = AH$
 $V_t =$ total volume of the bed
 $V_p = AH(1-\epsilon)$

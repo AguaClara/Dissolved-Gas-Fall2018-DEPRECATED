@@ -6,7 +6,7 @@ import math
 
 # The following code, determining the bed's porosity, adheres to the equation in Source 1 in the Fluidization page of the Literature folder
 area = input("What is the cross sectional area of the reactor, in square centimeters?")
-height = input("What is the height of the bed, in square centimeters?")
+height = input("What is the height of the bed, in centimeters?")
 density_sand = input("What is the density of the sand, in units of grams per cubic centimeter?")
 mass = input("What is the total mass of sand in the reactor, in units of grams?")
 

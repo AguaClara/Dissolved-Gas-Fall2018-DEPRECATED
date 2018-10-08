@@ -1,4 +1,4 @@
-# Sources Related to Fluidization Parameters
+# Sources on Fluidization Parameters
 
 ## Source 1: Fluidization: A Unit Operation in Chemical Engineering)
 #### Citation

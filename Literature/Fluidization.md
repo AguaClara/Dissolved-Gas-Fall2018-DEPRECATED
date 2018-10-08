@@ -1,6 +1,6 @@
 # Sources on Fluidization Parameters
 
-## Source 1: Fluidization: A Unit Operation in Chemical Engineering)
+## Source 1: Fluidization: A Unit Operation in Chemical Engineering
 #### Citation
 Department of Chemical Engineering. (2017, February). *Fluidization: A Unit Operation in Chemical Engineering.* Gainesville, FL: University of Florida. Retrieved from http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf.
 

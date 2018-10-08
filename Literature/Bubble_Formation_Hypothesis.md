@@ -1,4 +1,4 @@
-###Maximizing Bubble Formation
+### Maximizing Bubble Formation
 
 Our objective is to maximize bubble formation in the bed reactor. Bubble formation is affected by the following:
 - Pressure

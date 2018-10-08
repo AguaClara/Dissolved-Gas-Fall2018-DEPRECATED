@@ -9,6 +9,7 @@ $$ \epsilon=\frac{V_t-V_p}{V_t} $$
 $$ \epsilon=1-\frac{m}{\rho_p A H} $$
 $\rho_p =$ density of particles
 $m =$ the total mass of the particles in the bed
+$\epsilon =$ the porosity of the bed (aka. the bed voidage)
 $V_t = AH$
 $V_t =$ total volume of the bed
 $V_p = AH(1-\epsilon)$
@@ -28,7 +29,7 @@ $\rho_s =$ catalyst density
 $\rho =$ fluid density
 $u =$ fluid velocity
 $d =$ particle diameter
-$\epsilon =$ void space of the bed
+$\epsilon =$ void space of the bed (Warning: this is *not* equal to the bed voidage, despite the sources using equivalent symbols)
 $\mu =$ fluid viscosity
 $g =$ acceleration due to gravity
 
@@ -48,7 +49,7 @@ Weber-Shirk, M. *Filtration Theory: On removing little particles with big partic
 $$ V_{minfl}= \frac{\phi g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
 
 $V_{minfl} =$ minimum approach velocity required to fluidize the sand bed
-$\phi =$ porosity, $\frac{Volume Of Voids}{Total Volume} = 0.4$ for uniform size media
+$\phi =$ porosity, $\frac{Volume Of Voids}{Total Volume} = 0.4$ for uniform size media (Note: porosity and voidage are, in this case, equal quantities)
 $g =$ acceleration due to gravity
 $D^2 =$ diameter of the sand grain, squared
 $k =$ Kozeny constant, approximately equal to 5 for most filtration conditions

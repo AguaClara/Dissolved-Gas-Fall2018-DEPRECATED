@@ -4,7 +4,7 @@
 . (n.d.). Surface Tension and Bubbles. Retrieved from http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html
 
 #### Summary of Information
-$$P_i = P_o + 4 \frac{T}{R}
+$$P_i = P_o + 4 \frac{T}{R}$$
 
 $P_i =$ the pressure within the bubble
 $P_o =$ the pressure outside of the bubble
@@ -13,7 +13,7 @@ $R =$ the radius of the bubble
 
 ## Source 2: Surface Tension
 #### Citation
-. (n.d.). Surface Tension. Retrieved from http://hyperphysics.phy-astr.gsu.edu/hbase/surten.html
+(n.d.). Surface Tension. Retrieved from http://hyperphysics.phy-astr.gsu.edu/hbase/surten.html
 
 #### Summary of Information
 Surface tension is a constant property for a given substance at a given temperature.

@@ -8,6 +8,9 @@ $\rho_{sand} = 1905 kg/m^3$
 
 $\rho_{water} = 997 kg/m^3$
 
+Kinematic viscosity (?)
+Limitations of the peristaltic pump (?)
+
 #### Parameters
 \* = chosen arbitrarily
 \** = measured

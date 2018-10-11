@@ -11,7 +11,7 @@ $P_o =$ the pressure outside of the bubble
 $T =$ the surface tension of the liquid in which the bubble resides
 $R =$ the radius of the bubble
 
-## Source 2:
+## Source 2: Surface Tension
 #### Citation
 . (n.d.). Surface Tension. Retrieved from http://hyperphysics.phy-astr.gsu.edu/hbase/surten.html
 

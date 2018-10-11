@@ -19,7 +19,7 @@ kozeny = 5 #This is an approximate value, suggested by Source 4
 density_water = 0.997 #Implicit units are grams per cubic centimeter
 viscosity = input("What is the kinematic viscosity of ______?")
 
-fluidization_velocity_FirstTerm = (porosity * 9.8 * diameter**2)/(36*kozeny*viscosity*(1-porosity))
+fluidization_velocity_FirstTerm = (porosity**3 * 9.8 * diameter**2)/(36*kozeny*viscosity*(1-porosity))
 
 fluidization_velocity_SecondTerm = (density_sand/density_water - 1)
 

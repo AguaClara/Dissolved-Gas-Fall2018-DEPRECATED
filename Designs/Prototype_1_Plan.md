@@ -20,3 +20,13 @@ Limitations of the peristaltic pump (?)
 \** Diameter of Reactor: $d_r =$ .02514m $=$ 25.14mm
 Diameter of opening: $d_o =$
 Height above tank: $h_t =$
+
+#### Necessary components
+Reactor (pipe)
+Tubing
+End caps for reactor
+Valve for single-direction flow
+Flow accumulator
+Bucket/vent
+Sand
+DO Meter (s)

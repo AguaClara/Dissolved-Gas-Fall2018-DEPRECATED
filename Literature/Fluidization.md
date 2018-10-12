@@ -17,6 +17,8 @@ $V_p =$ total volume of particles within the fluidized bed
 $A =$ the cross sectional area of the tube
 $H =$ the height of the bed
 
+This source contains information relating to the minimum fluidization velocity required to fluidized a bed of particles. We will use this information to determine the minimum velocity of influent water in order to fluidize the sand bed in our fluidized bed reactor.
+
 ## Source 2: Fluid Mechanics for Fluidized Beds
 #### Citation
 Thornill, D. (1990). *Fluid Mechanics for Fluidized Beds.* Retrieved from http://faculty.washington.edu/finlayso/Fluidized_Bed/FBR_Fluid_Mech/fluid_bed_scroll.htm.

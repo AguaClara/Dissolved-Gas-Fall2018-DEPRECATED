@@ -12,5 +12,7 @@ The subteam considers that the pressure relevant to Henry's Law is the pressure 
 
 The subteam believes that the equations relating these quantities may be combined to form one cohesive equation. This equation gives the solubility of the gas in solution as a function of a bubble's radius, the height of the reactor, surface tension, and the constant relevant to Henry's Law. 
 
+This theory may act as an approximation of the pressure within the bubbles. 
+
 
 

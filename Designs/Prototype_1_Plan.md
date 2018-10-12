@@ -39,3 +39,5 @@ Sand
 DO Meter (s)
 
 Water heater
+
+Method to fasten reactor to a vertically-adjustable metal arm

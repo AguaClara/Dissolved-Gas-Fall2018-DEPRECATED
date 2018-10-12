@@ -33,7 +33,7 @@ $u =$ fluid velocity
 $d =$ particle diameter
 $\epsilon =$ void space of the bed (Warning: this is *not* equal to the bed voidage, despite the sources using equivalent symbols)
 $\mu =$ fluid viscosity
-$g =$ acceleration due to gravity
+$g =$ acceleration due to gravity 
 
 ## Source 3: Bed height and material density effects on fluidized bed hydrodynamics
 #### Citation

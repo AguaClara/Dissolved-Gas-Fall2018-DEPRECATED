@@ -23,10 +23,17 @@ Height above tank: $h_t =$
 
 #### Necessary components
 Reactor (pipe)
+
 Tubing
+
 End caps for reactor
+
 Valve for single-direction flow
+
 Flow accumulator
+
 Bucket/vent
+
 Sand
+
 DO Meter (s)

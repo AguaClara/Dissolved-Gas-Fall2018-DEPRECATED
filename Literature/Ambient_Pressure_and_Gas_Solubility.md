@@ -23,7 +23,7 @@ In conjunction with the nucleation sites present in the fluidized bed, this will
 
 ## Source 2: Henry’s Law and Gas Solubility Explained [reconsider this source]
 #### Citation
-URL: https://www.youtube.com/watch?v=9JtTpPEesOk
+[ChemSurvival]. (2016, November 23). *Henry's Law and Gas Solubility Explained* [Video File]. Retrieved from https://www.youtube.com/watch?v=9JtTpPEesOk
 #### Summary of Information
 This video reiterated much of the information given in the Averill-Eldredge textbook, using an example of carbon dioxide escaping a liter of soda. When there is gas above some body of water, the pressure of that gas directly correlates to the solubility of that gas into the water. If air pressure above is halved, so is its solubility (and visa versa). This relationship can be expressed using Henry’s Law:
 $$S = kP$$
@@ -34,17 +34,7 @@ $P =$ partial pressure
 #### Application to Research
 It is important to build the fluidized bed reactor at the appropriate altitude to minimize the amount of gas able to enter the water. Air pressure decreases at heightened altitudes. In turn, the solubility of gas will also decrease at higher altitudes, resulting in less air getting trapped in the water.  
 
-## Source 3: The Use of Henry’s Law Constants in the Determination of Factors the Influence VOC Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant
-#### Citation (APA)
-Yu, Hui-Zhi. “The Use of Henry's Law Constants in the Determination of Factors That Influence Voc Concentration in Aqueous and Gaseous Phases in Wastewater Treatment Plant.” Master’s thesis, New Jersey Institute of Technology, 1992. Online database name, http://archives.njit.edu/vol01/etd/1990s/1992/njit-etd1992-013/njit-etd1992-013.pdf, pp. Page A-Page B.
-#### Quotations
-[To be completed]
-#### Summary of Information
-[To be completed]
-#### Application to Research
-[To be completed]
-
-## Source 4: Effect of pressure on bubble size in dissolved air flotation
+## Source 3: Effect of pressure on bubble size in dissolved air flotation
 #### Citation
 Han, M., Park, Y., Lee, J., & Shim, J. (2002). Effect of pressure on bubble size in dissolved air flotation. Water Science and Technology: Water Supply, 2(5–6), 41–46. https://doi.org/10.2166/ws.2002.0148
 #### Quotations
@@ -54,7 +44,7 @@ As pressure increases up to the critical pressure, bubble size decreases.
 #### Application to Research
 In order to increase the size of the bubbles so they are large enough to float to the surface of the water, we need to decrease the pressure.
 
-## Source 5: The effect of height on pressure
+## Source 4: The effect of height on pressure
 
 #### Citation
 Hodanbosi, C. (n.d.). Fluids Pressure and Depth. Retrieved from https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html

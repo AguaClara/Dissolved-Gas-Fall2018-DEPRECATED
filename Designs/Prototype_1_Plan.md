@@ -1,6 +1,6 @@
 ## Prototype 1 Design Parameters
 
-*Insert diagram here*
+![Fluidized Bed Design](https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Fluidized%20Bed%20Design.jpg)
 
 #### Constants
 $\rho_{sand} = 1905 kg/m^3$

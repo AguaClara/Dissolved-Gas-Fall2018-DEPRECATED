@@ -26,13 +26,13 @@ In this equation, P approximates the gas pressure within a bubble; the subteam c
 From Ambient Pressure Source 4:
 $$ P = \rho g h $$
 
-From this equation one can extrapolate that $ \Delta P = \rho g \Delta h $. In this equation, the difference in pressure is that between atmospheric pressure (the pressure at the open-faced vent, downstream from the reactor) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_atm$ (pressure in the reactor minus atmospheric pressure), this equation may be modified to read as $P_r = P_atm + \rho g \Delta h $.
+From this equation one can extrapolate that $ \Delta P = \rho g \Delta h $. In this equation, the difference in pressure is that between atmospheric pressure (the pressure at the open-faced vent, downstream from the reactor) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_{atm}$ (pressure in the reactor minus atmospheric pressure), this equation may be modified to read as $P_r = P_{atm} + \rho g \Delta h $.
 
 
 From Ambient Pressure Source 5:
 $$ h_f = \frac{32\mu L V}{\rho g D^2} $$
 
-Pressure difference due to head loss must also be taken into account, in terms of the pressure difference between the open-faced vent and the reactor itself. Combined with the previous equation, the relationship becomes: $P_r = P_atm + \rho g \Delta h +  \rho g h_f $.
+Pressure difference due to head loss must also be taken into account, in terms of the pressure difference between the open-faced vent and the reactor itself. Combined with the previous equation, the relationship becomes: $P_r = P_{atm} + \rho g \Delta h +  \rho g h_f $.
 
 From Surface Tension Source 1:
 $$P_i = P_o + 4 \frac{T}{R}$$
@@ -41,6 +41,6 @@ In this equation, $P_i$ denotes the pressure within a bubble, and may be relabel
 
 When all of these equations are combined, the following relationship appears:
 
-$$C = k(\frac{4T}{R} + P_atm + \rho g \Delta h +  \rho g h_f)$$
+$$C = k(\frac{4T}{R} + P_{atm} + \rho g \Delta h +  \rho g h_f)$$
 
 Due to the above reasoning concerning assumption of equilibrium, the above equation is a qualitative description of the relationships between different parameters, rather than a quantitative relationship.

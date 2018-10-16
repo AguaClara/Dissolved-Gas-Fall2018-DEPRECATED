@@ -32,7 +32,7 @@ From this equation one can extrapolate that $ \Delta P = \rho g \Delta h $. In t
 From Ambient Pressure Source 5:
 $$ h_f = \frac{32\mu L V}{\rho g D^2} $$
 
-Pressure difference due to head loss must also be taken into account, in terms of the pressure difference between the open-faced vent and the reactor itself. Combined with the previous equation, the relationship becomes: $P_r = P_{atm} + \rho g \Delta h +  \rho g h_f $.
+Pressure difference due to head loss must also be taken into account, in terms of the pressure difference between the open-faced vent and the reactor itself. Combined with the previous equation, the relationship becomes: $P_r = P_{atm} - \rho g \Delta h +  \rho g h_f $. The reasoning for the negative sign prior to the second term is as follows: the reactor is higher than the vent; therefore, $\Delta h$ is a positive term. However, pressure decreases as depth decreases. The negative sign's purpose is to indicate this relationship and illustrate it mathematically.  
 
 From Surface Tension Source 1:
 $$P_i = P_o + 4 \frac{T}{R}$$
@@ -41,6 +41,6 @@ In this equation, $P_i$ denotes the pressure within a bubble, and may be relabel
 
 When all of these equations are combined, the following relationship appears:
 
-$$C = k(\frac{4T}{R} + P_{atm} + \rho g \Delta h +  \rho g h_f)$$
+$$C = k(\frac{4T}{R} + P_{atm} - \rho g \Delta h +  \rho g h_f)$$
 
 Due to the above reasoning concerning assumption of equilibrium, the above equation is a qualitative description of the relationships between different parameters, rather than a quantitative relationship.

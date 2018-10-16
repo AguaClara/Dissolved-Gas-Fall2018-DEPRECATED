@@ -45,12 +45,12 @@ Bubble formation and size can be fairly accurately predicted for gas-solid fluid
 #### Citation
 Schulz, Piotr. Instability and the Formation of Bubbles and the Plugs in Fluidized Beds. Vol. 24, no. 1, 2004, p. 27.
 #### Quotations
-“In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.”\
-“This behaviour (bubbles) can also occur in liquid-fluidized beds when the ratio of the density of the solid to that of the liquid is high (e.g. lead shot fluidized with water).”\
+“In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.”
+“This behaviour (bubbles) can also occur in liquid-fluidized beds when the ratio of the density of the solid to that of the liquid is high (e.g. lead shot fluidized with water).”
 “Linear stability theory indicates only qualitative differences between gas- and liquid-fluidized beds, both growth rates and speeds of propagation being much larger in the former.”
 #### Summary of Information
-Bubble formation is less predictable in liquid-fluidized beds than in gas-fluidized beds. There are two common types of issues that come up during liquid-fluidized bed experiments:\
-1. Large bubbles with same diameter as fluidized bed rise slowly and displace particles\
+Bubble formation is less predictable in liquid-fluidized beds than in gas-fluidized beds. There are two common types of issues that come up during liquid-fluidized bed experiments:
+1. Large bubbles with same diameter as fluidized bed rise slowly and displace particles
 2. Slowly rising bands of particle deficient regions and rapid particle rain (common in tubes up to 4-5cm).
 #### Application to Research
 If we have problems forming bubbles in our fluidized bed of sand and water, it could be because of the density ratio of sand to water. We may want to consider using a solid material with a higher density if we find that bubble formation is not present in the sand/water fluidized bed. In addition, if we run into a problem with bands of fluid low and high in particle density, we may want to consider using a tube with a larger diameter (>5cm).

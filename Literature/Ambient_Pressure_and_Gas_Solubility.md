@@ -62,7 +62,7 @@ $h =$ the height of the fluid above the object
 Weber-Shirk, M. *Flow Control and Measurement* [PowerPoint Slides]. Retrieved from https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf.
 
 #### Summary of information
-$$ h_f = \frac{32\mu L V}{\rho g D**2}
+$$ h_f = \frac{32\mu L V}{\rho g D^2} $$
 
 $h_f=$ head loss
 $\mu=$ kinematic viscosity of water
@@ -71,5 +71,3 @@ $g=$ acceleration due to gravity
 $\rho=$ density of water
 $D=$ diameter of the pipe in question
 $V=$ velocity of water in the pipe
-
-

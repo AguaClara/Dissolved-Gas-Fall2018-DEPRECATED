@@ -43,4 +43,4 @@ When all of these equations are combined, the following relationship appears:
 
 $$C = k(\frac{4T}{R} + P_{atm} - \rho g \Delta h +  \rho g h_f)$$
 
-Due to the above reasoning concerning assumption of equilibrium, the above equation is a qualitative description of the relationships between different parameters, rather than a quantitative relationship.
+Due to the above reasoning concerning assumption of equilibrium, the above equation is a qualitative description of the relationships between different parameters, rather than a quantitative relationship. All variables that are left undefined on this page are defined in their respective pages in the Literature folder. 

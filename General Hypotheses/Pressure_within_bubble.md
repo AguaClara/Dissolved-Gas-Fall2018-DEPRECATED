@@ -42,3 +42,5 @@ In this equation, $P_i$ denotes the pressure within a bubble, and may be relabel
 When all of these equations are combined, the following relationship appears:
 
 $$C = k(\frac{4T}{R} + P_atm + \rho g \Delta h +  \rho g h_f)$$
+
+Due to the above reasoning concerning assumption of equilibrium, the above equation is a qualitative description of the relationships between different parameters, rather than a quantitative relationship.

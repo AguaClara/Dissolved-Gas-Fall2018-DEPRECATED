@@ -48,6 +48,7 @@ Schulz, Piotr. Instability and the Formation of Bubbles and the Plugs in Fluidiz
 “In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.”
 “This behaviour (bubbles) can also occur in liquid-fluidized beds when the ratio of the density of the solid to that of the liquid is high (e.g. lead shot fluidized with water).”
 “Linear stability theory indicates only qualitative differences between gas- and liquid-fluidized beds, both growth rates and speeds of propagation being much larger in the former.”
+"In gas-fluidized beds, it is possible for uniform expansion to occur over a small range of gas velocities, but at higher flow rates the bed becomes unstable and some of the fluid passes through the bed in the form of bubbles or slugs."
 #### Summary of Information
 Bubble formation is less predictable in liquid-fluidized beds than in gas-fluidized beds. There are two common types of issues that come up during liquid-fluidized bed experiments:
 1. Large bubbles with same diameter as fluidized bed rise slowly and displace particles

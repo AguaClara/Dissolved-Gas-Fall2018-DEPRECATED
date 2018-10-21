@@ -5,7 +5,9 @@ We aim to design a system that removes excess dissolved gas from influent water 
 
 ## Current members 
 Thomas Bradford | tsb49@cornell.edu
+
 Karalyn Buhl | kab394@cornell.edu
+
 Isaac Singer | ibs27@cornell.edu
 
 ## Links to Presentations & Reports

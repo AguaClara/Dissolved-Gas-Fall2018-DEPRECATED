@@ -7,7 +7,7 @@
 [Overall, it's a pretty good start for the report. Only major revision you guys need to do is to check the format of equations. Follow the grading rubric for report and see where you can improve next time. Looking forward to your next report! ]
 
 ## Abstract
-Excess dissolved air in a water treatment plant’s influent water decreases functionality of the treatment plants’ filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant. [Very clear and concise. Since it's the first semester of your team, you can also state the goal in this semester and the goal in the long run.]
+Excess dissolved air in a water treatment plant’s influent water decreases functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant. [Very clear and concise. Since it's the first semester of your team, you can also state the goal in this semester and the goal in the long run.]
 
 ## Introduction
 Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has inhibited the plants' efficiencies. Excess gas causes bubbles to form in the sedimentation tank, causing flocs that should settle to rise and continue into the remainder of the plant. In the sand filter, gas bubbles form between sand particles and effectively clog the filter [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy this, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant, in order to preserve the efficiency of the water treatment process.
@@ -62,7 +62,7 @@ This partial pressure can be minimized through control of two components.
 
 The first of these components is the water pressure at the site of bubble formation. As the height difference between the fluidized bed and the vent changes, the water pressure changes, given by the following relation. 
 
-$\Delta P = \rho*g*\delta h$
+$\Delta P = \rho*g*\Delta h$
 
 Second, a bubble’s pressure can be expressed as a function of its diameter. As pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size. In order to further minimize the pressure within bubbles, the subteam may explore methods to encourage the growth of large bubbles.
 

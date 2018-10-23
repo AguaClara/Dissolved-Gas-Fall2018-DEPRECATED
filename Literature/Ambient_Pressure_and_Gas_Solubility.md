@@ -71,3 +71,14 @@ $g=$ acceleration due to gravity
 $\rho=$ density of water
 $D=$ diameter of the pipe in question
 $V=$ velocity of water in the pipe
+
+Formal citations will be produced for the following sources in the near future. 
+## Source 6: The Darcy-Weisbach Equation for Head Loss
+URL: https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm
+
+Besides reaffirming the equation for head loss in the effluent tubing, it also includes the equation for pressure difference due to head loss. 
+
+## Source 7: Pipe Head Loss
+URL: http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php
+
+This source contains a basic definition of head loss. 

@@ -4,7 +4,7 @@
 
 ### 26 October, 2018
 [Shuo: Hello Dissolved gas! I'll add my comments in the brackets like this. Feel free to delete these comments later. ]
-[Overall, it's a pretty good start for the report. Only major revision you guys need to do is to check the format of equations. Follow the grading rubric for report and see where you can improve next time. Looking forward to your next report! ]
+[Overall, it's a pretty good start for the report. Only major revision you guys need to do is to check the format of equations. Follow the grading rubric for report and see where you can improve next time. Looking forward to your next report! ] testing>>>
 
 ## Abstract
 Excess dissolved air in a water treatment plant’s influent water decreases functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant. [Very clear and concise. Since it's the first semester of your team, you can also state the goal in this semester and the goal in the long run.]

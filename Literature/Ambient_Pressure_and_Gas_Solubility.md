@@ -74,7 +74,9 @@ $V=$ velocity of water in the pipe
 
 Formal citations will be produced for the following sources in the near future. 
 ## Source 6: The Darcy-Weisbach Equation for Head Loss
-URL: https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm
+
+#### Citation
+Brown, G. (2000, June 22). The Darcy-Weisbach Equation. Retrieved from https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm
 
 Besides reaffirming the equation for head loss in the effluent tubing, it also includes the equation for pressure difference due to head loss. 
 

@@ -7,16 +7,16 @@
 [Overall, it's a pretty good start for the report. Only major revision you guys need to do is to check the format of equations. Follow the grading rubric for report and see where you can improve next time. Looking forward to your next report! ]
 
 ## Abstract
-Excess dissolved air in a water treatment plant’s influent water decreases functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant. {The next section is new} This semester, the subteam aims to have fabricated a small-scale prototype that reliably removes some, if not all, excess dissolved gas from influent water.  [Very clear and concise. Since it's the first semester of your team, you can also state the goal in this semester and the goal in the long run.]
+Excess dissolved air in a water treatment plant’s influent water decreases functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant. [Very clear and concise. Since it's the first semester of your team, you can also state the goal in this semester and the goal in the long run.]
 
 ## Introduction
-Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has inhibited the plants' efficiencies. Excess gas causes bubbles to form in the sedimentation tank, causing flocs that should settle to rise and to continue into the remainder of the plant. In the sand filter, gas bubbles form between sand particles and effectively clog the filter [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy this, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant, in order to preserve the efficiency of the water treatment process.
+Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has inhibited the plants' efficiencies. Excess gas causes bubbles to form in the sedimentation tank, causing flocs that should settle to rise and continue into the remainder of the plant. In the sand filter, gas bubbles form between sand particles and effectively clog the filter [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy this, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant, in order to preserve the efficiency of the water treatment process.
 
 To clarify, “excess dissolved gas” does not entail bubbles being present in influent water. Gas is supersaturated in the influent water: the molecules are dispersed throughout the water, not congregated in bubbles. Bubbles form in the sedimentation tank and in the sand filter, within the plant itself, due to the presence of this excess gas. For this reason, the subteam plans to remove the excess gas through the use of a reactor stationed prior to the plant.
 
-For the sake of efficiency, the term “supersaturated water” will be used in this report to denote water containing excess dissolved gas, whether air or otherwise.
+For the sake of efficiency, the term “supersaturated water” will be used in this report to reference water containing excess dissolved gas, whether air or otherwise.
 
-The current conception of the system design is as follows: influent water will flow down from its source at a high elevation. Once the influent water is near to the AguaClara plant, piping will direct it upwards into a reactor. **{Consider removing mention of atmospheric pressure and of Henry's Law} Atmospheric pressure decreases with as height increases; according to Henry’s Law, gas becomes less soluble at lower pressures, making bubble formation more likely. Aspects of the reactor will further encourage bubble formation (a.k.a nucleation) in the reactor.** The water, now containing gas bubbles, will flow upward and out of the reactor. Piping will direct the water downward into a basin containing a vent where gaseous bubbles may exit the water. The water, no longer supersaturated, then will flow into the treatment plant. Figure 1 illustrates this design.
+The current conception of the overall system design is as follows: influent water will flow from its source at a high elevation. Once the influent water has descended from its source and is near to the AguaClara plant, piping will direct this influent water upwards into a reactor. Atmospheric pressure decreases with height; according to Henry’s Law, gas becomes less soluble at lower pressures, making bubble formation more likely. Aspects of the reactor will further encourage bubble formation (a.k.a nucleation) in the reactor. The water, now containing gas bubbles, will flow upward out of the reactor. Piping will direct the water downward into a basin containing a vent where gaseous bubbles may exit the water. The water, no longer supersaturated, then flows into the treatment plant. Figure 1 illustrates this design.
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%201_%20GeneralUpdated.png?raw=true" height=450>
 </p>
@@ -43,9 +43,7 @@ A vertical plate reactor consists of an enclosed reactor containing a series of 
 
 The subteam considers that the vertical plate reactor design has the potential benefit of keeping bubbles stationary while they grow and accumulate. In the case of a fluidized bed reactor, bubbles may immediately travel upward once they form, since their formation site is mobile. They may depart the fluid at a smaller size, carrying a high internal pressure, and being likely to rupture and disperse into solution.
 
-The subteam intends to first design and fabricate a prototype fluidized bed reactor, and to evaluate its feasibility as a solution. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merits of both designs.
-
-**{Fill this section in later; it should be no more than a couple sentences} The rest of this report is dedicated to the rationale behind the prototype design that the team has designed...** [Enough background information which is related to the problem. Diagrams are precise and understandable. You can breifly explain the outline of the rest of the report next time.(Since the first report is only four parts, it's good enough.)]
+The subteam intends to first design and fabricate a prototype fluidized bed reactor, and to evaluate its feasibility as a solution. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merits of both designs. [Enough background information which is related to the problem. Diagrams are precise and understandable. You can breifly explain the outline of the rest of the report next time.(Since the first report is only four parts, it's good enough.)]
 
 ## Literature Review
 The subteam concentrated its research on two subjects in particular: the effect of ambient pressure on gas solubility, and bubble nucleation sites. Understanding these topics is necessary to understanding the subteam’s potential fluidized bed reactor.
@@ -58,13 +56,15 @@ A formula that illustrates this relationship is Henry's Law, given below. [The f
 
 $$C=k\Delta P$$
 
-C is the dissolved gas’s concentration at equilibrium, P is the dissolved gas’s partial pressure at the interface of liquid and gas, and k is the Henry’s Law constant, which is determined experimentally for each combination of gas, solvent, and temperature. In this case, the interface may be considered as the border between the bubble and the surrounding water.
+$C$ is the dissolved gas’s concentration at equilibrium, $\Delta P$ is the dissolved gas’s partial pressure at the interface of liquid and gas, and $k$ is the Henry’s Law constant, which is determined experimentally for each combination of gas, solvent, and temperature. In this case, the interface may be considered as the border between the bubble and the surrounding water.
 
 This partial pressure can be minimized through control of two components.
 
 The first of these components is the water pressure at the site of bubble formation. As the height difference between the fluidized bed and the vent changes, the water pressure changes, given by the following relation.
 
-$$\Delta P = \rho*g*\Delta h$$
+$$\Delta P = \rho g \Delta h$$
+
+$\Delta P$ is the change in pressure, $\rho$ is the density of the material, $g$ is acceleration due to gravity, and $\Delta h$ is the change in depth.
 
 Second, a bubble’s pressure can be expressed as a function of its diameter. As pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size. In order to further minimize the pressure within bubbles, the subteam may explore methods to encourage the growth of large bubbles.
 

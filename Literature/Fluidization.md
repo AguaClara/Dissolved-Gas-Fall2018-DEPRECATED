@@ -81,4 +81,4 @@ A formal citation for the following source will be produced in the near future.
 URL: http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf
 
 This source contains an understandable definition of fluidization in reactors. 
-
+This source is connected to the University of Florida.

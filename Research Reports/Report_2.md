@@ -51,7 +51,7 @@ The subteam considers that the vertical plate reactor design has the potential b
 
 The subteam’s research is summarized as follows: gas solubility decreases with decreasing ambient pressure. Therefore, to catalyze bubble growth for ease of gas removal, the subteam aims to design a reactor exerting minimal pressure on gas molecules. Such pressures can be controlled by altering the reactor’s height. Pressure control, combined with providing nucleation sites in a fluidized bed reactor, will help the dissolved gas form stable bubbles that will escape from the water. The subteam hypothesizes that this will solve the problems that the plants at El PODA, Nicaragua and Tamara, Honduras are facing.
 
-###Fluidized Beds & Bubble Nuclelation
+### Fluidized Beds & Bubble Nuclelation
 **Add fluidization velocity discussion**
 
 Because of the reactor’s dependence on gas solubility and bubble formation, much of the subteam’s research was also directed toward bubble nucleation sites. To catalyze bubble formation, the fluidized sand bed must provide the dissolved gas particles with nucleation sites in the reactor.
@@ -62,7 +62,7 @@ Bubble formation and size in gas-solid fluidized beds is fairly predictable at l
 
 If bubble formation is slow or inconsistent, it may be due to the ratio between the density of the particles and the density of water. Schultz found that bubble formation was present in fluidized beds with high ratios, so the subteam may want to consider using more dense particles if problems arise.
 
-###Controlling Pressure
+### Controlling Pressure
 **Add pressure vs bubble radius discussion**
 Insert figures from HyperPhysics
 
@@ -90,10 +90,10 @@ Second, a bubble’s pressure can be expressed as a function of its diameter. As
 
 In the following weeks, the subteam plans to test the effectiveness of a fluidized bed reactor in removing excess dissolved gas.
 
-##Analysis
+## Analysis
 **Insert document from GitHub** Given the relationships between system parameters and pressure, as discussed above, the different equations may be combined into a single estimation of gas solubility in relation to system parameters...
 
-##Future Work
+## Future Work
 **Insert description & Figure concerning the prototype reactor**
 
 

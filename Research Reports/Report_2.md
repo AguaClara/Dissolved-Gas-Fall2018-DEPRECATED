@@ -54,7 +54,7 @@ The solubility of a gas in a solution changes proportionally to the partial pres
 
 A formula that illustrates this relationship is Henry's Law, given below. [The formula below isn't shown as Latex format. Is it possible to make it look like LaTex equations? You can check here for the formatting:https://confluence.cornell.edu/display/AGUACLARA/Style+Guide+for+Figures%2C+Tables%2C+and+Equations]
 
-$$C=k\Delta P$$
+$$ C=k\Delta P $$
 
 $C$ is the dissolved gas’s concentration at equilibrium, $\Delta P$ is the dissolved gas’s partial pressure at the interface of liquid and gas, and $k$ is the Henry’s Law constant, which is determined experimentally for each combination of gas, solvent, and temperature. In this case, the interface may be considered as the border between the bubble and the surrounding water.
 

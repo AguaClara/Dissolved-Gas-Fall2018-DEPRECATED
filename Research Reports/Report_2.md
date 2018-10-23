@@ -56,7 +56,7 @@ The solubility of a gas in a solution changes proportionally to the partial pres
 
 A formula that illustrates this relationship is Henry's Law, given below. [The formula below isn't shown as Latex format. Is it possible to make it look like LaTex equations? You can check here for the formatting:https://confluence.cornell.edu/display/AGUACLARA/Style+Guide+for+Figures%2C+Tables%2C+and+Equations]
 
-$C=k\Delta P$
+$$C=k\Delta P$$
 
 C is the dissolved gas’s concentration at equilibrium, P is the dissolved gas’s partial pressure at the interface of liquid and gas, and k is the Henry’s Law constant, which is determined experimentally for each combination of gas, solvent, and temperature. In this case, the interface may be considered as the border between the bubble and the surrounding water.
 
@@ -64,7 +64,7 @@ This partial pressure can be minimized through control of two components.
 
 The first of these components is the water pressure at the site of bubble formation. As the height difference between the fluidized bed and the vent changes, the water pressure changes, given by the following relation.
 
-$\Delta P = \rho*g*\Delta h$
+$$\Delta P = \rho*g*\Delta h$$
 
 Second, a bubble’s pressure can be expressed as a function of its diameter. As pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size. In order to further minimize the pressure within bubbles, the subteam may explore methods to encourage the growth of large bubbles.
 

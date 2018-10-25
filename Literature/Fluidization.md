@@ -33,7 +33,7 @@ $u =$ fluid velocity
 $d =$ particle diameter
 $\epsilon =$ void space of the bed (Warning: this is *not* equal to the bed voidage, despite the sources using equivalent symbols)
 $\mu =$ fluid viscosity
-$g =$ acceleration due to gravity 
+$g =$ acceleration due to gravity
 
 ## Source 3: Bed height and material density effects on fluidized bed hydrodynamics
 #### Citation
@@ -76,9 +76,3 @@ Price, I. (2000). Diameter of a Grain of Sand. Retrieved October 5, 2018, from h
 The diameter of a grain of sand can vary from 0.05mm up to 2 mm, with the average size of .2mm. Sand particles between 0.05mm and 0.2mm in diameter are considered fine sand, and grains of sand with a diameter from .2mm to 2mm are considered coarse.
 
 A formal citation for the following source will be produced in the near future.
-
-## Source 7: Fluidized Beds and Chemical Engineering
-URL: http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf
-
-This source contains an understandable definition of fluidization in reactors. 
-This source is connected to the University of Florida.

@@ -1,7 +1,7 @@
 # Resources Related to Surface Tension
 ## Source 1: Surface Tension and Bubbles
 #### Citation
-. (n.d.). Surface Tension and Bubbles. Retrieved from http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html
+Hyperphysics. (n.d.). Surface Tension and Bubbles. Retrieved from http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html
 
 #### Summary of Information
 $$P_i = P_o + 4 \frac{T}{R}$$

@@ -61,7 +61,7 @@ $v =$ kinematic viscosity
 
 ## Source 5: Densities of Materials
 #### Citation
-Engineering Toolbox. (2010). Dirt and Mud - Densities. Retrieved October 5, 2018, from https://www.engineeringtoolbox.com/dirt-mud-densities-d_1727.html
+Engineering Toolbox. (2010). *Dirt and Mud - Densities.* Retrieved October 5, 2018, from https://www.engineeringtoolbox.com/dirt-mud-densities-d_1727.html
 
 #### Useful information
 
@@ -69,7 +69,7 @@ $\rho_{sand} =$ 1905 kg/m^3 (wet)
 
 ## Source 6: Diameter of a Grain of sand
 #### Citation
-Price, I. (2000). Diameter of a Grain of Sand. Retrieved October 5, 2018, from https://hypertextbook.com/facts/2000/IlanaPrice.shtml
+Price, I. (2000). *Diameter of a Grain of Sand.* Retrieved October 5, 2018, from https://hypertextbook.com/facts/2000/IlanaPrice.shtml
 
 #### Useful information
 

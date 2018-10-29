@@ -17,7 +17,7 @@ porosity = 1 - (mass / (density_sand * area * height))
 diameter = input("What is the average diameter of the sand grains, in meters?")
 kozeny = 5 #This is an approximate value, suggested by Source 4
 density_water = 0.997 #Implicit units are grams per cubic centimeter
-viscosity = input("What is the kinematic viscosity of ______?")
+viscosity = input("What is the kinematic viscosity of water?")
 
 fluidization_velocity_FirstTerm = (porosity**3 * 9.8 * diameter**2)/(36*kozeny*viscosity*(1-porosity))
 

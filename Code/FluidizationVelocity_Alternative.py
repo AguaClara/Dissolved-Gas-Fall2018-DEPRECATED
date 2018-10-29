@@ -24,7 +24,7 @@ density_water = 997 #Implicit units are kilograms per cubic meter
 kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
 viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?"))
 
-# The following terms are based off those in the squation in Fluidization Source 4.
+# The following variable definitions are based off those in the squation in Fluidization Source 4.
 fluidization_velocity_FirstTerm = (porosity**3 * 9.8 * (diameter/1000)**2)/(36*kozeny*(viscosity/1000**2)*(1-porosity))
 
 fluidization_velocity_SecondTerm = (density_sand/density_water - 1)
@@ -33,6 +33,7 @@ fluidization_velocity = fluidization_velocity_FirstTerm * fluidization_velocity_
 
 fluidization_flow = fluidization_velocity * area_reactor
 
+#The following line of code truncates the flow rate to three significant figures.
 edited_result = ut.sig(fluidization_flow,3)
 
 print("The minimum flow required for fluidization is "+ str(edited_result) +" mL/s")

@@ -48,7 +48,7 @@ Determined that $U_{mf}$ (minimum fluidization velocty) is increased when the sa
 Weber-Shirk, M. *Filtration Theory: On removing little particles with big particles* [PowerPoint Slides]. Retrieved from https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf.
 
 #### Useful Formulas
-$$ V_{minfl}= \frac{\phi g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
+$$ V_{minfl}= \frac{\phi^3 g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
 
 $V_{minfl} =$ minimum approach velocity required to fluidize the sand bed
 $\phi =$ porosity, $\frac{Volume Of Voids}{Total Volume} = 0.4$ for uniform size media (Note: porosity and voidage are, in this case, equal quantities)

@@ -1,3 +1,5 @@
+# This code is under maintenance. The code will be altered to take units into account.
+
 # Python code for the minimum fluidization flow rate of the prototype fluidized bed reactor. In the future, adjustments will be made to the code to indicate the RPM setting for the peristaltic pump that the subteam will use to pump water into the system.
 
 # In this file, the code requests porosity as an input, rather than the mass of sand, height of the bed, and the mass of the sand in the bed.
@@ -19,7 +21,7 @@ porosity = float(input("What is the porosity of the sand bed?"))
 
 density_sand = float(input("What is the density of the sand, in units of kilograms per cubic meter?"))
 diameter = float(input("What is the average diameter of the sand grains, in units of millimeters?"))
-density_water = 997 #Implicit units are kilograms per cubic meter
+density_water = 997*u.kg/u.m**3 #Implicit units are kilograms per cubic meter
 
 kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
 viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?"))

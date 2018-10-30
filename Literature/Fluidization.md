@@ -48,7 +48,7 @@ Determined that $U_{mf}$ (minimum fluidization velocty) is increased when the sa
 Weber-Shirk, M. *Filtration Theory: On removing little particles with big particles* [PowerPoint Slides]. Retrieved from https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf.
 
 #### Useful Formulas
-$$ V_{minfl}= \frac{\phi g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
+$$ V_{minfl}= \frac{\phi^3 g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
 
 $V_{minfl} =$ minimum approach velocity required to fluidize the sand bed
 $\phi =$ porosity, $\frac{Volume Of Voids}{Total Volume} = 0.4$ for uniform size media (Note: porosity and voidage are, in this case, equal quantities)
@@ -61,7 +61,7 @@ $v =$ kinematic viscosity
 
 ## Source 5: Densities of Materials
 #### Citation
-Engineering Toolbox. (2010). Dirt and Mud - Densities. Retrieved October 5, 2018, from https://www.engineeringtoolbox.com/dirt-mud-densities-d_1727.html
+Engineering Toolbox. (2010). *Dirt and Mud - Densities.* Retrieved October 5, 2018, from https://www.engineeringtoolbox.com/dirt-mud-densities-d_1727.html
 
 #### Useful information
 
@@ -69,8 +69,14 @@ $\rho_{sand} =$ 1905 kg/m^3 (wet)
 
 ## Source 6: Diameter of a Grain of sand
 #### Citation
-Price, I. (2000). Diameter of a Grain of Sand. Retrieved October 5, 2018, from https://hypertextbook.com/facts/2000/IlanaPrice.shtml
+Price, I. (2000). *Diameter of a Grain of Sand.* Retrieved October 5, 2018, from https://hypertextbook.com/facts/2000/IlanaPrice.shtml
 
 #### Useful information
 
 The diameter of a grain of sand can vary from 0.05mm up to 2 mm, with the average size of .2mm. Sand particles between 0.05mm and 0.2mm in diameter are considered fine sand, and grains of sand with a diameter from .2mm to 2mm are considered coarse.
+
+## Source 7: Diameter of a Grain of sand
+#### Citation
+*Viscosity of Water – Viscosity table and viscosity chart* : Anton Paar Wiki. (2018). Retrieved October 29, 2018, from https://wiki.anton-paar.com/en/water/
+
+Kinematic Viscosity of Water at various temperatures.

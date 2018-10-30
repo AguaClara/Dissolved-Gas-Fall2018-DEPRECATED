@@ -12,24 +12,27 @@ import math
 import numpy as nm
 import aide_design as ad
 from aide_design import utility as ut
-from aide_design import*
+from aide_design.play import*
 
 # The following code, determining the bed's minimum flow for fluidization, adheres to the equation in Source 4 in the Fluidization page of the Literature folder (i.e. Fluidization Source 4). The code requests the reactor's cross sectional area in order to calculate the fluidization flow rate at the end of the script.
 
-area_reactor = float(input("What is the cross sectional area of the fluidized bed reactor, in units of millimeters squared?"))
+area_reactor = float(input("What is the cross sectional area of the fluidized bed reactor, in units of millimeters squared?"))*u.mm**2
 porosity = float(input("What is the porosity of the sand bed?"))
 
-density_sand = float(input("What is the density of the sand, in units of kilograms per cubic meter?"))
+density_sand = float(input("What is the density of the sand, in units of kilograms per cubic meter?"))*u.kg/u.m**3
 diameter = float(input("What is the average diameter of the sand grains, in units of millimeters?"))
 density_water = 997*u.kg/u.m**3 #Implicit units are kilograms per cubic meter
 
+g = 9.8 *u.m/u.s**2
 kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
-viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?"))
+viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?"))*u.mm**2/u.s
 
 # The following variable definitions are based off those in the squation in Fluidization Source 4.
 # Integers such as 1000 serve as implicit conversion factors between units.
 
-fluidization_velocity_FirstTerm = (porosity**3 * 9.8 * (diameter/1000)**2)/(36*kozeny*(viscosity/1000**2)*(1-porosity))
+#fluidization_velocity_FirstTerm = (porosity**3 * 9.8 * (diameter/1000)**2)/(36*kozeny*(viscosity/1000**2)*(1-porosity))
+
+fluidization_velocity_FirstTerm = (porosity**3 * g * (diameter)**2)/(36*kozeny*(viscosity)*(1-porosity))
 
 fluidization_velocity_SecondTerm = (density_sand/density_water - 1)
 
@@ -38,6 +41,8 @@ fluidization_velocity = fluidization_velocity_FirstTerm * fluidization_velocity_
 fluidization_flow = fluidization_velocity * area_reactor
 
 #The following line of code truncates the flow rate to three significant figures.
-edited_result = ut.sig(fluidization_flow,3)
+truncated_result = ut.sig(fluidization_flow,3)
 
-print("The minimum flow rate required for fluidization is "+ str(edited_result) +" mL/s.")
+unit_result = truncated_result.to(u.mL/u.s)
+
+print("The minimum flow rate required for fluidization is "+ str(unit_result))

@@ -38,4 +38,4 @@ fluidization_flow = fluidization_velocity * area_reactor
 #The following line of code truncates the flow rate to three significant figures.
 edited_result = ut.sig(fluidization_flow,3)
 
-print("The minimum flow required for fluidization is "+ str(edited_result) +" mL/s.")
+print("The minimum flow rate required for fluidization is "+ str(edited_result) +" mL/s.")

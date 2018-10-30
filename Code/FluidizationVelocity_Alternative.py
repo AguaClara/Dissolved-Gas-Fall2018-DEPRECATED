@@ -25,7 +25,7 @@ kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
 viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?"))
 
 # The following variable definitions are based off those in the squation in Fluidization Source 4.
-# Integers such as 1000 serve as implicit conversion factors between units. 
+# Integers such as 1000 serve as implicit conversion factors between units.
 
 fluidization_velocity_FirstTerm = (porosity**3 * 9.8 * (diameter/1000)**2)/(36*kozeny*(viscosity/1000**2)*(1-porosity))
 
@@ -38,4 +38,4 @@ fluidization_flow = fluidization_velocity * area_reactor
 #The following line of code truncates the flow rate to three significant figures.
 edited_result = ut.sig(fluidization_flow,3)
 
-print("The minimum flow required for fluidization is "+ str(edited_result) +" mL/s")
+print("The minimum flow required for fluidization is "+ str(edited_result) +" mL/s.")

@@ -20,8 +20,9 @@ area_reactor = float(input("What is the cross sectional area of the fluidized be
 porosity = float(input("What is the porosity of the sand bed?"))
 
 density_sand = float(input("What is the density of the sand, in units of kilograms per cubic meter?"))*u.kg/u.m**3
-diameter = float(input("What is the average diameter of the sand grains, in units of millimeters?"))
 density_water = 997*u.kg/u.m**3 #Implicit units are kilograms per cubic meter
+diameter = float(input("What is the average diameter of the sand grains, in units of millimeters?"))
+
 
 g = 9.8 *u.m/u.s**2
 kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
@@ -39,6 +40,10 @@ fluidization_velocity_SecondTerm = (density_sand/density_water - 1)
 fluidization_velocity = fluidization_velocity_FirstTerm * fluidization_velocity_SecondTerm
 
 fluidization_flow = fluidization_velocity * area_reactor
+
+print("Velocity"+ str(fluidization_velocity))
+print("Fow"+ str(fluidization_flow))
+
 
 #The following line of code truncates the flow rate to three significant figures.
 truncated_result = ut.sig(fluidization_flow,3)

@@ -55,7 +55,7 @@ The subteam concentrated its research on optimizing the fluidized bed reactor an
 
 When a liquid or a gas is pumped through a granular solid at a certain velocity, the granular solid behaves like a fluid. The minimum velocity required to cause this behavior is known as the minimum fluidization velocity. This value depends on numerous characteristics of the fluidized bed, including particle density, shape, size, and porosity [(Department of Chemical Engineering, 2017)](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). The relationship is quantified by the equation below [(Weber-Shirk)](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf).
 
-#####Equation 1
+#Equation 1
 $$ V_{minfl}= \frac{\phi^3 g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
 
 <p style="text-align: center;">

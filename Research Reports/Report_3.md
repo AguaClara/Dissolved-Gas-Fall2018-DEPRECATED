@@ -55,7 +55,7 @@ The subteam concentrated its research on optimizing the fluidized bed reactor an
 
 When a liquid or a gas is pumped through a granular solid at a certain velocity, the granular solid behaves like a fluid. The minimum velocity required to cause this behavior is known as the minimum fluidization velocity. This value depends on numerous characteristics of the fluidized bed, including particle density, shape, size, and porosity [(Department of Chemical Engineering, 2017)](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). The relationship is quantified by the equation below [(Weber-Shirk)](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf).
 
-# Equation 1
+## Equation 1
 
 $$ V_{minfl}= \frac{\phi^3 g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
 
@@ -266,6 +266,8 @@ One should note that a mesh will be installed at the bottom of the reactor to pr
 If the design functions ideally, the effluent water will no longer contain excess dissolved gas. [**CEO: have you defined a way to characterize excess? Are there any measurements from plants about the gas concentrations in the afffected plants? This could give you a good place to define a more specific goal**] The subteam will test the functionality of the prototype in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, whether bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove dissolved gas from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. With such data, the subteam will then modify the system as necessary to optimize the amount of dissolved gas that is removed.
 
 [**CEO: when looking at bubble formation and gas concentrations are you considering that there will be relatively large concentrations of other gasses present or are you only supersaturating the water with oxygen?**]
+
+/
 
 When building the prototype, the subteam will look to minimize head loss, maximize bubble radius, and maximize the difference in depth between the reactor and the bucket. These parameters are illustrated in Equation 7, with the purpose of minimizing gas' solubility and therefore maximizing bubble formation within the reactor.
 

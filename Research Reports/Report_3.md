@@ -8,7 +8,7 @@
 Excess dissolved air in a water treatment plant’s influent water decreases the functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant through the use of a fluidized bed. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant.
 
 ## Introduction
-Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. Excess gas causes bubbles to form in the sedimentation tank, causing flocs that should settle to rise and to continue into the remainder of the plant. [**CEO: explain why this happens, ie  the bubble catch on flocs and float them out the top.**] In the plant's sand filter, gas bubbles form between sand particles and effectively clog the filter [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy this, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant, in order to preserve the efficiency of the water treatment process.
+Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. Excess gas causes bubbles to form in the sedimentation tank. These bubbles stick to flocks and rise, causing flocs that should settle to float and to continue into the remainder of the plant. In the plant's sand filter, gas bubbles form between sand particles and effectively clog the filter [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy this, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant, in order to preserve the efficiency of the water treatment process.
 
 To clarify, “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles. Due to the presence of this excess gas, bubbles form in the plant's sedimentation tank and in its sand filter. For this reason, the subteam plans to remove the excess gas through the use of a reactor stationed prior to the plant.
 
@@ -22,7 +22,7 @@ The basic conception of the system design is as follows: influent water will flo
 
 **Figure 1**: The above diagram depicts (not to scale) the general design of the system to remove excess dissolved gas from influent water, as the above paragraph describes.
 
-At the start of the semester, the subteam considered two options for the design of the reactor itself [omit "itself"]: a fluidized bed reactor, and a vertical plate reactor. As of yet [So far], the subteam has focused its research on the fluidized bed reactor. While technical details are more thoroughly discussed in the Literature Review section, the main attributes of the two options are as follows.
+At the start of the semester, the subteam considered two options for the design of the reactor: a fluidized bed reactor, and a vertical plate reactor. So far, the subteam has focused its research on the fluidized bed reactor. While technical details are more thoroughly discussed in the Literature Review section, the main attributes of the two options are as follows.
 
 A fluidized bed reactor consists of an enclosed reactor containing a suspension of particles, such as sand grains, in a fluid; they are kept in suspension by a particular flow rate directed upwards [(Department of Chemical Engineering, 2017)](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). This flow is that of the influent water, entering the reactor from the bottom and flowing upwards toward an exit pipe. The suspended particles provide surfaces on which bubbles can form. The bubbles then rise from the reactor, leaving the sand particles behind. Figure 2 illustrates this design.
 
@@ -32,7 +32,7 @@ A fluidized bed reactor consists of an enclosed reactor containing a suspension 
 
 **Figure 2**: The above diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.
 
-A vertical plate reactor consists of an enclosed reactor containing a series of parallel, vertically aligned, textured plates. Supersaturated water enters the bottom of the reactor and flows upward along the plates to reach the exit pipe. The texturization of the plates provides sites for bubbles to form while the water flows. In theory, after reaching a specific critical diameter, these bubbles detach from the plates and flow upwards as effluent. Figure 3 illustrates this design. [**CEO:have you looked specifically into the detachment process at all? or is it trivial compared with formation?**]
+A vertical plate reactor consists of an enclosed reactor containing a series of parallel, vertically aligned, textured plates. Supersaturated water enters the bottom of the reactor and flows upward along the plates to reach the exit pipe. The texturization of the plates provides sites for bubbles to form while the water flows. In theory, after reaching a specific critical diameter, these bubbles detach from the plates and flow upwards as effluent. In the future, the subteam may investigate the mechanisms of bubble growth and detachment in the vertical plate reactor. Figure 3 illustrates this design.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure3_VerticalPlateReactor.png?raw=true" height=450>
@@ -41,9 +41,9 @@ A vertical plate reactor consists of an enclosed reactor containing a series of 
 
 **Figure 3**: The above diagram depicts (not to scale) the general concept of a vertical plate reactor, as the above paragraph describes. The plates, depicted by brown lines, extend outward from the plane of the page.
 
-The subteam considered that the vertical plate reactor design has the potential benefit of keeping bubbles stationary while they grow and accumulate. In the case of a fluidized bed reactor [In a fluidized bed reactor], bubbles may immediately travel upward once they form, since their formation site (sand grains) is mobile. Bubbles may depart the fluid at a smaller size, carrying a high internal pressure, and being likely to rupture and disperse into solution.
+The subteam considered that the vertical plate reactor design has the potential benefit of keeping bubbles stationary while they grow and accumulate. In a fluidized bed reactor, bubbles may immediately travel upward once they form, since their formation site (sand grains) is mobile. Bubbles may depart the fluid at a smaller size, carrying a high internal pressure, and being likely to rupture and disperse into solution.
 
-Despite these benefits, the subteam believes the fluidized bed reactor may still be more effective, because a large number of sand grains may provide a greater surface area for bubbles to form than individual, vertical plates. The subteam intends to first design and fabricate a prototype fluidized bed reactor and to evaluate its feasibility as a solution. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merits of both designs [merit of each design].
+Despite these benefits, the subteam believes the fluidized bed reactor may still be more effective, because a large number of sand grains may provide a greater surface area for bubbles to form than individual, vertical plates. The subteam intends to first design and fabricate a prototype fluidized bed reactor and to evaluate its feasibility as a solution. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merit of each design.
 
 The remainder of this report will include further explanation of concepts such as fluidized beds and considerations of pressure that will inform parameters of the reactor's design. The general design of the first prototype reactor that the subteam plans to fabricate will be discussed in the Future Work section.
 
@@ -77,7 +77,7 @@ Because of the reactor’s dependence on bubble formation, much of the subteam�
 
 Typically, small, solid particles can provide a place for bubbles to grow large enough so they rise to the top of the reactor and escape [(Boudreau et al., 2005)](https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments). Boudreau found that bubbles that form in sand-like sediments are spherical, in contrast to the oblate spheroid-shaped bubbles that form in muddy sediments. His research suggests that the difference in shape is caused by the differences in responses to the stress of the materials; while mud fractures under stress, sand “acts fluidly or plastically in response to growth stresses.” This gives the subteam an idea of what type of materials to use in the reactor because the subteam needs the particles to have a fluid-like behavior.
 
-Bubble formation and size in gas-solid fluidized beds is fairly predictable at low gas velocities [(Harrison and Leung, 1961)](https://www.nature.com/articles/190433a0). However, Schulz states that this is not the case for liquid-solid fluidized beds: “In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.” [(Schulz, 2004)](https://www.opuscula.agh.edu.pl/vol24/1/art/opuscula_math_2412.pdf). This [instability] could cause problems for the subteam, but luckily there are solutions to commonly reported issues.
+Bubble formation and size in gas-solid fluidized beds is fairly predictable at low gas velocities [(Harrison and Leung, 1961)](https://www.nature.com/articles/190433a0). However, Schulz states that this is not the case for liquid-solid fluidized beds: “In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.” [(Schulz, 2004)](https://www.opuscula.agh.edu.pl/vol24/1/art/opuscula_math_2412.pdf). This instability could cause problems for the subteam, but luckily there are solutions to commonly reported issues.
 
 If bubble formation is slow or inconsistent, it may be due to the ratio between the density of the particles and the density of water. Schulz found that bubble formation was present in fluidized beds with high ratios, so the subteam may want to consider using denser particles if problems arise.
 
@@ -144,7 +144,7 @@ $\rho$ = Density of water
 $\Delta P$ = Change in pressure across the pipe
 $g$ = Acceleration due to gravity
 
-Second, a bubble’s pressure can be expressed as a function of its diameter [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html). As pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size [(Han, M., 2002)](https://doi.org/10.2166/ws.2002.0148). The relationship between pressure, surface tension, and bubble radius is given below:
+Second, a bubble’s pressure can be expressed as a function of its diameter [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html). As pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size [(Han, M., 2002)](https://doi.org/10.2166/ws.2002.0148). The relationship between pressure, surface tension, and bubble radius is shown by the following equation:
 
 $$P_i = P_o + 4 \frac{T}{R}$$
 <p style="text-align: center;">
@@ -162,7 +162,7 @@ $R$ = Bubble radius
 
 </p>
 
-**Figure 4**: The above diagram shows the descriptions of surface tension, pressure inside the bubble, and pressure outside the bubble for the given equation [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
+**Figure 4**: This diagram shows the descriptions of surface tension, pressure inside the bubble, and pressure outside the bubble for the given equation [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
 
 The dissolved gas subteam plans on using the principles of this formula to even further decrease the pressure inside the bubble. Because it is known that an increase in radius will result in a decrease in pressure, the subteam must find a way to increase bubble radius.
 
@@ -197,7 +197,15 @@ $$\Delta P = \rho g \Delta h$$
 Equation 3
 </p>
 
-In Equation 3, the difference in pressure is that between atmospheric pressure (i.e. the pressure at the vent) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_{atm}$ (i.e. pressure in the reactor minus atmospheric pressure), this equation may be rearranged into $P_r = P_{atm} - \rho g \Delta h $. The final term of this equation was negated to indicate that, while $\Delta h$ increases in magnitude, the pressure in the reactor decreases. [**CEO: check equations formatting here**]
+In Equation 3, the difference in pressure is that between atmospheric pressure (i.e. the pressure at the vent) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_{atm}$ (i.e. pressure in the reactor minus atmospheric pressure), this equation may be rearranged into:
+
+$$P_r = P_{atm} - \rho g \Delta h $$
+<p style="text-align: center;">
+Equation 3.1
+</p>
+
+
+The final term of this equation was negated to indicate that, while $\Delta h$ increases in magnitude, the pressure in the reactor decreases.
 
 Pressure difference due to head loss must also be taken into account, since it contributes to the pressure difference between the vent and the reactor.
 
@@ -208,7 +216,7 @@ Equation 5
 
 Similarly to Equation 3, the difference in pressure can be expanded to $P_r - P_{atm}$.
 
-These [**four**] equations may be combined and rearranged given their relabeled variables. The following relationship emerges to relate the solubility of the gas in the reactor to a bubble's radius, the height of the reactor, the water's surface tension, the dimensions of the effluent tubing, and the constant relevant to Henry's Law:
+These four equations may be combined and rearranged given their relabeled variables. The following relationship emerges to relate the solubility of the gas in the reactor to a bubble's radius, the height of the reactor, the water's surface tension, the dimensions of the effluent tubing, and the constant relevant to Henry's Law:
 
 $$C = k(\frac{4T}{R} + P_{atm} - \rho g \Delta h + \rho g h_f)$$
 <p style="text-align: center;">
@@ -228,13 +236,13 @@ $h_f$ = Head loss in the outlet tubing, as given in Equation 4
 
 Equation 7 mathematically summarizes the concepts addressed in the Literature Review section. In order to minimize gas solubility (and therefore, to maximize the amount of gas that is removed from influent water): the radii of bubbles that form must be maximized, the head loss in the exit tubing must be minimized, and the height difference between the reactor and vent must be maximized, within reason. Further considerations may arise when Equation 4 is substituted for the $h_f$ value.
 
-While Equation is powerful in its efficiency, it may only act as an approximation of the solubility of a gas in the fluidized bed reactor. Equations 2-6 assume equilibrium: that the rates of air shifting from liquid to gas phase and vice versa are equal. The system may not be in equilibrium while the reactor is in use. Therefore, Equation 7 remains only a qualitative description of the relationships between different system parameters. [**CEO: nice job including a shortcoming of these assumptions. This is always good to consider**]
+While Equation is powerful in its efficiency, it may only act as an approximation of the solubility of a gas in the fluidized bed reactor. Equations 2-6 assume equilibrium: that the rates of air shifting from liquid to gas phase and vice versa are equal. The system may not be in equilibrium while the reactor is in use. Therefore, Equation 7 remains only a qualitative description of the relationships between different system parameters.
 
 In the near future, the subteam will perform exact calculations and optimizations with these parameters in mind. Equation 7, supplemented by Equation 1 concerning fluidization velocity, will be instrumental in informing the subteam's fabrication of the prototype apparatus.
 
 ## Future Work
 
-Now that the subteam has a solid understanding of the grounding principles of fluidization and pressure, as well as Equation 7 as a guideline to optimize the system, the subteam will move on to focus on fabrication of a prototype system, followed by experimentation, evaluation, and iteration. [**CEO: good summary of the rest of your process**]
+Now that the subteam has a solid understanding of the grounding principles of fluidization and pressure, as well as Equation 7 as a guideline to optimize the system, the subteam will move on to focus on fabrication of a prototype system, followed by experimentation, evaluation, and iteration.
 
 The prototype design will align with that illustrated below in Figure 5. Exact parameters (such as the length of the reactor) will be calculated and measured in the coming days during the fabrication process.
 

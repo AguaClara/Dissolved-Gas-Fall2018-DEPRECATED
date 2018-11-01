@@ -241,7 +241,7 @@ If the design functions ideally, the effluent water will no longer contain exces
 
 [**CEO: when looking at bubble formation and gas concentrations are you considering that there will be relatively large concentrations of other gasses present or are you only supersaturating the water with oxygen?**]
 */Response:
-Although we will be observing bubble formation of Oxygen gas within our prototype reactor, we expect that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law and Pascal's Law, and the equations we put together to model solubility of gas are universal, so we expect that using oxygen will give us an accurate representation of the   
+Although we will be observing bubble formation of oxygen gas within our prototype reactor, we expect that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law and Pascal's Law, and the equations we put together to model gas solubility are universal, so we expect that oxygen will give us an accurate representation of the reactor's ability to remove any dissolved gas.
 /*
 
 When building the prototype, the subteam will look to minimize head loss, maximize bubble radius, and maximize the difference in depth between the reactor and the bucket. These parameters are illustrated in [Equation 7](#Equation-7), with the purpose of minimizing gas' solubility and therefore maximizing bubble formation within the reactor.

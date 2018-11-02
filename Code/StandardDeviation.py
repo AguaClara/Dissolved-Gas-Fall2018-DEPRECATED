@@ -16,7 +16,10 @@ for n in range(100):
     if item == "quit":
         break
     else:
-        values.append(float(item))
+        try:
+            values.append(float(item))
+        except:
+            print("It seems like you didn't input a number. Please try again!")
 
 total=0
 for n in range(len(values)):

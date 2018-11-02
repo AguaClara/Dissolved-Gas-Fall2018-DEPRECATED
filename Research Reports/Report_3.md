@@ -59,10 +59,6 @@ When a liquid or a gas is pumped through a granular solid at a certain velocity,
 
 $$ V_{minfl}= \frac{\phi^3 g D^2}{36kv(1-\phi)}(\frac{\rho_s}{\rho_w}-1) $$
 
-<p style="text-align: center;">
-Equation 1
-</p>
-
 **Variables**
 $V_{minfl}$ = Minimum approach velocity required to fluidize the sand bed
 $\phi$ = Porosity (Approximately 0.4 for uniform size media) (Note: porosity and voidage are equal quantities)
@@ -72,8 +68,6 @@ $k$ = Kozeny constant (approximately equal to 5 for most filtration conditions)
 $v$ = Kinematic viscosity of water
 $\rho_s$ = Density of sand particles
 $\rho_w$ = Density of water
-
-[Equation 1](#Equation-1)
 
 In the reactor the subteam plans to use, sand will serve as the granular solid and water as the fluid. Water has a known density and kinematic viscosity, but the material properties of sand may vary. The subteam will determine these quantities in the near future.
 
@@ -92,10 +86,9 @@ The solubility of a gas in a solution is directly proportional to its partial pr
 
 A formula that illustrates this relationship is Henry's Law, given below.
 
+#### Equation 2
+
 $$ C=k P $$
-<p style="text-align: center;">
-Equation 2
-</p>
 
 **Variables**
 $C$ = Dissolved gas’s concentration at equilibrium
@@ -106,10 +99,9 @@ Therefore, in order to decrease gas's solubility inside of the reactor, the subt
 
 The first of these components is the water pressure at the site of bubble formation. As the height difference between the fluidized bed and the vent changes, the water pressure changes, given by the following relation [(Hodanbosi)](https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html).
 
+#### Equation 3
+
 $$\Delta P = \rho g \Delta h$$
-<p style="text-align: center;">
-Equation 3
-</p>
 
 **Variables**
 $\Delta P$ = Change in pressure
@@ -121,10 +113,9 @@ Because water pressure decreases in shallower depths, building a reactor at a ce
 
 Another factor that influences the pressure difference between the reactor and the vent is that of *head loss*; head loss corresponds to energy lost due to friction, which in turn depends on material properties of the piping [(CodeCogs, 2012)](http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php). In this case, the relevant piping is the effluent pipe through which water exits the reactor and passes into the vent. Head loss is dependent on tubing parameters according to the following equation [(Weber-Shirk)](https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf).
 
+#### Equation 4
+
  $$ h_f = \frac{32\mu L V}{\rho g D^2} $$
-<p style="text-align: center;">
-Equation 4
-</p>
 
 **Variables**
 $h_f$ = Head loss
@@ -135,25 +126,23 @@ $\rho$ = Density of water
 $D$ =Diameter of the pipe in question
 $V$ = Velocity of water in the pipe
 
-Building off Equation 4, the pressure difference between two ends of a pipe due to head loss is given by the following equation [(Brown, 2000)](https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm).
+Building off [Equation 4](#Equation-4), the pressure difference between two ends of a pipe due to head loss is given by the following equation [(Brown, 2000)](https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm).
+
+#### Equation 5
 
 $$\Delta P =  \rho  g h_f$$
-<p style="text-align: center;">
-Equation 5
-</p>
 
 **Variables**
-$h_f$ = Head loss in a pipe, as given in Equation 4
+$h_f$ = Head loss in a pipe, as given in [Equation 4](#Equation-4)
 $\rho$ = Density of water
 $\Delta P$ = Change in pressure across the pipe
 $g$ = Acceleration due to gravity
 
 Second, a bubble’s pressure can be expressed as a function of its diameter [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html). As pressure increases, bubble size decreases. However, once the pressure exceeds 3.5 atmospheres, the bubbles will stop decreasing in size [(Han, M., 2002)](https://doi.org/10.2166/ws.2002.0148). The relationship between pressure, surface tension, and bubble radius is shown by the following equation:
 
+#### Equation 6
+
 $$P_i = P_o + 4 \frac{T}{R}$$
-<p style="text-align: center;">
-Equation 6
-</p>
 
 **Variables**
 $P_i$ = Pressure inside the bubble
@@ -177,55 +166,40 @@ In the Analysis section, Equations 2-6 are evaluated and related to one another 
 ## Analysis
 Through conceptual analysis and algebraic manipulation, Equations 2-6 combine to form an estimation of a gas’ solubility in water in an apparatus as illustrated in Figure 1. The following paragraphs walk through this process; all variables have been defined in the Literature Review section.
 
-The pressure relevant to Henry's Law (i.e. the pressure of a gas above a liquid, in Equation 2) is the pressure *within* a bubble [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
+The pressure relevant to Henry's Law (i.e. the pressure of a gas above a liquid, in [Equation 2](#Equation-2)) is the pressure *within* a bubble [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
 $$ C = k P $$
-<p style="text-align: center;">
-Equation 2
-</p>
 
 $P$ equates to the gas pressure within a bubble. Therefore, $P$ is relabeled as $P_b$ (i.e. pressure in a bubble).
 
-As shown in Equation 6, the pressure within a bubble is directly related to the bubble's radius, the liquid's surface tension, and the pressure outside the bubble [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
+As shown in [Equation 6](#Equation-6), the pressure within a bubble is directly related to the bubble's radius, the liquid's surface tension, and the pressure outside the bubble [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
 
 $$P_i = P_o + 4 \frac{T}{R}$$
-<p style="text-align: center;">
-Equation 6
-</p>
 
 $P_i$ denotes the pressure within a bubble, and therefore is relabeled as $P_b$. $P_o$ denotes the pressure outside of the bubble, and is relabeled $P_r$.
 
-The pressure outside of the bubble (i.e. the pressure within the liquid) can be equated to atmospheric pressure plus a change in pressure due to the height difference between the reactor and the vent (Equation 3), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent (Equation 5).
+The pressure outside of the bubble (i.e. the pressure within the liquid) can be equated to atmospheric pressure plus a change in pressure due to the height difference between the reactor and the vent ([Equation 3](#Equation-3)), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent ([Equation 5](#Equation-5)).
 
 $$\Delta P = \rho g \Delta h$$
-<p style="text-align: center;">
-Equation 3
-</p>
 
-In Equation 3, the difference in pressure is that between atmospheric pressure (i.e. the pressure at the vent) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_{atm}$ (i.e. pressure in the reactor minus atmospheric pressure), this equation may be rearranged into:
+In [Equation 3](#Equation-3), the difference in pressure is that between atmospheric pressure (i.e. the pressure at the vent) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_{atm}$ (i.e. pressure in the reactor minus atmospheric pressure), this equation may be rearranged into:
+
+#### Equation 3.1
 
 $$P_r = P_{atm} - \rho g \Delta h $$
-<p style="text-align: center;">
-Equation 3.1
-</p>
-
 
 The final term of this equation was negated to indicate that, while $\Delta h$ increases in magnitude, the pressure in the reactor decreases.
 
 Pressure difference due to head loss must also be taken into account, since it contributes to the pressure difference between the vent and the reactor.
 
 $$\Delta P =  \rho  g h_f$$
-<p style="text-align: center;">
-Equation 5
-</p>
 
-Similarly to Equation 3, the difference in pressure can be expanded to $P_r - P_{atm}$.
+Similarly to [Equation 3](#Equation-3), the difference in pressure can be expanded to $P_r - P_{atm}$.
 
 These four equations may be combined and rearranged given their relabeled variables. The following relationship emerges to relate the solubility of the gas in the reactor to a bubble's radius, the height of the reactor, the water's surface tension, the dimensions of the effluent tubing, and the constant relevant to Henry's Law:
 
+#### Equation 7
+
 $$C = k(\frac{4T}{R} + P_{atm} - \rho g \Delta h + \rho g h_f)$$
-<p style="text-align: center;">
-Equation 7
-</p>
 
 **Variables**
 $C$ = Solubility of a gas in the water
@@ -236,17 +210,17 @@ $P_{atm}$= Atmospheric air pressure at the level of the vent
 $⍴$ = Density of water
 $g$ = Acceleration due to gravity
 $\Delta h$ = Height difference between the vent and the reactor (this is a negative quantity)
-$h_f$ = Head loss in the outlet tubing, as given in Equation 4
+$h_f$ = Head loss in the outlet tubing, as given in [Equation 4](#Equation-4)
 
-Equation 7 mathematically summarizes the concepts addressed in the Literature Review section. In order to minimize gas solubility (and therefore, to maximize the amount of gas that is removed from influent water): the radii of bubbles that form must be maximized, the head loss in the exit tubing must be minimized, and the height difference between the reactor and vent must be maximized, within reason. Further considerations may arise when Equation 4 is substituted for the $h_f$ value.
+[Equation 7](#Equation-7) mathematically summarizes the concepts addressed in the Literature Review section. In order to minimize gas solubility (and therefore, to maximize the amount of gas that is removed from influent water): the radii of bubbles that form must be maximized, the head loss in the exit tubing must be minimized, and the height difference between the reactor and vent must be maximized, within reason. Further considerations may arise when [Equation 4](#Equation-4) is substituted for the $h_f$ value.
 
-While Equation is powerful in its efficiency, it may only act as an approximation of the solubility of a gas in the fluidized bed reactor. Equations 2-6 assume equilibrium: that the rates of air shifting from liquid to gas phase and vice versa are equal. The system may not be in equilibrium while the reactor is in use. Therefore, Equation 7 remains only a qualitative description of the relationships between different system parameters.
+While Equation is powerful in its efficiency, it may only act as an approximation of the solubility of a gas in the fluidized bed reactor. Equations 2-6 assume equilibrium: that the rates of air shifting from liquid to gas phase and vice versa are equal. The system may not be in equilibrium while the reactor is in use. Therefore, [Equation 7](#Equation-7) remains only a qualitative description of the relationships between different system parameters.
 
-In the near future, the subteam will perform exact calculations and optimizations with these parameters in mind. Equation 7, supplemented by Equation 1 concerning fluidization velocity, will be instrumental in informing the subteam's fabrication of the prototype apparatus.
+In the near future, the subteam will perform exact calculations and optimizations with these parameters in mind. [Equation 7](#Equation-7), supplemented by [Equation 1](#Equation-1) concerning fluidization velocity, will be instrumental in informing the subteam's fabrication of the prototype apparatus.
 
 ## Future Work
 
-Now that the subteam has a solid understanding of the grounding principles of fluidization and pressure, as well as Equation 7 as a guideline to optimize the system, the subteam will move on to focus on fabrication of a prototype system, followed by experimentation, evaluation, and iteration.
+Now that the subteam has a solid understanding of the grounding principles of fluidization and pressure, as well as [Equation 7](#Equation-7) as a guideline to optimize the system, the subteam will move on to focus on fabrication of a prototype system, followed by experimentation, evaluation, and iteration.
 
 The prototype design will align with that illustrated below in Figure 5. Exact parameters (such as the length of the reactor) will be calculated and measured in the coming days during the fabrication process.
 
@@ -266,12 +240,11 @@ One should note that a mesh will be installed at the bottom of the reactor to pr
 If the design functions ideally, the effluent water will no longer contain excess dissolved gas. [**CEO: have you defined a way to characterize excess? Are there any measurements from plants about the gas concentrations in the afffected plants? This could give you a good place to define a more specific goal**] The subteam will test the functionality of the prototype in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, whether bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove dissolved gas from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. With such data, the subteam will then modify the system as necessary to optimize the amount of dissolved gas that is removed.
 
 [**CEO: when looking at bubble formation and gas concentrations are you considering that there will be relatively large concentrations of other gasses present or are you only supersaturating the water with oxygen?**]
-
-*/
-Although we will be observing bubble formation of
+*/Response:
+Although we will be observing bubble formation of oxygen gas within our prototype reactor, we expect that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law and Pascal's Law, and the equations we put together to model gas solubility are universal, so we expect that oxygen will give us an accurate representation of the reactor's ability to remove any dissolved gas.
 /*
 
-When building the prototype, the subteam will look to minimize head loss, maximize bubble radius, and maximize the difference in depth between the reactor and the bucket. These parameters are illustrated in Equation 7, with the purpose of minimizing gas' solubility and therefore maximizing bubble formation within the reactor.
+When building the prototype, the subteam will look to minimize head loss, maximize bubble radius, and maximize the difference in depth between the reactor and the bucket. These parameters are illustrated in [Equation 7](#Equation-7), with the purpose of minimizing gas' solubility and therefore maximizing bubble formation within the reactor.
 
 The subteam looks forward to fabrication and experimentation, and hopefully to restoring the efficiency of AguaClara’s water treatment plants.  
 

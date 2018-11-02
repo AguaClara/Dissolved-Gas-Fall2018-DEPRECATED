@@ -8,14 +8,16 @@ Department of Chemical Engineering. (2017, February). *Fluidization: A Unit Oper
 $$ \epsilon=\frac{V_t-V_p}{V_t} $$
 $$ \epsilon=1-\frac{m}{\rho_p A H} $$
 $\rho_p =$ density of particles
+
+- The subteam will likely be using Silica sand, which has a density of approximately 2650 kg/m^3.  
+
+
 $m =$ the total mass of the particles in the bed
-$\epsilon =$ the porosity of the bed (aka. the bed voidage)
-$V_t = AH$
-$V_t =$ total volume of the bed
-$V_p = AH(1-\epsilon)$
-$V_p =$ total volume of particles within the fluidized bed
 $A =$ the cross sectional area of the tube
 $H =$ the height of the bed
+$\epsilon =$ the porosity of the bed (aka. the bed voidage)
+$V_t =$ total volume of the bed $= AH$
+$V_p =$ total volume of particles within the fluidized bed $= AH(1-\epsilon)$
 
 This source contains information relating to the minimum fluidization velocity required to fluidized a bed of particles. We will use this information to determine the minimum velocity of influent water in order to fluidize the sand bed in our fluidized bed reactor.
 

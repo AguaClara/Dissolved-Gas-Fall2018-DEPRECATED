@@ -2,7 +2,7 @@
 
 # In this file, the code requests porosity as an input, rather than the mass of sand, height of the bed, and the mass of the sand in the bed.
 
-# This code makes use of aide_design, a package provided by AguaClara Cornell.
+# This code makes use of aide_design, a package provided by AguaClara Cornell
 
 # Assumptions: All input values are real numbers.
 
@@ -24,7 +24,7 @@ diameter = float(input("What is the average diameter of the sand grains, in unit
 
 
 g = 9.8 *u.m/(u.s**2)
-kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
+kozeny = 5 #This is an approximate value, suggested by Fluidization. Source 4
 viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?\n"))*u.mm**2/u.s
 
 # The following variable definitions are based off those in the equation in Fluidization Source 4.

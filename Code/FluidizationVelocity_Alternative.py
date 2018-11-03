@@ -14,18 +14,18 @@ from aide_design.play import*
 
 # The following code, determining the bed's minimum flow for fluidization, adheres to the equation in Source 4 in the Fluidization page of the Literature folder (i.e. Fluidization Source 4). The code requests the reactor's cross sectional area in order to calculate the fluidization flow rate at the end of the script.
 
-area_reactor = float(input("What is the cross sectional area of the fluidized bed reactor, in units of millimeters squared?"))*u.mm**2
-porosity = float(input("What is the porosity of the sand bed?"))
+area_reactor = float(input("\nWhat is the cross sectional area of the fluidized bed reactor, in units of millimeters squared?\n"))*u.mm**2
+porosity = float(input("What is the porosity of the sand bed?\n"))
 
-density_sand = float(input("What is the density of the sand, in units of kilograms per cubic meter?"))*u.kg/(u.m**3)
+density_sand = float(input("What is the density of the sand, in units of kilograms per cubic meter?\n"))*u.kg/(u.m**3)
 density_water = 997*u.kg/(u.m**3)
 
-diameter = float(input("What is the average diameter of the sand grains, in units of millimeters?")) * u.mm
+diameter = float(input("What is the average diameter of the sand grains, in units of millimeters?\n")) * u.mm
 
 
 g = 9.8 *u.m/(u.s**2)
 kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
-viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?"))*u.mm**2/u.s
+viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?\n"))*u.mm**2/u.s
 
 # The following variable definitions are based off those in the squation in Fluidization Source 4.
 
@@ -37,5 +37,5 @@ fluidization_velocity = fluidization_velocity_FirstTerm * fluidization_velocity_
 
 fluidization_flow = fluidization_velocity * area_reactor * (0.001*u.mL)/(1*u.mm**3)
 
-print("The fluidization velocity is "+ str(ut.sig(fluidization_velocity,3))+".")
-print("The fluidization flow is "+ str(ut.sig(fluidization_flow,3))+".")
+print("\nThe reactor's fluidization velocity is "+ str(ut.sig(fluidization_velocity,3))+".")
+print("The reactor's fluidization flow is "+ str(ut.sig(fluidization_flow,3))+".")

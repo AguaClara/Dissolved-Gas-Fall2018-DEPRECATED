@@ -27,7 +27,7 @@ g = 9.8 *u.m/(u.s**2)
 kozeny = 5 #This is an approximate value, suggested by Fluidization Source 4
 viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?\n"))*u.mm**2/u.s
 
-# The following variable definitions are based off those in the squation in Fluidization Source 4.
+# The following variable definitions are based off those in the equation in Fluidization Source 4.
 
 fluidization_velocity_FirstTerm = (porosity**3 * g * (diameter)**2)/(36*kozeny*(viscosity)*(1-porosity))
 

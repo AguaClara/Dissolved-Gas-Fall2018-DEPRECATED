@@ -9,11 +9,11 @@ import aide_design as ad
 from aide_design import utility as ut
 from aide_design.play import*
 
-print("\n"+"Please input only real numbers; make sure the list is at least two items long! If you're done inputting your list, enter type 'done'."+"\n")
+print("\n"+"Please input only real numbers; make sure the list is at least two items long! If you're done inputting your list, just type 'done'."+"\n")
 values = []
 item = "blank"
 for n in range(100):
-    item = input("What item would you like to add to the list?" +"\n")
+    item = input("What number would you like to add to the list?" +"\n")
     if item == "done":
         break
     else:
@@ -34,5 +34,4 @@ for n in range(len(values)):
 
 standard_deviation = math.sqrt(numerator / (len(values)-1))
 
-print("The standard deviation in your list is " + str(ut.sig(standard_deviation, 3))+'.')
-print("The average value in your list is " + str(ut.sig(average, 3))+".")
+print("The list you've entered has an average value of " + str(ut.sig(average, 3)) +", with a standard deviation of "+ str(ut.sig(standard_deviation, 3))+'.')

@@ -61,7 +61,7 @@ $\rho_w =$ density of water
 $\rho_s =$ density of sand particles
 $v =$ kinematic viscosity
 
-$\rho_{SilicaSand} =$ 2650 $kg/m^3$
+$\rho_{SilicaSand} = 2650 kg/m^3$
 
 ## Source 5: Densities of Materials
 #### Citation

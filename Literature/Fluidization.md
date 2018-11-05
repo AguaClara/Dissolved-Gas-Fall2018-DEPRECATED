@@ -61,6 +61,8 @@ $\rho_w =$ density of water
 $\rho_s =$ density of sand particles
 $v =$ kinematic viscosity
 
+$\rho_{SilicaSand} =$ 2650 $kg/m^3$
+
 ## Source 5: Densities of Materials
 #### Citation
 Engineering Toolbox. (2010). *Dirt and Mud - Densities.* Retrieved October 5, 2018, from https://www.engineeringtoolbox.com/dirt-mud-densities-d_1727.html

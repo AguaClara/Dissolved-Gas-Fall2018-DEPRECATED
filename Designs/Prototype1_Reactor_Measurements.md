@@ -112,5 +112,7 @@ The percent difference between the calculated, inner, cross-sectional area of th
 
 The overall average cross-sectional area of the pipe is **mm^2**, with a standard deviation of **mm^2**.
 
-## Fluidization Velocity | Official Prototype 1
+## Fluidization flow | Official Prototype 1
 Using the code FluidizationVelocity.py, the following fluidization flow was calculated for the Official Prototype 1 reactor:
+
+This value will be compared with the qualitatively determined fluidization velocity for the prototype once it is constructed. 

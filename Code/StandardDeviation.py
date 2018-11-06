@@ -34,4 +34,4 @@ for n in range(len(values)):
 
 standard_deviation = math.sqrt(numerator / (len(values)-1))
 
-print("The list you've entered has an average value of " + str(ut.sig(average, 3)) +", with a standard deviation of "+ str(ut.sig(standard_deviation, 3))+'.')
+print("The list you've entered has an average value of " + str(ut.sig(average, 4)) +", with a standard deviation of "+ str(ut.sig(standard_deviation, 4))+'.')

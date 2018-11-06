@@ -1,6 +1,6 @@
 # Python code for the minimum fluidization flow rate of the prototype fluidized bed reactor.
 
-# In this file, the code requests porosity as an input, rather than the mass of sand, height of the bed, and the mass of the sand in the bed.
+# This code assumes the user knows the porosity of the sand used in the fluidized bed. 
 
 # This code makes use of aide_design, a package provided by AguaClara Cornell
 

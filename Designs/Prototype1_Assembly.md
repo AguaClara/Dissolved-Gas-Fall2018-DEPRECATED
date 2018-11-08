@@ -29,6 +29,6 @@ The 1 inch diameter PVC pipe that the subteam is using for the reactor is labele
 The subteam acquired 3/16 diameter clear flex tubing for the influent and effluent tubing.
 | | Saint Gobain part number | Inner Diameter | Outer diameter | Wall thickness | Minimum bend radius | Max working pressure at 73F | Max working pressure at 160F |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| TYGON SE 200 tubing | AJD00012 | 3/16" | 5/16" | 1/16" | 1 1/2" | 75 psi | 38 psi |   Barbed fittings will be placed on each end of the tubes to connect the tubing to the reactor.
+| TYGON SE 200 tubing | AJD00012 | 3/16" | 5/16" | 1/16" | 1 1/2" | 75 psi | 38 psi |
 
-AJD00012 3/16 5/16 1/16 50 1-1/2 75 38
+Barbed fittings will be placed on each end of the tubes to connect the tubing to the reactor.

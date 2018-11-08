@@ -51,10 +51,10 @@ Height of the reactor above the vent: $h_t =$
 1. Reactor (pipe)
 2. Tubing
 3. End caps for reactor
-4. Valve for single-direction flow
-5. Flow accumulator
+4. Valve for single-direction flow: this is not necessary; the subteam will be using mesh to prevent outflow of sand from the reactor
+5. Flow accumulator: this may not be necessary
 6. Bucket/vent
 7. Sand
 8. DO Meter (s)
 9. Water heater
-10. Method to fasten reactor to a vertically-adjustable metal arm
+10. Method to fasten reactor to a vertically-adjustable metal arm: the subteam will use metal clamps

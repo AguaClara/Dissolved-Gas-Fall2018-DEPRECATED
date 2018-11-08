@@ -32,17 +32,17 @@ The following measurements were made using a caliper; the sand is Silica sand, a
 The average measured diameter of the sand grains is 0.91mm, with a standard deviation of 0.21mm. This was calculated using the StandardDeviation.py code.
 
 | Sand grain | Measurement 1 (mm)| Measurement 2 (mm) | Measurement 3 (mm)|
-|:----------:|:-------------:|:-------------:|:-------------:|
-|1           |0.69           |0.84           |1.08           |
-|2           |1.33           |0.85           |1.31           |
-|3           |1.13           |1.32           |0.90           |
-|4           |1.20           |1.17           |0.86           |
-|5           |0.98           |0.79           |0.77           |
-|6           |0.71           |0.73           |0.72           |
-|7           |1.00           |0.78           |0.82           |
-|8           |0.76           |0.92           |0.70           |
-|9           |0.69           |0.70           |0.76           |
-|10          |0.91           |0.74           |1.10           |
+|:----------:|:------------:|:------------:|:------------:|
+|1           |0.69          |0.84          |1.08          |
+|2           |1.33          |0.85          |1.31          |
+|3           |1.13          |1.32          |0.90          |
+|4           |1.20          |1.17          |0.86          |
+|5           |0.98          |0.79          |0.77          |
+|6           |0.71          |0.73          |0.72          |
+|7           |1.00          |0.78          |0.82          |
+|8           |0.76          |0.92          |0.70          |
+|9           |0.69          |0.70          |0.76          |
+|10          |0.91          |0.74          |1.10          |
 
 ##Porosity of the Silica sand
 According to Fluidization Source 4, the density of silica sand is 2650kg/m^3. The porosity of this sand, which will serve as the fluidized agent in the reactor, will be calculated using the following equation from Fluidization Source 1. According to Fluidization Source 4, the porosity of the silica should approximately be 0.4.
@@ -112,19 +112,19 @@ The inner diameter of the pipe is calculated by subtracting twice the thickness 
 
 #### Influent side
 | Measurement | Thickness of Pipe Wall| Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm^2) |
-|:--:|:--:|:--:|:--:|:--:|
-| 1  |  4.35  | 33.54   | 24.84   | 484.6   |
-| 2  |  4.39  | 33.36   |  24.58  | 474.5   |
-| 3  |  4.40  |  33.46  |  24.66  | 477.6   |
+|:-:|:--:|:--:|:--:|:--:|
+| 1 |  4.35  | 33.54   | 24.84   | 484.6   |
+| 2 |  4.39  | 33.36   |  24.58  | 474.5   |
+| 3 |  4.40  | 33.46  |  24.66  | 477.6   |
 | Average|4.38| 33.45   |  24.69  | 478.9   |
 
 #### Effluent side
 | Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm^2) |
-|:--:|:--:|:--:|:--:|:--:|
-| 1           | 4.26                   |  33.66         |25.14                      |496.4                                         |
-| 2           | 4.67                   |          33.44 |24.10                      |456.2                                         |
-| 3           | 4.20                   |          33.41 |25.01                      |491.3                                         |
-| Average     |4.38                    |          33.5  |24.75                      |481.3                                         |
+|:-------:|:----:|:-----:|:-----:|:-----:|
+|    1    | 4.26 | 33.66 | 25.14 | 496.4 |
+|    2    | 4.67 | 33.44 | 24.10 | 456.2 |
+|    3    | 4.20 | 33.41 | 25.01 | 491.3 |
+| Average | 4.38 | 33.5  | 24.75 | 481.3 |
 
 For clarification: the "outer diameter" includes the pipe's thickness, while the inner diameter does not.
 

@@ -97,11 +97,11 @@ Two flow components were acquired that allow tubing to be connected, air-tight, 
 
 **Figure 1**: The above flow component will be fastened at both ends of the pipe (the reactor) to allow tubing to be connected in an air-tight environment.
 
-A wire mesh was cut roughly circular so it would be flush between the bottom end of the pipe and the flow component, in order to keep sand from falling down/out of the reactor. This is shown in Figure 2.
+A wire mesh was cut roughly circular so it would be flush between the bottom end of the pipe (indicated with white tape) and the flow component, in order to keep sand from falling down/out of the reactor. This is shown in Figure 2.
 
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Mesh_1.jpg?raw=true" height=250>
 
-**Figure 2**: The above mesh will be set between the flow component and the bottom end of the reactor, preventing sand from fallling from the pipe.
+**Figure 2**: The above mesh will be set between the flow component and the bottom end of the reactor, preventing sand from falling from the pipe.
 
 **Pipe dimensions**
 The measured dimensions of the cut pipe are given  below. Measurements were taken using a caliper, in units of millimeters. Measurements were taken at both ends of the pipe.

@@ -8,18 +8,18 @@ This particular pipe may not be used for the actual reactor, but the data will b
 
 #### Side 1
 | Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm^2) |
-|:--:|:--:|:--:|:--:|:--:|
-| 1 | 3.96 | 33.39 | 25.47 | 509.5 |
-| 2 | 3.99 | 33.32 | 25.34 | 504.3 |
-| 3 | 4.16 | 33.38 | 25.06 | 493.2 |
+|:-------:|:----:|:-----:|:-----:|:-----:|
+|    1    | 3.96 | 33.39 | 25.47 | 509.5 |
+|    2    | 3.99 | 33.32 | 25.34 | 504.3 |
+|    3    | 4.16 | 33.38 | 25.06 | 493.2 |
 | Average | 4.04 | 33.36 | 25.29 | 502.3 |
 
 #### Side 2
 | Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm^2) |
-|:--:|:--:|:--:|:--:|:--:|
-| 1 | 4.08 | 33.30 | 25.14 | 496.4 |
-| 2 | 4.40 | 33.30 | 24.50 | 471.4 |
-| 3 | 4.05 | 33.39 | 25.29 | 502.3 |
+|:-------:|:--:|:--:|:--:|:--:|
+|    1    | 4.08 | 33.30 | 25.14 | 496.4 |
+|    2    | 4.40 | 33.30 | 24.50 | 471.4 |
+|    3    | 4.05 | 33.39 | 25.29 | 502.3 |
 | Average | 4.18 | 33.33 | 24.98 | 490.1 |
 
 The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is **2.46%**. The subteam believes this is an acceptable percent difference for the pipe to be a usable component for the prototype.
@@ -112,11 +112,11 @@ The inner diameter of the pipe is calculated by subtracting twice the thickness 
 
 #### Influent side
 | Measurement | Thickness of Pipe Wall| Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm^2) |
-|:-:|:--:|:--:|:--:|:--:|
-| 1 |  4.35  | 33.54   | 24.84   | 484.6   |
-| 2 |  4.39  | 33.36   |  24.58  | 474.5   |
-| 3 |  4.40  | 33.46  |  24.66  | 477.6   |
-| Average|4.38| 33.45   |  24.69  | 478.9   |
+|:-------:|:----:|:-----:|:-----:|:-----:|
+|    1    | 4.35 | 33.54 | 24.84 | 484.6 |
+|    2    | 4.39 | 33.36 | 24.58 | 474.5 |
+|    3    | 4.40 | 33.46 | 24.66 | 477.6 |
+| Average | 4.38 | 33.45 | 24.69 | 478.9 |
 
 #### Effluent side
 | Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm^2) |

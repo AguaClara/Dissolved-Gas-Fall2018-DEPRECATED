@@ -36,3 +36,5 @@ The subteam acquired 3/16 diameter clear flex tubing for the influent and efflue
 | | Saint Gobain part number | Inner Diameter | Outer diameter | Wall thickness | Minimum bend radius | Max working pressure at 73F | Max working pressure at 160F |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | TYGON SE 200 tubing | AJD00012 | 3/16" | 5/16" | 1/16" | 1 1/2" | 75 psi | 38 psi |
+
+Effluent tubing is measured to have a length of approximately 240cm. The distance between the top of the reactor and the table is 221cm, and more length was added in case the height of the reactor needs to be increased. The tubing was secured to a light so that the minimum bend radius was greater than 1.5".

@@ -2,10 +2,26 @@
 
 ### Thomas Bradford, Karalyn Buhl, Isaac Singer
 
-### 26 October, 2018
+### 16 November, 2018
 
 ## Abstract
 Excess dissolved air in a water treatment plant’s influent water decreases the functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant through the use of a fluidized bed. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant.
+
+## Table of Contents
+- [Introduction](#Introduction) **Tommy's job**
+  - Move the Figure 5 to here
+  - Mention the general apparatus design
+  - We have an apparatus, and hope to begin experiments in the near future
+- [Literature Review](#Literature-Review)
+  - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-&-Bubble-Nucleation)
+  - [Controlling Pressure](#Controlling-Pressure)
+  - [Analysis of Literature](#Analysis-of-Literature)
+- [Methods](#Methods) **Kara**
+  - [Measurements](#Measurements)
+  - [Python Code](#Python-Code)
+  - [Apparatus Construction](#Apparatus-Construction)
+- [Future Work](#Future-Work) **Isaac's job**
+- [Manual](#Manual)
 
 ## Introduction
 Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. Excess gas causes bubbles to form in the sedimentation tank. These bubbles stick to flocks and rise, causing flocs that should settle to float and to continue into the remainder of the plant. In the plant's sand filter, gas bubbles form between sand particles and effectively clog the filter [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy this, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant, in order to preserve the efficiency of the water treatment process.
@@ -44,6 +60,8 @@ A vertical plate reactor consists of an enclosed reactor containing a series of 
 The subteam considered that the vertical plate reactor design has the potential benefit of keeping bubbles stationary while they grow and accumulate. In a fluidized bed reactor, bubbles may immediately travel upward once they form, since their formation site (sand grains) is mobile. Bubbles may depart the fluid at a smaller size, carrying a high internal pressure, and being likely to rupture and disperse into solution.
 
 Despite these benefits, the subteam believes the fluidized bed reactor may still be more effective, because a large number of sand grains may provide a greater surface area for bubbles to form than individual, vertical plates. The subteam intends to first design and fabricate a prototype fluidized bed reactor and to evaluate its feasibility as a solution. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merit of each design.
+
+**Tommy, edit this to include that we have already fabricated a prototype, instead of discussing Future Work**
 
 The remainder of this report will include further explanation of concepts such as fluidized beds and considerations of pressure that will inform parameters of the reactor's design. The general design of the first prototype reactor that the subteam plans to fabricate will be discussed in the Future Work section.
 
@@ -163,7 +181,7 @@ One way to increase radius may be to prevent the bubbles in the reactor from qui
 
 In the Analysis section, Equations 2-6 are evaluated and related to one another to form one basis for parameters of the system design. In the following weeks, the subteam plans to fabricate and test the effectiveness of a fluidized bed reactor whose parameters are informed by this basis.
 
-## Analysis
+### Analysis of Literature
 Through conceptual analysis and algebraic manipulation, Equations 2-6 combine to form an estimation of a gas’ solubility in water in an apparatus as illustrated in Figure 1. The following paragraphs walk through this process; all variables have been defined in the Literature Review section.
 
 The pressure relevant to Henry's Law (i.e. the pressure of a gas above a liquid, in [Equation 2](#Equation-2)) is the pressure *within* a bubble [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
@@ -218,10 +236,21 @@ While Equation is powerful in its efficiency, it may only act as an approximatio
 
 In the near future, the subteam will perform exact calculations and optimizations with these parameters in mind. [Equation 7](#Equation-7), supplemented by [Equation 1](#Equation-1) concerning fluidization velocity, will be instrumental in informing the subteam's fabrication of the prototype apparatus.
 
+## Methods
+
+### Measurements
+
+### Python Code
+
+### Apparatus Construction
+
+
 ## Future Work
 
 Now that the subteam has a solid understanding of the grounding principles of fluidization and pressure, as well as [Equation 7](#Equation-7) as a guideline to optimize the system, the subteam will move on to focus on fabrication of a prototype system, followed by experimentation, evaluation, and iteration.
-
+*/
+The subteam now has a prototype system assembled (with the exact parameters outlined in the [TODO- Make sure this is correct] Methods Section), but has encountered some errors in the system assembly which need to be corrected before moving on. The subteam will continue to troubleshoot and fix the current problems  and then initial tests have been run to ensure that the  will begin run tests to
+/*
 The prototype design will align with that illustrated below in Figure 5. Exact parameters (such as the length of the reactor) will be calculated and measured in the coming days during the fabrication process.
 
 [**CEO: How will you be supersaturating the influent? Include that here until your methods section is developed.**]
@@ -247,6 +276,8 @@ Although we will be observing bubble formation of oxygen gas within our prototyp
 When building the prototype, the subteam will look to minimize head loss, maximize bubble radius, and maximize the difference in depth between the reactor and the bucket. These parameters are illustrated in [Equation 7](#Equation-7), with the purpose of minimizing gas' solubility and therefore maximizing bubble formation within the reactor.
 
 The subteam looks forward to fabrication and experimentation, and hopefully to restoring the efficiency of AguaClara’s water treatment plants.  
+
+## Manual
 
 ## Bibliography
 Averill, B., & Eldredge, P. (n.d.). *Principles of General Chemistry* (Vol. 1). Creative Commons. Retrieved from https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html

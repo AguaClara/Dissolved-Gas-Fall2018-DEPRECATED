@@ -8,29 +8,27 @@
 Excess dissolved air in a water treatment plant’s influent water decreases the functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant through the use of a fluidized bed. The subteam will gather literature, develop designs, fabricate a small-scale prototype, and iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant.
 
 ## Table of Contents
-- [Introduction](#Introduction) **Tommy's job**
-  - Move the Figure 5 to here
-  - Mention the general apparatus design
-  - We have an apparatus, and hope to begin experiments in the near future
+- [Introduction](#Introduction)
 - [Literature Review](#Literature-Review)
   - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-&-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
   - [Analysis of Literature](#Analysis-of-Literature)
 - [Methods](#Methods) **Kara**
-  - [Measurements](#Measurements)
-  - [Python Code](#Python-Code)
-  - [Apparatus Construction](#Apparatus-Construction)
 - [Future Work](#Future-Work) **Isaac's job**
-- [Manual](#Manual)
+- [Bibliography](#Bibliography)
+- [Manual](#Manual) **All**
+  - [Experimental Methods](#Experimental-Methods)
+  - [Fabrication Details](#Fabrication-Details)
+  - [Python Code](#Python-Code)
 
 ## Introduction
-Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. Excess gas causes bubbles to form in the sedimentation tank. These bubbles stick to flocks and rise, causing flocs that should settle to float and to continue into the remainder of the plant. In the plant's sand filter, gas bubbles form between sand particles and effectively clog the filter [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy this, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant, in order to preserve the efficiency of the water treatment process.
+Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles.
 
-To clarify, “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles. Due to the presence of this excess gas, bubbles form in the plant's sedimentation tank and in its sand filter. For this reason, the subteam plans to remove the excess gas through the use of a reactor stationed prior to the plant.
+Due to the presence of this excess gas, bubbles form in the plants' sedimentation tanks. These bubbles stick to flocs and rise, causing materials that should settle to float and to continue into the remainder of the plant. Bubbles also form in the plants' sand filters between sand particles, effectively clogging the filters [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy these issues, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant.
 
-For the sake of efficiency, the term “supersaturated water” will be used in this report to reference water containing excess dissolved gas, whether air or otherwise.
+For the sake of efficiency, the term “supersaturated water” will be used in this report to denote water containing excess dissolved gas, whether air or otherwise.
 
-The basic conception of the system design is as follows: influent water will flow from its source at a high elevation. Once the influent water is near to the AguaClara plant, piping will direct it upwards into a reactor. Atmospheric pressure decreases as elevation increases [(Hodanbosi)](https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html). According to Henry’s Law, gas becomes less soluble at lower pressures, making bubble formation more likely [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html). Aspects of the reactor will further encourage bubble formation (a.k.a nucleation) in the reactor. The water, then containing gas bubbles, will flow upward and out of the reactor. Piping will direct the water downward into a basin containing a vent through which gas may exit the water. The water, no longer supersaturated, will then flow into the treatment plant. Figure 1 illustrates this general design.
+The basic concept of the system design is as follows. Influent water will flow from its source at a high elevation. Once the influent water is near to the AguaClara plant, piping will direct it upwards into a reactor. Atmospheric pressure decreases as elevation increases [(Hodanbosi)](https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html). According to Henry’s Law, gas becomes less soluble at lower pressures, making bubble formation more likely [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html). Aspects of the reactor will further encourage bubble formation (i.e. nucleation) in the reactor. The water, then containing gas bubbles, will flow upward and out of the reactor. Piping will direct the water downward into a basin containing a vent through which gas may exit the water. The water, no longer supersaturated, will then flow into the treatment plant. Figure 1 illustrates this general design.
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%201_%20GeneralUpdated.png?raw=true" height=450>
 </p>
@@ -48,7 +46,7 @@ A fluidized bed reactor consists of an enclosed reactor containing a suspension 
 
 **Figure 2**: The above diagram depicts (not to scale) the general concept of a fluidized bed reactor using sand particles, as the above paragraph describes.
 
-A vertical plate reactor consists of an enclosed reactor containing a series of parallel, vertically aligned, textured plates. Supersaturated water enters the bottom of the reactor and flows upward along the plates to reach the exit pipe. The texturization of the plates provides sites for bubbles to form while the water flows. In theory, after reaching a specific critical diameter, these bubbles detach from the plates and flow upwards as effluent. In the future, the subteam may investigate the mechanisms of bubble growth and detachment in the vertical plate reactor. Figure 3 illustrates this design.
+A vertical plate reactor consists of an enclosed reactor containing a series of parallel, vertically aligned, textured plates. Supersaturated water enters the bottom of the reactor and flows upward along the plates to reach the exit pipe. The texturization of the plates provides sites for bubbles to form (i.e. nucleation sites) while the water flows. In theory, after reaching a specific critical diameter, these bubbles detach from the plates and flow upwards as effluent. In the future, the subteam may investigate the mechanisms of bubble growth and detachment in the vertical plate reactor. Figure 3 illustrates this design.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure3_VerticalPlateReactor.png?raw=true" height=450>
@@ -57,13 +55,21 @@ A vertical plate reactor consists of an enclosed reactor containing a series of 
 
 **Figure 3**: The above diagram depicts (not to scale) the general concept of a vertical plate reactor, as the above paragraph describes. The plates, depicted by brown lines, extend outward from the plane of the page.
 
-The subteam considered that the vertical plate reactor design has the potential benefit of keeping bubbles stationary while they grow and accumulate. In a fluidized bed reactor, bubbles may immediately travel upward once they form, since their formation site (sand grains) is mobile. Bubbles may depart the fluid at a smaller size, carrying a high internal pressure, and being likely to rupture and disperse into solution.
+The subteam considered that the vertical plate reactor design has the potential benefit of keeping bubbles stationary while they grow and accumulate. In a fluidized bed reactor, bubbles may immediately travel upward once they form, since their nucleation sites (sand grains) are mobile. Bubbles may depart the fluid at a smaller size, carrying a high internal pressure, being likely to rupture and disperse into solution.
 
-Despite these benefits, the subteam believes the fluidized bed reactor may still be more effective, because a large number of sand grains may provide a greater surface area for bubbles to form than individual, vertical plates. The subteam intends to first design and fabricate a prototype fluidized bed reactor and to evaluate its feasibility as a solution. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merit of each design.
+Despite these potential issues, the subteam believes the fluidized bed reactor may still be more effective, because a large number of sand grains may provide a greater surface area for bubbles to form than individual, vertical plates. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merit of each design.
 
-**Tommy, edit this to include that we have already fabricated a prototype, instead of discussing Future Work**
+The subteam has recently fabricated a prototype fluidized bed reactor using a transparent PVC pipe, Silica sand, and basic flow components; the subteam has assembled a basic apparatus to resemble the design proposed in Figure 1. Photographs of this apparatus are shown in Figure 6; influent water passes in through a peristaltic pump and through tubing into a vertically oriented fluidized bed reactor, and out into a small bucket. Further details on this apparatus are given in the Methods and Manual sections of the report.  
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Photograph.jpg?raw=true" height = 520>
 
-The remainder of this report will include further explanation of concepts such as fluidized beds and considerations of pressure that will inform parameters of the reactor's design. The general design of the first prototype reactor that the subteam plans to fabricate will be discussed in the Future Work section.
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_PhotoDiagram.jpg?raw=true" height = 520>
+
+</p>
+
+**Figure 6**: The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (red arrow), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+
+The remainder of this report will include further explanation of concepts such as fluidized beds, considerations of pressure that informed parameters of the reactor's design, and details concerning the apparatus' fabrication. The experimental process the subteam hopes to pursue to evaluate the reactor's feasibility as a solution is discussed in the Future Work section.
 
 ## Literature Review
 
@@ -238,18 +244,15 @@ In the near future, the subteam will perform exact calculations and optimization
 
 ## Methods
 
-### Measurements
-
-### Python Code
-
-### Apparatus Construction
-
-
 ## Future Work
 
 Now that the subteam has a solid understanding of the grounding principles of fluidization and pressure, as well as [Equation 7](#Equation-7) as a guideline to optimize the system, the subteam will move on to focus on fabrication of a prototype system, followed by experimentation, evaluation, and iteration.
 */
-The subteam now has a prototype system assembled (with the exact parameters outlined in the [TODO- Make sure this is correct] Methods Section), but has encountered some errors in the system assembly which need to be corrected before moving on. The subteam will continue to troubleshoot and fix the current problems  and then initial tests have been run to ensure that the  will begin run tests to
+The subteam now has a prototype system assembled (with the exact parameters outlined in the Methods Section), but has encountered some errors in the system assembly which need to be corrected before moving on. The subteam will continue to troubleshoot and fix the current system failures, and once everything is running smoothly with all the required equipment, experimentation will ensue.
+
+Initially, the subteam experienced problems when attempting to fluidize the sand bed due to leaks at connection points in the influent piping. These leaks were fixed by inserting push-to-connect components, Barbed fittings, and water-tight teflon tape on each of the tubing connections.
+
+Next, the subteam discovered that in order to have the influent water move at the fluidization velocity in order to fluidize the sand bed, it will be necessary to acquire a 600 RPM peristaltic pump. Currently, there are no such pumps available for use. As a result, the subteam can either recreate the prototype system using a new tube of smaller diameter for the fluidized bed reactor, or
 /*
 The prototype design will align with that illustrated below in Figure 5. Exact parameters (such as the length of the reactor) will be calculated and measured in the coming days during the fabrication process.
 
@@ -273,11 +276,10 @@ If the design functions ideally, the effluent water will no longer contain exces
 Although we will be observing bubble formation of oxygen gas within our prototype reactor, we expect that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law and Pascal's Law, and the equations we put together to model gas solubility are universal, so we expect that oxygen will give us an accurate representation of the reactor's ability to remove any dissolved gas.
 /*
 
+
 When building the prototype, the subteam will look to minimize head loss, maximize bubble radius, and maximize the difference in depth between the reactor and the bucket. These parameters are illustrated in [Equation 7](#Equation-7), with the purpose of minimizing gas' solubility and therefore maximizing bubble formation within the reactor.
 
 The subteam looks forward to fabrication and experimentation, and hopefully to restoring the efficiency of AguaClara’s water treatment plants.  
-
-## Manual
 
 ## Bibliography
 Averill, B., & Eldredge, P. (n.d.). *Principles of General Chemistry* (Vol. 1). Creative Commons. Retrieved from https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html
@@ -307,3 +309,39 @@ Schulz, P. (2004). *Instability and the formation of bubbles and the plugs in fl
 Weber-Shirk, M. *Filtration Theory: On removing little particles with big particles* [PowerPoint Slides]. Retrieved from https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf.
 
 Weber-Shirk, M. *Flow Control and Measurement* [PowerPoint Slides]. Retrieved from https://courses.cit.cornell.edu/cee4540/pdf/Flow%20Control%20and%20Measurement.pdf.
+
+## Manual
+
+### Experimental Methods
+
+#### Determining Porosity
+In order to fabricate a viable prototype, the Dissolved Gas subteam needed to determine the appropriate fluidization velocity to suspend the sand in the reactor.
+
+The fluidization velocity of the sand is dependent on: the sand's density, the kinematic viscosity of water, the reactor's cross sectional area, the height of the sand bed, and the porosity of the sand bed, as stated in [Equation 1](#Equation-1).
+
+In order to determine the porosity of the sand bed, the Dissolved gas subteam needed to conduct an experiment. The following steps were be taken to determine porosity, adapted from Fabrication Source 1.
+
+1. Acquire silica sand from the AguaClara laboratory.
+2. Transfer the sand to a graduated cylinder to measure the volume of the sand, and record it exactly. This is the sample's volume. ($V_{sample}$)
+3. Measure an excess amount of water into a second graduated cylinder. Record this volume.
+4. Saturate the silica sand with water by pouring water into the sand bed until the top of the meniscus is level with the top of the sand bed.
+5. Subtract the volume of water used to saturate the sand from the starting volume of water in the cylinder. This shows how much water it took to saturate the sand. The volume of the water used is equal to the Pore Volume. ($V_{pore}$)
+6. Lastly, you can use the formula to find porosity ($\phi$):
+
+$$\phi = \frac{V_{pore}}{V_{sample}}$$
+
+This is equivalent to the formula given in Fluidization Source 1.
+
+The average calculated porosity of the silica sand is **0.35**, with a standard deviation of **0.0%**. These statistics were calculated using StandardDeviation.py in the subteam's Code folder.
+
+This has a percent difference of 0% compared to Fluidization Source 4's suggested value of 0.4 (when the calculated value is rounded to one significant figure). This is very encouraging!
+
+### Fabrication Details
+
+The subteam's first prototype is constructed wtih clear, 1" diameter PVC pipe.
+
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Sand.jpg?raw=true" height=450>
+
+</p>
+
+### Python Code

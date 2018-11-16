@@ -18,12 +18,12 @@ Details:
   - [Fluidized Beds and Bubble Formation](#Fluidized-Beds-&-Bubble-Nucleation)
   - [Controlling Pressure](#Controlling-Pressure)
   - [Analysis of Literature](#Analysis-of-Literature)
-- [Methods](#Methods) **Kara**
+- [Methods](#Methods)
   - [Determining Reactor Parameters](#Determining-Reactor-Parameters)
   - [Fabrication Details](#Fabrication-Details)
-- [Future Work](#Future-Work) **Isaac's job**
+- [Future Work](#Future-Work)
 - [Bibliography](#Bibliography)
-- [Manual](#Manual) **All**
+- [Manual](#Manual)
   - [Experimental Methods](#Experimental-Methods)
   - [Fabrication Details](#Fabrication-Manual)
   - [Python Code](#Python-Code)
@@ -66,7 +66,7 @@ The subteam considered that the vertical plate reactor design has the potential 
 
 Despite these potential issues, the subteam believes the fluidized bed reactor may still be more effective, because a large number of sand grains may provide a greater surface area for bubbles to form than individual, vertical plates. The subteam will consider the vertical plate reactor at a later time in the semester and will weigh the merit of each design.
 
-The subteam has recently fabricated a prototype fluidized bed reactor using a transparent PVC pipe, Silica sand, and basic flow components; the subteam has assembled a basic apparatus to resemble the design proposed in Figure 1. Photographs of this apparatus are shown in Figure 6; influent water passes in through a peristaltic pump and through tubing into a vertically oriented fluidized bed reactor, and out into a small bucket. Further details on this apparatus are given in the Methods and Manual sections of the report.  
+The subteam has recently fabricated a prototype fluidized bed reactor using a transparent PVC pipe, Silica sand, and basic flow components; the subteam has assembled a basic apparatus to resemble the design proposed in Figure 1. Photographs of this apparatus are shown in Figure 4z; influent water passes in through a peristaltic pump and through tubing into a vertically oriented fluidized bed reactor, and out into a small bucket. Further details on this apparatus are given in the Methods and Manual sections of the report.  
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Photograph.jpg?raw=true" height = 520>
 
@@ -74,7 +74,7 @@ The subteam has recently fabricated a prototype fluidized bed reactor using a tr
 
 </p>
 
-**Figure 6**: The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (red arrow), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+**Figure 4z**: The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (red arrow), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
 
 The remainder of this report will include further explanation of concepts such as fluidized beds, considerations of pressure that informed parameters of the reactor's design, and details concerning the apparatus' fabrication. The experimental process the subteam hopes to pursue to evaluate the reactor's feasibility as a solution is discussed in the Future Work section.
 
@@ -321,7 +321,7 @@ The measured dimensions of the cut pipe are given  below. Measurements were take
 
 This particular pipe was used for the first prototype reactor.
 
-The inner diameter of the pipe is calculated by subtracting twice the thickness of the pipe's wall from the pipe's outer diameter.
+The inner diameter of the pipe was calculated by subtracting twice the thickness of the pipe's wall from the pipe's outer diameter.
 
 ##### Influent side
 | Measurement | Thickness of Pipe Wall| Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm^2) |
@@ -341,9 +341,7 @@ The inner diameter of the pipe is calculated by subtracting twice the thickness 
 
 For clarification: the "outer diameter" includes the pipe's thickness, while the inner diameter does not.
 
-The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The subteam believes this is an acceptable percent difference for the pipe to be a usable component for the prototype.
-
-The overall average cross-sectional area of the pipe is 481.1mm^2, with a standard deviation of 1.697mm^2.
+The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1mm^2, with a standard deviation of 1.697mm^2.
 
 ### Fabrication Details
 
@@ -353,12 +351,23 @@ The subteam's first prototype is constructed wtih clear, 1 inch diameter PVC pip
 3. (White) Bottom / Influent end
 4. (Pink) Prototype 1
 
+A watertight flow connector shown in the following image are attached to either side of the PVC pipe to connect the influent and effluent tubing to the pipe.
+
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PipeConnector1.jpg?raw=true" height=250>
+
+**Figure 10** The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
+
+</p>
+
+The following image shows the disconnected reactor.
+
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Sand.jpg?raw=true" height=450>
 
 </p>
 
-**Figure 6** The photograph above is of the Prototype 1 reactor labeled with team members' names and with the appropriate influent (white) and effluent (red) tape labels. The Prototype 1 reactor contains a silica sand bed (indicated with a green circle in the figure), measured with a graduated cylinder.
+**Figure 7**: The photograph above is of the Prototype 1 reactor labeled with team members' names and with the appropriate influent (white) and effluent (red) tape labels. The Prototype 1 reactor contains a silica sand bed (indicated with a green circle in the figure), measured with a graduated cylinder.
 
 As previously stated, the pipe has an average cross-sectional area of the pipe is 481.1mm^2, with a standard deviation of 1.697mm^2. The reactor has a length of approximately 50cm, which was decided arbitrarily.
 
@@ -371,7 +380,7 @@ A fine, wire mesh was cut into a circle of approximately the same cross sectiona
 
 </p>
 
-**Figure __** The image on the left shows the mesh that is cut to the approzimate size of the pipe diameter. On the right, the image shows the mesh placed at the bottom of the reactor.
+**Figure 8** The image on the left shows the mesh that is cut to the approzimate size of the pipe diameter. On the right, the image shows the mesh placed at the bottom of the reactor.
 
 The Prototype 1 reactor contains 70 mL of silica sand measured with a graduated cylinder. The 70 mL volume was decided so that when the sand fluidized, it would not expand to be larger than the reactor. Dividing that volume of sand by the cross-sectional area of the reactor, which we determined to be 4.811 cm$^2$ (shown in our reactor measurements file), resulting in the height of the sand bed being approximately 15 cm.
 
@@ -384,9 +393,7 @@ The reactor is mounted above a table to an 80 20 with four metal hose clamps. Th
 
 </p>
 
-**Figure 6**
-
-Connectors are 
+**Figure 4z** 
 
 Currently, the subteam is using 3/8 inch diameter clear flex tubing to carry water from the sink to the peristaltic pump, 1/8" Masterflex tubing (06508-16) to fit in the peristaltic pump, and 3/16 inch diameter clear flex tubing for the influent and effluent tubing for the reactor. In order to prevent the effluent tubing from reaching its maximum bend radius, the tubing is taped to a nearby light fixture.
 
@@ -489,10 +496,36 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 
 ### Fabrication Manual
 
-Insert diagram and photo of prototype
-Insert list of materials needed
+**Materials required**
+1. PVC pipe of approximately 0.5m length, whose ends are labeled with opposing colors of tape, as shown in Figure 7. This is described further in the Measuring Pipe Dimensions section of the Manual.
+2. A fine wire mesh
+3. Approximately 70 mL of Silica sand, measured with a graduated cylinder.
+4. Circular clamps
+5. 3/16 inch diameter clear flex tubing
+6.  3/8 inch diameter clear flex tubing
+7. 1/8" Masterflex tubing (06508-16)
+8. Peristaltic pump
+9. Barbed fittings & push-to-connect components
+10. Access to a sink containing a push-to-connect nozzle
+11. A plastic bucket
+12. Two copies of the following pipe-tubing connector component:
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PipeConnector1.jpg?raw=true" height=250
+</p>
 
-(Consider adding information from the beginning of the Methods section)
+**Figure 9**: The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
+
+**Fabrication**
+1. Cut the wire mesh to obtain a circular mesh whose radius is approximately that of the pipe.
+2. Place the mesh at the bottom of the pipe reactor, at the side designated for influent to enter the pipe. Place this mesh into the flow component that from (11).
+3. Pour the 70 mL of sand into the pipe, such that it halts on the mesh.
+4. Fasten the second copy of the flow component from (11) to the effluent (top) end of the reactor.
+5. Mount the pipe on the 80/20 arm using circular clamps, screwed tight around the reactor.
+6. Connect 1/8" Masterflex tubing (06508-16) to the Peristaltic Pump.
+7. Connect 3/8" diameter clear flex tubing from the sink to the influent end of the Peristaltic Pump.
+8. Connect 3/16" diameter clear flex tubing from the effluent end of the peristaltic pump to the influent end of the reactor.
+9. Cut approximately 2.4 m of 3/16" diameter clear flex tubing. Connect this to the effluent (upper) end of the reactor, and lead it down into the bucket.
+
 
 ### Python Code
 ####Determining the Sand Bed's Fluidization Flow

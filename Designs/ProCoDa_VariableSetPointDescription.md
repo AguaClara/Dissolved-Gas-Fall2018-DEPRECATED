@@ -1,0 +1,17 @@
+#ProCoDa Method File
+
+##States
+- *OFF*: The peristaltic pump is off
+- *ON*: ???
+- *Running*: The peristaltic pump is running
+
+
+##Set Points
+- *OFF*:This setpoint is used to turn the peristaltic pump off.
+- *ON*: ????????
+- *PumpOutput*: This setpoint is used to turn on the peristaltic pump at the correct number of RPMs to achieve the desired flow rate, given the Tubing ID.
+
+
+##Variables
+- *FlowRate*: This variable is the
+- *TubingID*: This variable represents the ID associated with tubing being used, based on the diameter of the tubing

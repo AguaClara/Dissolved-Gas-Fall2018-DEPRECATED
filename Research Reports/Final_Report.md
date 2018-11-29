@@ -17,6 +17,9 @@ Excess dissolved air in a water treatment plant’s influent water decreases the
 - [Methods](#Methods)
   - [Determining Reactor Parameters](#Determining-Reactor-Parameters)
   - [Fabrication Details](#Fabrication-Details)
+- [Results](#Results)
+- [Analysis](#Analysis)
+- [Conclusions](#Conclusions)
 - [Future Work](#Future-Work)
 - [Bibliography](#Bibliography)
 - [Manual](#Manual)
@@ -248,7 +251,9 @@ While [Equation 7](#Equation-7) is powerful in its efficiency, it may only act a
 
 ## Methods
 
-Although the subteam has not yet begun experimentation, the methods of determining the reactor parameters and fabrication details are described in this section. [**reframe so more clear for a future reader**]
+In this section, the methods of determining the reactor's parameters and the details of fabrication can be found. The subteam needed to determine the porosity of the sand bed, the average dimensions of the sand grains, and the average cross sectional area of the pipe.
+
+The fabrication details section describes the composition of the reactor and how the subteam constructed the reactor.
 
 ### Determining Reactor Parameters
 
@@ -287,39 +292,12 @@ $V_{sample}$ = Volume of sand
 
 This is equivalent to the formula given by [University of Florida Dept of Chemical Engineering](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf).
 
-| Trial number | Measured volume of sand (mL) $(V_{sample})$ | Volume of water in cylinder (mL) |Volume of water remaining in cylinder after saturating sand (mL) | Pore Volume (mL) $(V_{pore})$| Calculated Porosity  ($\phi$) |
-|:-:|:--:|:---:|:---:|:--:|:----:|
-| 1 | 40 | 150 | 136 | 14 | 0.35 |
-| 2 | 40 | 150 | 136 | 14 | 0.35 |
-| 3 | 40 | 150 | 136 | 14 | 0.35 |
-**Table 1**: This table shows the data collected by the subteam to calculate the porosity of the sand bed.
-
-The average calculated porosity of the silica sand was 0.35, with a standard deviation of 0.0%. These statistics were calculated using StandardDeviation.py, code given in the Manual.
-
-This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 (when the calculated value is rounded to one significant figure).
-
 #### Determining Sand Grain Dimensions
 Fluidization velocity of a sand bed is also dependent on sand grain diameter. Although the sand used for the subteam's reactor was already sieved, there were some minor variations that were not yet taken into account.
 
-In order to determine the average size of the sand grains, ten random grains were measured 3 times by subteam members using a caliper. The ten sand grains were taken as a representative sample of the sand used in the reactor. The data is shown in the following table:
+In order to determine the average size of the sand grains, ten random grains were measured 3 times by subteam members using a caliper. The ten sand grains were taken as a representative sample of the sand used in the reactor. The data can be found in the results section.
 
-| Sand grain | Measurement 1 (mm)| Measurement 2 (mm) | Measurement 3 (mm)|
-|:-:|:----:|:----:|:----:|
-| 1 | 0.69 | 0.84 | 1.08 |
-| 2 | 1.33 | 0.85 | 1.31 |
-| 3 | 1.13 | 1.32 | 0.90 |
-| 4 | 1.20 | 1.17 | 0.86 |
-| 5 | 0.98 | 0.79 | 0.77 |
-| 6 | 0.71 | 0.73 | 0.72 |
-| 7 | 1.00 | 0.78 | 0.82 |
-| 8 | 0.76 | 0.92 | 0.70 |
-| 9 | 0.69 | 0.70 | 0.76 |
-|10 | 0.91 | 0.74 | 1.10 |
-**Table 2**: This table shows the sand dimensions measured by each subteam member.
-
-The average measured diameter of the sand grains was 0.91mm, with a standard deviation of 0.21mm. This was calculated using the StandardDeviation.py code given in the Manual.
-
-#### Determining the reactor's cross sectional area
+#### Determining the Reactor's Cross Sectional Area
 The subteam acquired a clear PVC pipe of approximate 1 inch diameter.
 
 After marking the pipe at approximately 50 cm in length with a permanent marker (the length was measured using measuring tape), the pipe was cut at that mark using a Sawzawll reciprocating saw. To maintain the correct orientation of the pipe, the subteam labeled the pipe with colored tape, with white tape denoting the bottom end (where the influent water will travel into the reactor) and red tape denoting the top (where the effluent water will leave the reactor).
@@ -328,25 +306,7 @@ The measured dimensions of the cut pipe are given in the following table. Measur
 
 This pipe was used as the main component of the prototype reactor.
 
-##### Influent side
-| Measurement | Thickness of Pipe Wall| Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm$^2$) |
-|:-------:|:----:|:-----:|:-----:|:-----:|
-|    1    | 4.35 | 33.54 | 24.84 | 484.6 |
-|    2    | 4.39 | 33.36 | 24.58 | 474.5 |
-|    3    | 4.40 | 33.46 | 24.66 | 477.6 |
-| Average | 4.38 | 33.45 | 24.69 | 478.9 |
-**Table 3**: This table shows the measured diameters of the influent side of the pipe. The table also shows the cross sectional area as well as average values.
-
-##### Effluent side
-| Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm$^2$) |
-|:-------:|:----:|:-----:|:-----:|:-----:|
-|    1    | 4.26 | 33.66 | 25.14 | 496.4 |
-|    2    | 4.67 | 33.44 | 24.10 | 456.2 |
-|    3    | 4.20 | 33.41 | 25.01 | 491.3 |
-| Average | 4.38 | 33.5  | 24.75 | 481.3 |
-**Table 4**: This table shows the average values of various dimensions of the pipe, the focus being the pipe's cross-sectional area.
-
-The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1mm$^2$, with a standard deviation of 1.697mm$^2$.
+A table of the collected data can be found in the results section.
 
 ### Fabrication Details
 
@@ -360,9 +320,6 @@ Two watertight flow connectors, shown in Figure 7, were attached to either side 
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PipeConnector1.jpg?raw=true" height=250>
-
-
-[**The bolding isn't showing up properly for me here and for Figure 8 but everything else is fine...**]
 
 **Figure 7**: The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
 
@@ -406,15 +363,71 @@ Currently, the design uses a  3/8 inch diameter clear flex tubing to carry water
 All tubes are connected to each other using push-to-connect components and barbed fittings to ensure water tightness.
 
 ## Results
+### Determining Porosity of Sand
+
+| Trial number | Measured volume of sand (mL) $(V_{sample})$ | Volume of water in cylinder (mL) |Volume of water remaining in cylinder after saturating sand (mL) | Pore Volume (mL) $(V_{pore})$| Calculated Porosity  ($\phi$) |
+|:-:|:--:|:---:|:---:|:--:|:----:|
+| 1 | 40 | 150 | 136 | 14 | 0.35 |
+| 2 | 40 | 150 | 136 | 14 | 0.35 |
+| 3 | 40 | 150 | 136 | 14 | 0.35 |
+**Table 1**: This table shows the data collected by the subteam to calculate the porosity of the sand bed.
+
+The average calculated porosity of the silica sand was 0.35, with a standard deviation of 0.0%. These statistics were calculated using StandardDeviation.py, code given in the Manual.
+
+This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 (when the calculated value is rounded to one significant figure).
+
+### Determining Sand Grain Dimensions
+
+| Sand grain | Measurement 1 (mm)| Measurement 2 (mm) | Measurement 3 (mm)|
+|:-:|:----:|:----:|:----:|
+| 1 | 0.69 | 0.84 | 1.08 |
+| 2 | 1.33 | 0.85 | 1.31 |
+| 3 | 1.13 | 1.32 | 0.90 |
+| 4 | 1.20 | 1.17 | 0.86 |
+| 5 | 0.98 | 0.79 | 0.77 |
+| 6 | 0.71 | 0.73 | 0.72 |
+| 7 | 1.00 | 0.78 | 0.82 |
+| 8 | 0.76 | 0.92 | 0.70 |
+| 9 | 0.69 | 0.70 | 0.76 |
+|10 | 0.91 | 0.74 | 1.10 |
+**Table 2**: This table shows the sand dimensions measured by each subteam member.
+
+The average measured diameter of the sand grains was 0.91mm, with a standard deviation of 0.21mm. This was calculated using the StandardDeviation.py code given in the Manual.
+
+#### Determining the Reactor's Cross Sectional Area
+
+##### Influent side
+| Measurement | Thickness of Pipe Wall| Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm$^2$) |
+|:-------:|:----:|:-----:|:-----:|:-----:|
+|    1    | 4.35 | 33.54 | 24.84 | 484.6 |
+|    2    | 4.39 | 33.36 | 24.58 | 474.5 |
+|    3    | 4.40 | 33.46 | 24.66 | 477.6 |
+| Average | 4.38 | 33.45 | 24.69 | 478.9 |
+**Table 3**: This table shows the measured diameters of the influent side of the pipe. The table also shows the cross sectional area as well as average values.
+
+##### Effluent side
+| Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross Sectional Area (mm$^2$) |
+|:-------:|:----:|:-----:|:-----:|:-----:|
+|    1    | 4.26 | 33.66 | 25.14 | 496.4 |
+|    2    | 4.67 | 33.44 | 24.10 | 456.2 |
+|    3    | 4.20 | 33.41 | 25.01 | 491.3 |
+| Average | 4.38 | 33.5  | 24.75 | 481.3 |
+**Table 4**: This table shows the average values of various dimensions of the pipe, the focus being the pipe's cross-sectional area.
+
+The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1mm$^2$, with a standard deviation of 1.697mm$^2$.
+
 **Notes from Clare:
 Now that everything is in Methods it is unclear which parts are relevant for further experimentation. The tables of measurements could be here. Then the analysis of the uniformity can be shifted into Analysis. Also a summarization table of important equations could nicely live in this section.**
+
+## Analysis
+
+**We should include the standard deviation/averages for the data here**
 
 ## Conclusions
 **Notes from Clare: Be sure to include  a conclusion section, several conclusions are mushed into future work. Specifically the paragraph beginning with “Next,**
 
 ## Future Work
 
-**Note from Clare: Good! Be sure to inlclude considerations into the next semester and beyond. Right now it still reads as future work for this semester. Check out the description at the top of this document for a few more leading questions for this section.**
 Over the course of the semester, the subteam designed and assembled a prototype system (with the exact parameters outlined in the Methods Section) but they encountered some errors in the system assembly which need to be corrected before moving on. In future semesters, the subteam will continue to troubleshoot and fix the current system failures.
 
 For example, the subteam discovered that it is not possible for the influent water to travel at the fluidization velocity of the sand bed using the current apparatus and a 100 RPM pump. In the future, the subteam will either have to acquire a 600 RPM pump or design a new prototype with a smaller pipe diameter. Once the subteam is able to fluidize the sand bed by one of these two options, further testing will be conducted.
@@ -543,8 +556,8 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 9. Cut approximately 2.4 m of 3/16" diameter clear flex tubing. Connect this to the effluent (upper) end of the reactor, and lead it down into the bucket.
 
 
-### Python Code
-#### Determining the Sand Bed's Fluidization Flow
+## Python Code
+### Determining the Sand Bed's Fluidization Flow
 
 The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page, to estimate the fluidization velocity & fluidization flow of the sand bed in the prototype reactor. The code is based off of [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
 
@@ -591,7 +604,7 @@ fluidization_flow = fluidization_velocity * area_reactor * (0.001*u.mL)/(1*u.mm*
 print("\nThe reactor's fluidization velocity is "+ str(ut.sig(fluidization_velocity,3))+".")
 print("The reactor's fluidization flow is "+ str(ut.sig(fluidization_flow,3))+".")
 ```
-#### Calculating Averages and Standard Devations
+### Calculating Averages and Standard Devations
 The following code, copied from the file StandardDeviation.py found on the subteam's GitHub page, outputs the average value and the standard deviation of a group of input values.
 
 ```python
@@ -628,6 +641,31 @@ standard_deviation = math.sqrt(numerator / (len(values)-1))
 
 print("The list you've entered has an average value of " + str(ut.sig(average, 4)) +", with a standard deviation of "+ str(ut.sig(standard_deviation, 4))+'.')
 ```
+
+### Head Loss
+
+The following code, copied from the file HeadLoss.py found on the subteam's GitHub page, outputs the head loss experienced in the effluent tubing, measured in units of length
+
+```python
+import math
+import numpy as nm
+import aide_design as ad
+from aide_design import utility as ut
+from aide_design.play import*
+
+viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?\n"))*u.mm**2/u.s
+effluent_tubing_length = float(input("What is the length of the effluent tubing, in units of centimeters?\n"))*u.m
+velocity = float(input("What is the velocity of water in the effluent piping, in units of meters per second?\n"))*u.m/u.s
+
+density_water = 997*u.kg/(u.m**3)
+g = 9.8 *u.m/(u.s**2)
+pipe_diameter = float(input("What is the diameter of the effluent piping, in units of meters?\n"))*u.m
+
+Head_Loss = (32 * viscosity * effluent_tubing_length * velocity)/(density_water * g * pipe_diameter**2)
+
+print("The Head Loss due to the effluent tubing is "+ str(ut.sig(Head_Loss,3))+".")
+```
+
 
 ### ProCoDa Code
 

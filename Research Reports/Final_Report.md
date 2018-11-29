@@ -544,7 +544,7 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 
 
 ### Python Code
-####Determining the Sand Bed's Fluidization Flow
+#### Determining the Sand Bed's Fluidization Flow
 
 The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page, to estimate the fluidization velocity & fluidization flow of the sand bed in the prototype reactor. The code is based off of [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
 
@@ -591,7 +591,7 @@ fluidization_flow = fluidization_velocity * area_reactor * (0.001*u.mL)/(1*u.mm*
 print("\nThe reactor's fluidization velocity is "+ str(ut.sig(fluidization_velocity,3))+".")
 print("The reactor's fluidization flow is "+ str(ut.sig(fluidization_flow,3))+".")
 ```
-####Calculating Averages and Standard Devations
+#### Calculating Averages and Standard Devations
 The following code, copied from the file StandardDeviation.py found on the subteam's GitHub page, outputs the average value and the standard deviation of a group of input values.
 
 ```python
@@ -633,17 +633,17 @@ print("The list you've entered has an average value of " + str(ut.sig(average, 4
 
 The following code allows the Dissolved Gas subteam to turn on the peristaltic pump at the desired speed.
 
-####States
+#### States
 - *OFF*: The system (peristaltic pump) is off.
 - *Running*: The peristaltic pump is running.
 
 
-####Set Points
+#### Set Points
 - *OFF*: This setpoint is used to turns all outputs off.
 - *ON*: This setpoint turns on the peristaltic pump on.
 - *PumpOutput*: This setpoint is used to turn on the peristaltic pump at the correct number of RPMs to achieve the desired flow rate, given the Tubing ID.
 
 
-####Variables
+#### Variables
 - *FlowRate*: This variable is the desired flow rate. In the subteam's reactor, this represents the fluidization velocity.
 - *TubingID*: This variable represents the ID associated with tubing being used, based on the diameter of the tubing.

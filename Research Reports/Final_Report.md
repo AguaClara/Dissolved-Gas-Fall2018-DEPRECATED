@@ -21,8 +21,9 @@ Excess dissolved air in a water treatment plant’s influent water decreases the
 - [Bibliography](#Bibliography)
 - [Manual](#Manual)
   - [Experimental Methods](#Experimental-Methods)
-  - [Fabrication Details](#Fabrication-Manual)
+  - [Fabrication Manual](#Fabrication-Manual)
   - [Python Code](#Python-Code)
+  - [ProCoDa Code](#ProCoDa-Code)
 
 ## Introduction
 Excess dissolved gas in influent water in AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles.
@@ -627,3 +628,22 @@ standard_deviation = math.sqrt(numerator / (len(values)-1))
 
 print("The list you've entered has an average value of " + str(ut.sig(average, 4)) +", with a standard deviation of "+ str(ut.sig(standard_deviation, 4))+'.')
 ```
+
+### ProCoDa Code
+
+The following code allows the Dissolved Gas subteam to turn on the peristaltic pump at the desired speed.
+
+####States
+- *OFF*: The system (peristaltic pump) is off.
+- *Running*: The peristaltic pump is running.
+
+
+####Set Points
+- *OFF*: This setpoint is used to turns all outputs off.
+- *ON*: This setpoint turns on the peristaltic pump on.
+- *PumpOutput*: This setpoint is used to turn on the peristaltic pump at the correct number of RPMs to achieve the desired flow rate, given the Tubing ID.
+
+
+####Variables
+- *FlowRate*: This variable is the desired flow rate. In the subteam's reactor, this represents the fluidization velocity.
+- *TubingID*: This variable represents the ID associated with tubing being used, based on the diameter of the tubing.

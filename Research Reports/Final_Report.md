@@ -74,7 +74,7 @@ The subteam has recently fabricated a prototype fluidized bed reactor using a tr
 
 </p>
 
-**Figure 4**: The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+**Figure 4**: The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
 
 The remainder of this report will include further explanation of concepts such as fluidized beds, considerations of pressure that informed parameters of the reactor's design, and details concerning the apparatus' fabrication. The experimental process the subteam hopes to pursue to evaluate the reactor's feasibility as a solution is discussed in the Future Work section.
 
@@ -356,7 +356,7 @@ The reactor is mounted above a table to an 80 20 with four metal hose clamps. Th
 
 </p>
 
-Recall **Figure 4** from the Introduction section. The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+Recall **Figure 4** from the Introduction section. The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
 
 Currently, the design uses a  3/8 inch diameter clear flex tubing to carry water from the sink to the peristaltic pump, 1/8" Masterflex tubing (06508-16) to fit in the peristaltic pump, and 3/16 inch diameter clear flex tubing for the influent and effluent tubing for the reactor. In order to prevent the effluent tubing from reaching its maximum bend radius, the tubing is taped to a nearby light fixture.
 
@@ -453,7 +453,7 @@ Once everything is running smoothly with all the appropriate equipment, the subt
 
 Although the subteam will be observing bubble formation of oxygen gas within the prototype reactor, it is expected that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law, Pascal's Law, and the equations the subteam put together to model gas solubility are universal; the subteam expects that oxygen will give an accurate representation of the reactor's ability to remove any dissolved gas.
 
-The subteam continues to look forward to experimentation and iteration to prove the validity and functionality of the research done this past semester. 
+The subteam continues to look forward to experimentation and iteration to prove the validity and functionality of the research done this past semester.
 
 ## Bibliography
 Averill, B., & Eldredge, P. (n.d.). *Principles of General Chemistry* (Vol. 1). Creative Commons. Retrieved from https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html

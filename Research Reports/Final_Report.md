@@ -70,11 +70,11 @@ The subteam has recently fabricated a prototype fluidized bed reactor using a tr
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Photograph.jpg?raw=true" height = 520>
 
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_PhotoDiagram.jpg?raw=true" height = 520>
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/EditedDiagram_Prototype1.jpg?raw=trueS" height = 520>
 
 </p>
 
-**Figure 4**: The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (red arrow), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+**Figure 4**: The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
 
 The remainder of this report will include further explanation of concepts such as fluidized beds, considerations of pressure that informed parameters of the reactor's design, and details concerning the apparatus' fabrication. The experimental process the subteam hopes to pursue to evaluate the reactor's feasibility as a solution is discussed in the Future Work section.
 
@@ -251,7 +251,7 @@ While [Equation 7](#Equation-7) is powerful in its efficiency, it may only act a
 
 ## Methods
 
-In this section, the methods of determining the reactor's parameters and the details of fabrication can be found. The subteam needed to determine the porosity of the sand bed, the average dimensions of the sand grains, and the average cross sectional area of the pipe.
+This section explains the methods of determining the reactor's parameters and the details of the reactor's fabrication. In order to calculate the fluidization velocity of the sand bed, the subteam needed to determine the porosity of the sand bed, the average dimensions of the sand grains, and the average cross sectional area of the pipe.
 
 The fabrication details section describes the composition of the reactor and how the subteam constructed the reactor.
 
@@ -352,29 +352,28 @@ The reactor is mounted above a table to an 80 20 with four metal hose clamps. Th
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Photograph.jpg?raw=true" height=450>
 
-<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_PhotoDiagram.jpg?raw=true" height = 450>
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/EditedDiagram_Prototype1.jpg?raw=true" height = 450>
 
 </p>
 
-Recall **Figure 4** from the Introduction section. The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (red arrow), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
+Recall **Figure 4** from the Introduction section. The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
 
 Currently, the design uses a  3/8 inch diameter clear flex tubing to carry water from the sink to the peristaltic pump, 1/8" Masterflex tubing (06508-16) to fit in the peristaltic pump, and 3/16 inch diameter clear flex tubing for the influent and effluent tubing for the reactor. In order to prevent the effluent tubing from reaching its maximum bend radius, the tubing is taped to a nearby light fixture.
 
 All tubes are connected to each other using push-to-connect components and barbed fittings to ensure water tightness.
 
 ## Results
+
+By following the infromation given in the Methods section, the subteam compiled a list of data for each test. The results are organized into tables and further information can be found in the Analysis Section.
+
 ### Determining Porosity of Sand
 
-| Trial number | Measured volume of sand (mL) $(V_{sample})$ | Volume of water in cylinder (mL) |Volume of water remaining in cylinder after saturating sand (mL) | Pore Volume (mL) $(V_{pore})$| Calculated Porosity  ($\phi$) |
+| Trial number | Measured volume of sand (mL) $(V_{sample})$ | Volume of water in cylinder (mL) |Volume of water remaining in cylinder after saturating sand (mL) | Pore Volume (mL) $(V_{pore})$| Calculated Porosity  $(\phi)$|
 |:-:|:--:|:---:|:---:|:--:|:----:|
 | 1 | 40 | 150 | 136 | 14 | 0.35 |
 | 2 | 40 | 150 | 136 | 14 | 0.35 |
 | 3 | 40 | 150 | 136 | 14 | 0.35 |
 **Table 1**: This table shows the data collected by the subteam to calculate the porosity of the sand bed.
-
-The average calculated porosity of the silica sand was 0.35, with a standard deviation of 0.0%. These statistics were calculated using StandardDeviation.py, code given in the Manual.
-
-This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 (when the calculated value is rounded to one significant figure).
 
 ### Determining Sand Grain Dimensions
 
@@ -391,8 +390,6 @@ This has a percent difference of 0% compared to [Weber-Shirk](https://courses.ci
 | 9 | 0.69 | 0.70 | 0.76 |
 |10 | 0.91 | 0.74 | 1.10 |
 **Table 2**: This table shows the sand dimensions measured by each subteam member.
-
-The average measured diameter of the sand grains was 0.91mm, with a standard deviation of 0.21mm. This was calculated using the StandardDeviation.py code given in the Manual.
 
 #### Determining the Reactor's Cross Sectional Area
 
@@ -414,29 +411,49 @@ The average measured diameter of the sand grains was 0.91mm, with a standard dev
 | Average | 4.38 | 33.5  | 24.75 | 481.3 |
 **Table 4**: This table shows the average values of various dimensions of the pipe, the focus being the pipe's cross-sectional area.
 
+## Analysis
+[**Read this**]
+
+The Dissolved Gas subteam analyzed their data mainly through the use of the StandardDeviation.py code found in the Manual. The measurements taken were averaged and the standard deviation was determined for each set of data to determine the reliability of the data.
+
+#### Determining Porosity of Sand
+
+The subteam calculated the porosity of the sand and found it to be 0.35, with a standard deviation of 0.0%. These statistics were calculated using the StandardDeviation.py code given in the Manual.
+
+This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 (when the calculated value is rounded to one significant figure).
+
+#### Determining Sand Grain Dimensions
+
+The average measured diameter of the sand grains was 0.91mm, with a standard deviation of 0.21mm. This was calculated using the StandardDeviation.py code given in the Manual.
+
+#### Determining the Reactor's Cross Sectional Area
+
 The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1mm$^2$, with a standard deviation of 1.697mm$^2$.
 
-**Notes from Clare:
-Now that everything is in Methods it is unclear which parts are relevant for further experimentation. The tables of measurements could be here. Then the analysis of the uniformity can be shifted into Analysis. Also a summarization table of important equations could nicely live in this section.**
-
-## Analysis
-
-**We should include the standard deviation/averages for the data here**
-
 ## Conclusions
-**Notes from Clare: Be sure to include  a conclusion section, several conclusions are mushed into future work. Specifically the paragraph beginning with “Next,**
+[**Read This**]
+
+**Next, the subteam discovered that in order to have the influent water travel at no slower than the fluidization velocity in order to fluidize the sand bed, it would be necessary to acquire a 600 RPM peristaltic pump. Currently, there are no such pumps available for use. As a result, the subteam can either recreate the prototype system using a new pipe with a smaller diameter for the fluidized bed reactor, or a new peristaltic pumped can be purchased for the subteam's use. Once the subteam is able to fluidize the sand bed by one of these two options, initial testing of the functionality of the prototype will be conducted.**
+
+The Dissolved Gas subteam's first semester involved research, design, fabrication, and experimentation to determine an appropriate reactor that will remove excess dissolved gas from influent water in AguaClara plants.
+
+The subteam gathered literature to obtain a foundational understanding of the concepts relevant to a fluidized bed reactor. These concepts included fluidization, bubble nucleation, and gas solubility. The subteam decided on a fluidized bed reactor that would encourage bubble formation by providing nucleation sites. These bubbles would also be encouraged by the low pressure inside of the reactor. Through analysis of this literature, the subteam designed a prototype system.
+
+After fabricating the prototype reactor and assembling the system, the subteam began to run basic tests. **Unfortunately, the tests did not carry out ideally with the available pump. Only after constructing an unreliable parallel pump system were they able to fluidize the sand. Unfortunately, the subteam could only run the pump for a short period of time because of its instability. Overall, the Dissolved Gas subteam provided a solid basis for future semesters to build off of.**
 
 ## Future Work
 
-Over the course of the semester, the subteam designed and assembled a prototype system (with the exact parameters outlined in the Methods Section) but they encountered some errors in the system assembly which need to be corrected before moving on. In future semesters, the subteam will continue to troubleshoot and fix the current system failures.
+[**Read this**]
+
+Over the course of the semester, the subteam designed and assembled a prototype system, but encountered some errors in the system assembly which need to be corrected before moving on. In future semesters, the subteam will continue to troubleshoot and fix the current system failures.
 
 For example, the subteam discovered that it is not possible for the influent water to travel at the fluidization velocity of the sand bed using the current apparatus and a 100 RPM pump. In the future, the subteam will either have to acquire a 600 RPM pump or design a new prototype with a smaller pipe diameter. Once the subteam is able to fluidize the sand bed by one of these two options, further testing will be conducted.
 
-Once everything is running smoothly with all the appropriate equipment, the subteam will focus on experimentation, evaluation, and iteration. The subteam will test the functionality of the prototype in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, to determine if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove dissolved gas from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. With such data, the subteam will then modify the system as necessary to optimize the amount of dissolved gas that is removed.
+Once everything is running smoothly with all the appropriate equipment, the subteam will focus on experimentation, evaluation, and iteration. The subteam will test the functionality of the prototype in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. With such data, the subteam will then modify the system as necessary to optimize the amount of dissolved gas that is removed.
 
-Although the subteam will be observing bubble formation of oxygen gas within our prototype reactor, it is expected that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law and Pascal's Law and the equations the subteam put together to model gas solubility are universal, so it is expected that oxygen will give an accurate representation of the reactor's ability to remove any dissolved gas.
+Although the subteam will be observing bubble formation of oxygen gas within the prototype reactor, it is expected that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law, Pascal's Law, and the equations the subteam put together to model gas solubility are universal; the subteam expects that oxygen will give an accurate representation of the reactor's ability to remove any dissolved gas.
 
-The subteam continues to look forward to experimentation and iteration to prove the validity and functionality of the research done this past semester.  
+The subteam continues to look forward to experimentation and iteration to prove the validity and functionality of the research done this past semester. 
 
 ## Bibliography
 Averill, B., & Eldredge, P. (n.d.). *Principles of General Chemistry* (Vol. 1). Creative Commons. Retrieved from https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html
@@ -521,8 +538,6 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 - Subtract twice the wall’s thickness from the outer diameter; the difference is the “inner diameter”. Use this quantity to calculate the cross sectional area of the pipe.
 2. Compute the average cross sectional area of the pipe, using the measurements from both ends.
 
-[**There should be a database of this in the python code so all you need it the nominal diameter and pipe schedule to find any ID your heart could desire. You could chekc it out and see how it compares with your measurements and if it looks good use it to save some time in the future**]
-
 ### Fabrication Manual
 
 **Materials required**
@@ -542,7 +557,7 @@ The subteam cut the pipe to be a particular length prior to taking measurements.
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PipeConnector1.jpg?raw=true" height=250
 </p>
 
-**Figure 7**
+Recall **Figure 7** from the Methods section. The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
 
 **Fabrication**
 1. Cut the wire mesh to obtain a circular mesh whose radius is approximately that of the pipe.
@@ -604,7 +619,7 @@ fluidization_flow = fluidization_velocity * area_reactor * (0.001*u.mL)/(1*u.mm*
 print("\nThe reactor's fluidization velocity is "+ str(ut.sig(fluidization_velocity,3))+".")
 print("The reactor's fluidization flow is "+ str(ut.sig(fluidization_flow,3))+".")
 ```
-### Calculating Averages and Standard Devations
+### Calculating Averages and Standard Deviations
 The following code, copied from the file StandardDeviation.py found on the subteam's GitHub page, outputs the average value and the standard deviation of a group of input values.
 
 ```python

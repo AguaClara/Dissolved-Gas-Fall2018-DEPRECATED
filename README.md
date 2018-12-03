@@ -1,7 +1,7 @@
 # Dissolved Gas
 
 ## Our Goal
-We aim to design a system that removes excess dissolved gas from influent water prior to entry into an AguaClara water treatment plant.
+We aim to design a system that removes excess dissolved gas from influent water prior to entry into an AguaClara water treatment plant. Learn more about the subteam's work on our Wiki page, or through our Presentations and Reports linked below. 
 
 ## Current Members 
 Thomas Bradford | tsb49@cornell.edu

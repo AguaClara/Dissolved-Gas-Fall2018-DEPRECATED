@@ -6,7 +6,7 @@ import aide_design as ad
 from aide_design import utility as ut
 from aide_design.play import*
 
-viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?\n"))*u.mm**2/u.s
+viscosity = float(input("What is the kinematic viscosity of water, in units of Pascal seconds?\n"))*u.kg/u.m/u.s
 effluent_tubing_length = float(input("What is the length of the effluent tubing, in units of meters?\n"))*u.m
 velocity = float(input("What is the velocity of water in the effluent piping, in units of meters per second?\n"))*u.m/u.s
 

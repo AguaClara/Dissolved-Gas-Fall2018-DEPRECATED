@@ -2,10 +2,10 @@
 
 ### Thomas Bradford, Karalyn Buhl, Isaac Singer
 
-### 30 November, 2018
+### 8 December, 2018
 
 ## Abstract
-Excess dissolved air in a water treatment plant’s influent water decreases the functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam begins its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant through the use of a fluidized bed. The subteam has gathered literature, developed a design, and fabricated a small-scale prototype. The subteam will iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant.
+Excess dissolved air in a water treatment plant’s influent water decreases the functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam began its first semester with the goal to design a gravity-powered apparatus that extracts this gas from influent water prior to entry into the treatment plant using a fluidized bed. The subteam gathered literature, developed a design, and fabricated a small-scale prototype reactor and accompanying system. The subteam will iterate improvements based on experimental data to work towards a model that may be scaled up for application in an AguaClara plant.
 
 ## Table of Contents
 
@@ -66,7 +66,8 @@ The subteam considered that the vertical plate reactor design has the potential 
 
 Despite these potential issues, the subteam believes the fluidized bed reactor may still be more effective, because a large number of sand grains may provide a greater surface area for bubbles to form than individual, vertical plates. In future semesters, the subteam may consider the vertical plate reactor and weigh the merit of each design.
 
-The subteam has recently fabricated a prototype fluidized bed reactor using a transparent PVC pipe, silica sand, and basic flow components; the subteam has assembled a basic apparatus to resemble the design proposed in Figure 1. Photographs of this apparatus are shown in Figure 4; influent water passes in through a peristaltic pump and through tubing into a vertically oriented fluidized bed reactor, and out into a small bucket. Further details on this apparatus are given in the Methods and Manual sections of the report.  
+The subteam has recently fabricated a prototype fluidized bed reactor using a transparent PVC pipe, silica sand, and basic flow components; the subteam has assembled a basic apparatus to resemble the design proposed in Figure 1. Photographs of this apparatus are shown in Figure 4; influent water passes in through a peristaltic pump and through tubing into a vertically oriented fluidized bed reactor, and out into a small bucket. Further details on this apparatus are given in the Methods and Manual sections of the report.
+
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Photograph.jpg?raw=true" height = 520>
 
@@ -186,7 +187,7 @@ $R$ = Bubble radius
 
 </p>
 
-**Figure 5**: This diagram shows the descriptions of surface tension, pressure inside the bubble, and pressure outside the bubble for the given equation [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
+**Figure 5**: This diagram illustrates the descriptions of surface tension, pressure inside the bubble, and pressure outside the bubble for the given equation [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
 
 The dissolved gas subteam plans on using the principles of this formula to even further decrease the pressure inside the bubble. Because it is known that an increase in radius will result in a decrease in pressure, the subteam must find a way to increase bubble radius.
 
@@ -200,7 +201,7 @@ Through conceptual analysis and algebraic manipulation, Equations 2-6 combine to
 The pressure relevant to Henry's Law (i.e. the pressure of a gas above a liquid, in [Equation 2](#Equation-2)) is the pressure *within* a bubble [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
 $$ C = k P $$
 
-$P$ equates to the gas pressure within a bubble. Therefore, $P$ is relabeled as  $P_b$ (i.e. pressure in a bubble).
+$P$ equates to the gas's pressure within a bubble. Therefore, $P$ is relabeled as  $P_b$ (i.e. pressure in a bubble).
 
 As shown in [Equation 6](#Equation-6), the pressure within a bubble is directly related to the bubble's radius, the liquid's surface tension, and the pressure outside the bubble [(Hyperphysics)](http://hyperphysics.phy-astr.gsu.edu/hbase/surten2.html).
 
@@ -208,11 +209,11 @@ $$P_i = P_o + 4 \frac{T}{R}$$
 
 $P_i$ denotes the pressure within a bubble, and therefore is relabeled as $P_b$. $P_o$ denotes the pressure outside of the bubble, and is relabeled $P_r$.
 
-The pressure outside of the bubble (i.e. the pressure within the liquid) can be equated to atmospheric pressure plus a change in pressure due to the height difference between the reactor and the vent ([Equation 3](#Equation-3)), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent ([Equation 5](#Equation-5)).
+The pressure outside of the bubble (i.e. the pressure within the liquid) can be equated to atmospheric pressure, plus a change in pressure due to the height difference between the reactor and the vent ([Equation 3](#Equation-3)), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent ([Equation 5](#Equation-5)).
 
 $$\Delta P = \rho g \Delta h$$
 
-In [Equation 3](#Equation-3), the difference in pressure is that between atmospheric pressure (i.e. the pressure at the vent) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_{atm}$ (i.e. pressure in the reactor minus atmospheric pressure), this equation may be rearranged into:
+In [Equation 3](#Equation-3), the difference in pressure is that between atmospheric pressure (i.e. the pressure at the vent) and the pressure within the reactor itself. Therefore, if $\Delta P$ is expanded to $P_r - P_{atm}$ (i.e. pressure in the reactor minus atmospheric pressure), Equation 3 may be rearranged into:
 
 ####Equation 3.1
 
@@ -251,17 +252,20 @@ While [Equation 7](#Equation-7) is powerful in its efficiency, it may only act a
 
 ## Methods
 
-This section explains the methods of determining the reactor's parameters and the details of the reactor's fabrication. In order to calculate the fluidization velocity of the sand bed, the subteam needed to determine the porosity of the sand bed, the average dimensions of the sand grains, and the average cross sectional area of the pipe.
+The subteam fabricated a prototype reactor and assembled an accompanying system, as shown in Figure 4. The Methods section explains the subteam's methods to determine the reactor's parameters and to fabricate the reactor.
 
-The fabrication details section describes the composition of the reactor and how the subteam constructed the reactor.
+In order to calculate the fluidization velocity of the sand bed contained by the reactor, the subteam needed to determine: the sand bed's porosity, the average diameter of the sand grains, and the average cross sectional area of the pipe. The importance of these values is illustrated by [Equation 1](#Equation-1). The Determining Reactor Parameters section describes how the subteam determined these values.
+
+The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
 
 ### Determining Reactor Parameters
 
-The prototype design aligns with that illustrated in Figure 6. Exact parameters can be found in the Fabrication Details section.
+The prototype reactor design aligns with that illustrated in Figure 6. Exact parameters are found in the Fabrication Details section.
 
-The prototype system’s design is as follows: a peristaltic pump will pump hot water (as hot water is supersaturated with gas) into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe, contains a sand bed. This will be fluidized by the influent water, which will be traveling at no slower than the sand’s fluidization velocity. Ideally, as the supersaturated water travels through the reactor, excess gas particles in the water will accumulate on the sand grains and form bubbles. Such bubbles will then depart from their sand grains and flow upward, out of the reactor, through the effluent tubing and into a bucket. This bucket will act as the open-faced vent (as in Figure 1) for the air bubbles to escape into the atmosphere.
+The prototype system’s design is as follows: a peristaltic pump pumps hot water (since hot water is supersaturated with gas [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
+)) into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. The influent water's velocity is controlled by the peristaltic pump, in turn controlled by ProCoDa, the code of which is shown in the ProCoDa Code section of the Manual. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their sand grains, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. This bucket acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
 
-One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor.
+One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. Figure 8 details this.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_Diagram.jpg?raw=true" height=450>
@@ -270,16 +274,16 @@ One should note that a mesh screen is installed at the bottom of the reactor to 
 
 **Figure 6**: The above diagram depicts (not to scale) the prototype the subteam has built to test the hypothesis regarding the use of a fluidized bed reactor to encourage bubble formation.
 
-The prototype model was built with intentions to minimize head loss, and maximize the difference in depth between the reactor and the bucket. These parameters are illustrated in [Equation 7](#Equation-7), with the purpose of minimizing gas' solubility and therefore maximizing bubble formation within the reactor.
+The subteam built the prototype reactor intending to minimize head loss and to maximize the difference in depth between the reactor and the bucket. The relationship between these parameters is illustrated in [Equation 7](#Equation-7). The subteam aimed to minimize gas' solubility in the reactor and therefore maximize bubble formation in the reactor.
 
 #### Determining Porosity of Sand
-In order to fabricate a viable prototype, the Dissolved Gas subteam needed to determine the appropriate fluidization velocity to suspend the sand in the reactor.
+In order to fabricate the prototype reactor, the Dissolved Gas subteam needed to determine the appropriate fluidization velocity to fluidize (i.e. suspend) the sand in the reactor.
 
-The fluidization velocity of the sand is dependent on the sand's density, the kinematic viscosity of water, the reactor's cross sectional area, the height of the sand bed, and the porosity of the sand bed, as stated in [Equation 1](#Equation-1).
+The fluidization velocity of the sand is dependent on the sand's density, the kinematic viscosity of water, the reactor's cross sectional area, the height of the sand bed, and the porosity of the sand bed, as shown in [Equation 1](#Equation-1).
 
 To determine porosity, the following steps were taken, adapted from the work of [Ms. Worth](https://socratic.org/questions/how-do-scientists-measure-the-porosity-of-soil).
 
-First, the subteam acquired silica sand from the AguaClara laboratory. Then, the subteam measured the volume of the sand ($V_{sample}$) in a graduated cylinder. In a second graduated cylinder, the subteam measured an excess volume of water. Then, water from the graduated cylinder was poured over the sand  until the top of the meniscus was level with the sand bed. Next, the volume of water added to the sand ($V_{pore}$) was determined by subtracting the final volume from the initial volume of water in the graduated cylinder. The porosity of the sand bed was then calculated using the following formula:
+The subteam acquired silica sand from the AguaClara laboratory. The subteam measured the volume of the sand ($V_{sample}$) in a graduated cylinder. In a second graduated cylinder, the subteam measured an excess volume of water. Then, water from the second graduated cylinder was poured over the sand in the first graduated cylinder until the top of the meniscus was level with the sand bed. Next, the volume of water added to the sand ($V_{pore}$) was determined by subtracting the final volume from the initial volume of water in the second graduated cylinder. The porosity of the sand bed was then calculated using the following formula:
 
 #### Equation 8
 
@@ -290,7 +294,7 @@ $\phi$ = Porosity
 $V_{pore}$ = Volume of water used to saturate sand
 $V_{sample}$ = Volume of sand
 
-This is equivalent to the formula given by [University of Florida Dept of Chemical Engineering](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf).
+This is equivalent to the formula given by [University of Florida Dept of Chemical Engineering](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). The results of this experiment are described in the Results section.
 
 #### Determining Sand Grain Dimensions
 Fluidization velocity of a sand bed is also dependent on sand grain diameter. Although the sand used for the subteam's reactor was already sieved, there were some minor variations that were not yet taken into account.
@@ -364,7 +368,7 @@ All tubes are connected to each other using push-to-connect components and barbe
 
 ## Results
 
-By following the infromation given in the Methods section, the subteam compiled a list of data for each test. The results are organized into tables and further information can be found in the Analysis Section.
+By following the infromation given in the Methods section, the subteam compiled tables of data for each test. The results are organized into tables and further information can be found in the Analysis Section.
 
 ### Determining Porosity of Sand
 
@@ -439,7 +443,9 @@ The Dissolved Gas subteam's first semester involved research, design, fabricatio
 
 The subteam gathered literature to obtain a foundational understanding of the concepts relevant to a fluidized bed reactor. These concepts included fluidization, bubble nucleation, and gas solubility. The subteam decided on a fluidized bed reactor that would encourage bubble formation by providing nucleation sites. These bubbles would also be encouraged by the low pressure inside of the reactor. Through analysis of this literature, the subteam designed a prototype system.
 
-After fabricating the prototype reactor and assembling the system, the subteam began to run basic tests. **Unfortunately, the tests did not carry out ideally with the available pump. Only after constructing an unreliable parallel pump system were they able to fluidize the sand. Unfortunately, the subteam could only run the pump for a short period of time because of its instability. Overall, the Dissolved Gas subteam provided a solid basis for future semesters to build off of.**
+After fabricating the prototype reactor and assembling the system, the subteam began to run basic tests. **Unfortunately, the tests did not carry out ideally with the available pump. Only after constructing an unreliable parallel pump system were they able to fluidize the sand. The subteam could only run the pump for a short period of time because of its instability.**
+
+Overall, the Dissolved Gas subteam provided a solid basis for future semesters to build off of.
 
 ## Future Work
 
@@ -447,9 +453,9 @@ After fabricating the prototype reactor and assembling the system, the subteam b
 
 Over the course of the semester, the subteam designed and assembled a prototype system, but encountered some errors in the system assembly which need to be corrected before moving on. In future semesters, the subteam will continue to troubleshoot and fix the current system failures.
 
-For example, the subteam discovered that it is not possible for the influent water to travel at the fluidization velocity of the sand bed using the current apparatus and a 100 RPM pump. In the future, the subteam will either have to acquire a 600 RPM pump or design a new prototype with a smaller pipe diameter. Once the subteam is able to fluidize the sand bed by one of these two options, further testing will be conducted.
+The subteam discovered that it is not possible for the influent water to travel at the fluidization velocity of the sand bed using the current apparatus and a 100 RPM pump. In the future, the subteam will either have to acquire a 600 RPM pump or design a new prototype with a smaller pipe diameter. Once the subteam is able to fluidize the sand bed by one of these two options, further testing will be conducted.
 
-Once everything is running smoothly with all the appropriate equipment, the subteam will focus on experimentation, evaluation, and iteration. The subteam will test the functionality of the prototype in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. With such data, the subteam will then modify the system as necessary to optimize the amount of dissolved gas that is removed.
+Once everything is running smoothly with all the appropriate equipment, the subteam can focus on experimentation, evaluation, and iteration. The subteam will test the functionality of the prototype in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. With such data, the subteam will then modify the system as necessary to optimize the amount of dissolved gas that is removed.
 
 Although the subteam will be observing bubble formation of oxygen gas within the prototype reactor, it is expected that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law, Pascal's Law, and the equations the subteam put together to model gas solubility are universal; the subteam expects that oxygen will give an accurate representation of the reactor's ability to remove any dissolved gas.
 
@@ -467,6 +473,8 @@ Brown, G. (2000, June 22). *The Darcy-Weisbach Equation*. Retrieved from https:/
 CodeCogs.(2012, February 24). Pipe Head Loss. Retrieved from http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php
 
 Department of Chemical Engineering. (2017, February). *Fluidization: A Unit Operation in Chemical Engineering.* Gainesville, FL: University of Florida. Retrieved from http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf.
+
+Florida State University. (n.d.). Solubility. Retrieved December 3, 2018, from https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
 
 Han, M., Park, Y., Lee, J., & Shim, J. (2002). *Effect of pressure on bubble size in dissolved air flotation.* Water Science and Technology: Water Supply, 2(5–6), 41–46. https://doi.org/10.2166/ws.2002.0148
 

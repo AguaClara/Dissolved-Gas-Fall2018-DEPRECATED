@@ -17,6 +17,7 @@ Excess dissolved air in a water treatment plant’s influent water decreases the
 - [Methods](#Methods)
   - [Determining Reactor Parameters](#Determining-Reactor-Parameters)
   - [Fabrication Details](#Fabrication-Details)
+  - [Testing the System](#Testing-the-System)
 - [Results and Analysis](#Results-and-Analysis)
 - [Conclusions](#Conclusions)
 - [Future Work](#Future-Work)
@@ -257,12 +258,10 @@ In order to calculate the fluidization velocity of the sand bed contained by the
 
 The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
 
-### Determining Reactor Parameters
-
 The prototype reactor design aligns with that illustrated in Figure 6. Exact parameters are found in the Fabrication Details section.
 
 The prototype system’s design is as follows: a peristaltic pump pumps hot water (since hot water is supersaturated with gas [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
-)) into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. The influent water's velocity is controlled by the peristaltic pump, in turn controlled by ProCoDa, the code of which is shown in the ProCoDa Code section of the Manual. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their sand grains, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. This bucket acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
+)) into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. The influent water's velocity is controlled by the ProCoDa code found in the ProCoDa Code section of the manual via a peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their sand grains, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. This bucket acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
 
 One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. Figure 8 details this.
 
@@ -274,6 +273,8 @@ One should note that a mesh screen is installed at the bottom of the reactor to 
 **Figure 6**: The above diagram depicts (not to scale) the prototype the subteam has built to test the hypothesis regarding the use of a fluidized bed reactor to encourage bubble formation.
 
 The subteam built the prototype reactor intending to minimize head loss and to maximize the difference in depth between the reactor and the bucket. The relationship between these parameters is illustrated in [Equation 7](#Equation-7). The subteam aimed to minimize gas' solubility in the reactor and therefore maximize bubble formation in the reactor.
+
+### Determining Reactor Parameters
 
 #### Determining Porosity of Sand
 In order to fabricate the prototype reactor, the Dissolved Gas subteam needed to determine the appropriate fluidization velocity to fluidize (i.e. suspend) the sand in the reactor.
@@ -363,6 +364,18 @@ Currently, the design uses a  3/8 inch diameter clear flex tubing to carry water
 
 All tubes are connected to each other using push-to-connect components and barbed fittings to ensure water tightness.
 
+### Testing the system
+{**Read this**] The subteam tested the system's functionality by activating the peristaltic pump to full capacity while inputting water from the sink. The results of this test, which were unsatisfactory, are described in the Results and Analysis section.
+
+After determining that the 100 RPM peristaltic pump was insufficient to fluidize the sand bed, the subteam assembled a parallel pump-head system, as shown in Figure X10X. The subteam activated the peristaltic pump to determine whether the sand bed would fluidize.
+
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PeristalticPump_ParallelArrangement.jpg?raw=true" height=400>
+
+</p>
+
+**Figure 10**: The above photograph shows the parallel pump-head system that the subteam assembled to evaluate the functionality of the system.
+
 ## Results and Analysis
 
 By following the procedures outlined in the Methods section, the subteam compiled tables of data.
@@ -422,17 +435,27 @@ The average measured diameter of the sand grains was 0.91mm, with a standard dev
 
 The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1mm$^2$, with a standard deviation of 1.697mm$^2$.
 
+### Testing the system
+
+When the subteam activated the 100 RPM peristaltic pump at full capacity with input water from the sink, the sand bed did not fluidize. The subteam needed a peristaltic pump with greater capacity.
+
+So, the subteam assembled a parallel pump-head arrangement, as shown in Figure 10. When the subteam activated the pump, the fluidized bed momentarily fluidized, as shown in [this video](https://drive.google.com/file/d/0B8i8Cm87we2icGkzNHlGcTdnVzZHdXZoTDV0OEpHTmhuWWMw/view?usp=sharing).
+
+</p>
+
+ However, the system was unstable, and frequently leaked. The tubes connecting the pumps in parallel frequently came out of their barbed connections.
+
+While bubbles were visible in the video, these bubbles are likely from the influent tubing, not the fluidized bed itself.
+
 ## Conclusions
 
-The Dissolved Gas subteam's first semester involved research, design, fabrication, and experimentation to determine an appropriate reactor that will remove excess dissolved gas from influent water in AguaClara plants.
+The Dissolved Gas subteam's first semester involved research, design, fabrication, and basic experimentation to determine an appropriate reactor that will remove excess dissolved gas from influent water in AguaClara plants.
 
 The subteam gathered literature to obtain a foundational understanding of the concepts relevant to a fluidized bed reactor. These concepts included fluidization, bubble nucleation, and gas solubility. The subteam decided on a fluidized bed reactor that would encourage bubble formation by providing nucleation sites. These bubbles would also be encouraged by the low pressure inside of the reactor. Through analysis of this literature, the subteam designed a prototype system.
 
-After fabricating the prototype reactor and assembling the system, the subteam began to run basic tests. Unfortunately, the tests did not carry out ideally with the available pump. The subteam discovered that in order to have the influent water travel at no slower than the fluidization velocity in order to fluidize the sand bed, it would be necessary to acquire a 600 RPM peristaltic pump. In the meantime, the subteam was able to temporarily fluidize the sand by constructing an unreliable parallel pump system. Despite the bed only fluidizing for a short period of time, this confirmed the viability of creating a prototype model capable of fluidizing a sand bed. This is
+After fabricating the prototype reactor and assembling the system, the subteam began to run basic tests. Unfortunately, the sand bed did not fluidize with the available pump. In order to have the influent water travel at no slower than the fluidization velocity in order to fluidize the sand bed, it would be necessary to acquire a 600 RPM peristaltic pump. **In the meantime, the subteam was able to temporarily fluidize the sand bed by constructing a parallel pump system, although it was unreliable. Despite the bed only fluidizing for a short period of time, this confirmed the viability of creating a prototype model capable of fluidizing a sand bed.**
 
-While there remains to be no 600 RPM pumps available for the subteam's use, alternative methods of fluidizing the sand bed are outlined in the future works section.
-
-Overall, the Dissolved Gas subteam provided a solid basis for future semesters to build off of.
+The Future Work section describes the subteam's plan to complete the apparatus so as to reliably be able to fluidize the sand bed.
 
 ## Future Work
 
@@ -440,9 +463,7 @@ Over the course of the semester, the subteam designed and assembled a prototype 
 
 Because the subteam was unable to consistently fluidize the sand using the available pump, the subteam will either have to acquire a 600 RPM pump or design a new prototype with a smaller pipe diameter next semester. Once the subteam is able to fluidize the sand bed by one of these two methods, the subteam will progress with experimentation, evaluation, and iteration.
 
-The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content. After analysis of such data, the subteam will modify the system to optimize the removal of dissolved gas.  
-
-**Also, the principles behind Henry's Law, Pascal's Law, and the derived [Equation 7](#Equation-7) are universal in their applications to gases; the subteam expects that oxygen will give an accurate representation of the reactor's ability to remove any dissolved gas.**
+The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content, due to the fact that the source of the so the effectiveness of removing dissolved oxygen should be exactly proportional to the system's overall effectiveness in removing dissolved gas.  After analysis of such data, the subteam will modify the system to optimize the removal of dissolved gas.
 
 In future semesters, the subteam must also keep in mind the end goal of scaling up the prototype. The prototype's methods used to remove excess dissolved gas from influent water must feasibly apply on a practical scale.
 

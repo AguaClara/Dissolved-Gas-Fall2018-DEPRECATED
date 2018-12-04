@@ -17,8 +17,7 @@ Excess dissolved air in a water treatment plant’s influent water decreases the
 - [Methods](#Methods)
   - [Determining Reactor Parameters](#Determining-Reactor-Parameters)
   - [Fabrication Details](#Fabrication-Details)
-- [Results](#Results)
-- [Analysis](#Analysis)
+- [Results and Analysis](#Results-and-Analysis)
 - [Conclusions](#Conclusions)
 - [Future Work](#Future-Work)
 - [Bibliography](#Bibliography)
@@ -294,31 +293,29 @@ $\phi$ = Porosity
 $V_{pore}$ = Volume of water used to saturate sand
 $V_{sample}$ = Volume of sand
 
-This is equivalent to the formula given by [University of Florida Dept of Chemical Engineering](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). The results of this experiment are described in the Results section.
+This is equivalent to the formula given by [University of Florida Dept of Chemical Engineering](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). The data are given in Table 1 in the Results and Analysis section.
 
 #### Determining Sand Grain Dimensions
-Fluidization velocity of a sand bed is also dependent on sand grain diameter. Although the sand used for the subteam's reactor was already sieved, there were some minor variations that were not yet taken into account.
+Fluidization velocity of a sand bed is also dependent on sand grain diameter. Although the silica sand used for the subteam's reactor was already sieved, there were some minor variations that were not yet taken into account.
 
-In order to determine the average size of the sand grains, ten random grains were measured 3 times by subteam members using a caliper. The ten sand grains were taken as a representative sample of the sand used in the reactor. The data can be found in the results section.
+In order to determine the average size of the sand grains, ten random grains were measured 3 times by subteam members using a caliper. The ten sand grains were taken as a representative sample of the sand used in the reactor. The measurements are found in Table 2 in the Results and Analysis section.
 
 #### Determining the Reactor's Cross Sectional Area
 The subteam acquired a clear PVC pipe of approximate 1 inch diameter.
 
-After marking the pipe at approximately 50 cm in length with a permanent marker (the length was measured using measuring tape), the pipe was cut at that mark using a Sawzawll reciprocating saw. To maintain the correct orientation of the pipe, the subteam labeled the pipe with colored tape, with white tape denoting the bottom end (where the influent water will travel into the reactor) and red tape denoting the top (where the effluent water will leave the reactor).
+After marking the pipe at approximately 50 cm in length with a permanent marker (the length was measured using measuring tape), the pipe was cut at that mark using a Sawzawll reciprocating saw. To maintain the correct orientation of the pipe, the subteam labeled the pipe with colored tape, with white tape denoting the bottom end (where the influent water travels into the reactor) and red tape denoting the top end (where the effluent water leaves the reactor).
 
-The measured dimensions of the cut pipe are given in the following table. Measurements were taken using a caliper, in units of millimeters. Measurements were taken at both ends of the pipe: influent (marked with white) and effluent (red). The pipe's "inner diameter" was calculated by subtracting twice the thickness of the pipe's wall from the pipe's outer diameter.
+The cut pipes' measured dimensions are given in Tables 3 and 4 in the Results and Analysis section. Measurements were taken using a caliper, in units of millimeters. Measurements were taken at both ends of the pipe: influent (marked with white) and effluent (red). The pipe's "inner diameter" was calculated by subtracting twice the thickness of the pipe's wall from the pipe's outer diameter.
 
-This pipe was used as the main component of the prototype reactor.
-
-A table of the collected data can be found in the results section.
+This cut pipe was used as the main component of the prototype reactor.
 
 ### Fabrication Details
 
-The clear PVC pipe, cut to 0.5m as described in the prior section, was labeled with the following bands of tape to denote certain properties.
+The clear PVC pipe, cut to 0.5m as described in the prior section, was labeled with the following bands of tape to denote certain attributes. A photograph is shown in Figure 9.
 1. Orange: subteam name, member names and NetIDs
-2. Red: top / effluent end of the pipe
-3. White: bottom / influent end of the pipe
-4. Pink: prototype number
+2. Red: top / effluent end of the reactor
+3. White: bottom / influent end of the reactor
+4. Pink: prototype number (i.e. Prototype 1)
 
 Two watertight flow connectors, shown in Figure 7, were attached to either side of the PVC pipe to connect the influent and effluent tubing to the reactor.
 
@@ -327,7 +324,7 @@ Two watertight flow connectors, shown in Figure 7, were attached to either side 
 
 **Figure 7**: The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
 
-A fine, wire mesh was cut into a circle of approximately the same cross sectional area as the pipe and was placed at the bottom of the PVC pipe to prevent any sand from falling out of the reactor.
+A fine, wire mesh sheet was cut into a circle of approximately the same cross sectional area as the pipe and was placed at the bottom of the PVC pipe (i.e. between the pipe and flow connector) to prevent sand from falling out of the reactor.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Mesh_1.jpg?raw=true" height=250>
@@ -347,11 +344,11 @@ The following image shows the labeled reactor, capped at either end with the con
 
 </p>
 
-**Figure 9**: The photograph above is of the Prototype 1 reactor labeled with team members' names and with the appropriate influent (white) and effluent (red) tape labels. The Prototype 1 reactor contains a silica sand bed (indicated with a green circle in the figure), measured with a graduated cylinder.
+**Figure 9**: The above photograph shows the Prototype 1 reactor labeled with subteam members' names and with the appropriate influent (white) and effluent (red) tape labels. The Prototype 1 reactor contains a silica sand bed (indicated with a green circle in the figure).
 
-The Prototype 1 reactor contains 70 mL of silica sand measured with a graduated cylinder. The 70 mL volume was decided so that when the sand fluidized, it would not expand to be larger than the reactor. Dividing that volume of sand by the cross-sectional area of the reactor, which we determined to be 4.811 cm$^2$ (shown in our reactor measurements file), resulting in the height of the sand bed being approximately 15 cm.
+The Prototype 1 reactor contains 70 mL of silica sand, measured with a graduated cylinder. The subteam chose the 70 mL volume such that when the sand bed fluidized, it would not expand to be larger than the reactor. Dividing that volume of sand by the cross-sectional area of the reactor, which we determined to be 4.811 cm$^2$ (shown in the Results & Analysis section), resulting in the height of the sand bed in the reactor being 15 cm.
 
-The reactor is mounted above a table to an 80 20 with four metal hose clamps. The 80 20 arm was previously fabricated by the [Filter Constrictions subteam](https://raw.githubusercontent.com/AguaClara/filter-constrictions/master/Reports_Tutorials/FinalReport.md). A bucket is placed on the table to catch effluent water.
+The subteam mounted the reactor above a table, attached to an 80 20 beam with four metal hose clamps. The 80 20 arm was previously fabricated and installed by the [Spring 2018 Filter Constrictions subteam](https://raw.githubusercontent.com/AguaClara/filter-constrictions/master/Reports_Tutorials/FinalReport.md). The subteam attached tubing as appropriate to complete the flow path, and placed a bucket on the table to catch effluent water.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Prototype1_Photograph.jpg?raw=true" height=450>
@@ -362,13 +359,15 @@ The reactor is mounted above a table to an 80 20 with four metal hose clamps. Th
 
 Recall **Figure 4** from the Introduction section. The left-hand photograph is of the first prototype apparatus; the right-hand photograph contains graphical enhancement to clarify the system's progression. Influent water (purple arrow) enters the system through the peristaltic pump (orange rectangle), flows up into the fluidized bed reactor (green rectangle), exits the reactor as effluent water (dotted purple), and pours into a small bucket (yellow rectangle) that serves as an open-faced vent.
 
-Currently, the design uses a  3/8 inch diameter clear flex tubing to carry water from the sink to the peristaltic pump, 1/8" Masterflex tubing (06508-16) to fit in the peristaltic pump, and 3/16 inch diameter clear flex tubing for the influent and effluent tubing for the reactor. In order to prevent the effluent tubing from reaching its maximum bend radius, the tubing is taped to a nearby light fixture.
+Currently, the design uses a  3/8 inch diameter clear flex tubing to carry water from a sink in the AguaClara laboratory to the peristaltic pump, 1/8" Masterflex tubing (06508-16) to fit in the peristaltic pump, and 3/16 inch diameter clear flex tubing for the influent and effluent tubing for the reactor. In order to prevent the effluent tubing from reaching its maximum bend radius, the subteam taped the tubing to a nearby light fixture.
 
 All tubes are connected to each other using push-to-connect components and barbed fittings to ensure water tightness.
 
-## Results
+## Results and Analysis
 
-By following the infromation given in the Methods section, the subteam compiled tables of data for each test. The results are organized into tables and further information can be found in the Analysis Section.
+By following the procedures outlined in the Methods section, the subteam compiled tables of data.
+
+The Dissolved Gas subteam analyzed their data mainly through the use of the StandardDeviation.py code found in the Manual. The measurements taken were averaged and the standard deviation was determined for each set of data to determine the reliability of the data.
 
 ### Determining Porosity of Sand
 
@@ -378,6 +377,10 @@ By following the infromation given in the Methods section, the subteam compiled 
 | 2 | 40 | 150 | 136 | 14 | 0.35 |
 | 3 | 40 | 150 | 136 | 14 | 0.35 |
 **Table 1**: This table shows the data collected by the subteam to calculate the porosity of the sand bed.
+
+The subteam calculated the porosity of the sand and found it to be 0.35, with a standard deviation of 0.0%. These statistics were calculated using the StandardDeviation.py code given in the Manual.
+
+This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 (when the calculated value is rounded to one significant figure).
 
 ### Determining Sand Grain Dimensions
 
@@ -394,6 +397,8 @@ By following the infromation given in the Methods section, the subteam compiled 
 | 9 | 0.69 | 0.70 | 0.76 |
 |10 | 0.91 | 0.74 | 1.10 |
 **Table 2**: This table shows the sand dimensions measured by each subteam member.
+
+The average measured diameter of the sand grains was 0.91mm, with a standard deviation of 0.21mm. This was calculated using the StandardDeviation.py code given in the Manual.
 
 #### Determining the Reactor's Cross Sectional Area
 
@@ -415,49 +420,31 @@ By following the infromation given in the Methods section, the subteam compiled 
 | Average | 4.38 | 33.5  | 24.75 | 481.3 |
 **Table 4**: This table shows the average values of various dimensions of the pipe, the focus being the pipe's cross-sectional area.
 
-## Analysis
-[**Read this**]
-
-The Dissolved Gas subteam analyzed their data mainly through the use of the StandardDeviation.py code found in the Manual. The measurements taken were averaged and the standard deviation was determined for each set of data to determine the reliability of the data.
-
-#### Determining Porosity of Sand
-
-The subteam calculated the porosity of the sand and found it to be 0.35, with a standard deviation of 0.0%. These statistics were calculated using the StandardDeviation.py code given in the Manual.
-
-This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 (when the calculated value is rounded to one significant figure).
-
-#### Determining Sand Grain Dimensions
-
-The average measured diameter of the sand grains was 0.91mm, with a standard deviation of 0.21mm. This was calculated using the StandardDeviation.py code given in the Manual.
-
-#### Determining the Reactor's Cross Sectional Area
-
 The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1mm$^2$, with a standard deviation of 1.697mm$^2$.
 
 ## Conclusions
-[**Read This**]
-
-**Next, the subteam discovered that in order to have the influent water travel at no slower than the fluidization velocity in order to fluidize the sand bed, it would be necessary to acquire a 600 RPM peristaltic pump. Currently, there are no such pumps available for use. As a result, the subteam can either recreate the prototype system using a new pipe with a smaller diameter for the fluidized bed reactor, or a new peristaltic pumped can be purchased for the subteam's use. Once the subteam is able to fluidize the sand bed by one of these two options, initial testing of the functionality of the prototype will be conducted.**
 
 The Dissolved Gas subteam's first semester involved research, design, fabrication, and experimentation to determine an appropriate reactor that will remove excess dissolved gas from influent water in AguaClara plants.
 
 The subteam gathered literature to obtain a foundational understanding of the concepts relevant to a fluidized bed reactor. These concepts included fluidization, bubble nucleation, and gas solubility. The subteam decided on a fluidized bed reactor that would encourage bubble formation by providing nucleation sites. These bubbles would also be encouraged by the low pressure inside of the reactor. Through analysis of this literature, the subteam designed a prototype system.
 
-After fabricating the prototype reactor and assembling the system, the subteam began to run basic tests. **Unfortunately, the tests did not carry out ideally with the available pump. Only after constructing an unreliable parallel pump system were they able to fluidize the sand. The subteam could only run the pump for a short period of time because of its instability.**
+After fabricating the prototype reactor and assembling the system, the subteam began to run basic tests. Unfortunately, the tests did not carry out ideally with the available pump. The subteam discovered that in order to have the influent water travel at no slower than the fluidization velocity in order to fluidize the sand bed, it would be necessary to acquire a 600 RPM peristaltic pump. In the meantime, the subteam was able to temporarily fluidize the sand by constructing an unreliable parallel pump system. Despite the bed only fluidizing for a short period of time, this confirmed the viability of creating a prototype model capable of fluidizing a sand bed. This is
+
+While there remains to be no 600 RPM pumps available for the subteam's use, alternative methods of fluidizing the sand bed are outlined in the future works section.
 
 Overall, the Dissolved Gas subteam provided a solid basis for future semesters to build off of.
 
 ## Future Work
 
-[**Read this**]
-
 Over the course of the semester, the subteam designed and assembled a prototype system, but encountered some errors in the system assembly which need to be corrected before moving on. In future semesters, the subteam will continue to troubleshoot and fix the current system failures.
 
-The subteam discovered that it is not possible for the influent water to travel at the fluidization velocity of the sand bed using the current apparatus and a 100 RPM pump. In the future, the subteam will either have to acquire a 600 RPM pump or design a new prototype with a smaller pipe diameter. Once the subteam is able to fluidize the sand bed by one of these two options, further testing will be conducted.
+Because the subteam was unable to consistently fluidize the sand using the available pump, the subteam will either have to acquire a 600 RPM pump or design a new prototype with a smaller pipe diameter next semester. Once the subteam is able to fluidize the sand bed by one of these two methods, the subteam will progress with experimentation, evaluation, and iteration.
 
-Once everything is running smoothly with all the appropriate equipment, the subteam can focus on experimentation, evaluation, and iteration. The subteam will test the functionality of the prototype in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. With such data, the subteam will then modify the system as necessary to optimize the amount of dissolved gas that is removed.
+The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid. After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content. After analysis of such data, the subteam will modify the system to optimize the removal of dissolved gas.  
 
-Although the subteam will be observing bubble formation of oxygen gas within the prototype reactor, it is expected that the percentage of dissolved oxygen removed will be proportional to the percentage of total dissolved gas removed in the actual system. The principles of Henry's Law, Pascal's Law, and the equations the subteam put together to model gas solubility are universal; the subteam expects that oxygen will give an accurate representation of the reactor's ability to remove any dissolved gas.
+**Also, the principles behind Henry's Law, Pascal's Law, and the derived [Equation 7](#Equation-7) are universal in their applications to gases; the subteam expects that oxygen will give an accurate representation of the reactor's ability to remove any dissolved gas.**
+
+In future semesters, the subteam must also keep in mind the end goal of scaling up the prototype. The prototype's methods used to remove excess dissolved gas from influent water must feasibly apply on a practical scale.
 
 The subteam continues to look forward to experimentation and iteration to prove the validity and functionality of the research done this past semester.
 
@@ -664,31 +651,6 @@ standard_deviation = math.sqrt(numerator / (len(values)-1))
 
 print("The list you've entered has an average value of " + str(ut.sig(average, 4)) +", with a standard deviation of "+ str(ut.sig(standard_deviation, 4))+'.')
 ```
-
-### Head Loss
-
-The following code, copied from the file HeadLoss.py found on the subteam's GitHub page, outputs the head loss experienced in the effluent tubing, measured in units of length
-
-```python
-import math
-import numpy as nm
-import aide_design as ad
-from aide_design import utility as ut
-from aide_design.play import*
-
-viscosity = float(input("What is the kinematic viscosity of water, in units of millimeters squared per second?\n"))*u.mm**2/u.s
-effluent_tubing_length = float(input("What is the length of the effluent tubing, in units of centimeters?\n"))*u.m
-velocity = float(input("What is the velocity of water in the effluent piping, in units of meters per second?\n"))*u.m/u.s
-
-density_water = 997*u.kg/(u.m**3)
-g = 9.8 *u.m/(u.s**2)
-pipe_diameter = float(input("What is the diameter of the effluent piping, in units of meters?\n"))*u.m
-
-Head_Loss = (32 * viscosity * effluent_tubing_length * velocity)/(density_water * g * pipe_diameter**2)
-
-print("The Head Loss due to the effluent tubing is "+ str(ut.sig(Head_Loss,3))+".")
-```
-
 
 ### ProCoDa Code
 

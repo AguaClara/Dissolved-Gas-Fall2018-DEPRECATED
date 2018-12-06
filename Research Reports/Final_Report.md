@@ -86,7 +86,7 @@ The subteam concentrated its research on optimizing the system's fluidized bed r
 
 ### Fluidized Beds & Bubble Nucleation
 
-When a liquid or a gas is pumped through a granular solid at a certain velocity, the granular solid behaves like a fluid. The velocity required to cause this behavior is known as the minimum fluidization velocity. The corresponding flow rate may be denoted as the minimum fluidization flow. The minimum fluidization velocity depends on numerous characteristics of the fluidized bed, including particle density, shape, size, and porosity [(Department of Chemical Engineering, 2017)](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). The relationship is quantified by the equation below [(Weber-Shirk)](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf).
+When a liquid or a gas is pumped through a granular solid at a certain velocity, the material behaves like a fluid. The velocity required to cause this behavior is known as the minimum fluidization velocity. The corresponding flow rate may be denoted as the minimum fluidization flow. The minimum fluidization velocity depends on numerous characteristics of the fluidized bed, including particle density, shape, size, and porosity [(Department of Chemical Engineering, 2017)](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf). The relationship is quantified by the equation below [(Weber-Shirk)](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf).
 
 #### Equation 1
 
@@ -102,7 +102,7 @@ $v$ = Kinematic viscosity of water
 $\rho_s$ = Density of sand particles
 $\rho_w$ = Density of water
 
-In the reactor the subteam plans to use, sand will serve as the granular solid and water as the fluid. Water has a known density and kinematic viscosity, but the material properties of sand may vary. The subteam used silica sand to design the prototype reactor, as it was readily available in the AguaClara laboratory. The subteam experimentally determined the silica sand's porosity and average grain diameter, as discussed in the Methods section. The subteam found silica sand's density in a presentation by [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)
+In the reactor the subteam plans to use, sand will serve as the granular solid and water as the fluid. Water has a known density and kinematic viscosity, but the material properties of sand may vary. The subteam used silica sand to design the prototype reactor, as it was readily available in the AguaClara laboratory. The subteam experimentally determined the silica sand's porosity and average grain diameter, as discussed in the Methods section. The subteam found silica sand's density in a presentation by [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf).
 
 Because of the reactor’s dependence on bubble formation, the subteam also directed research toward bubble nucleation sites. The subteam found that the solid particles in the fluidized beds would provide nucleation sites for bubble formation.
 

@@ -142,7 +142,7 @@ $\rho$ = Density of the material
 $g$ = Acceleration due to gravity
 $\Delta h$ = Change in depth
 
-Because water pressure decreases in shallower depths, building a reactor at a certain height will minimize pressure, and as a result, minimize gas solubility.
+Because water pressure decreases in shallower depths, building a reactor at a greater height in the water column will minimize pressure inside the reactor, and as a result, minimize gas solubility.
 
 Another factor that influences the pressure difference between the reactor and the vent is that of *head loss*; head loss corresponds to energy lost due to friction, which in turn depends on material properties of the piping [(CodeCogs, 2012)](http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php). In this case, the relevant piping is the effluent pipe through which water exits the reactor and passes into the vent. Head loss is dependent on tubing parameters according to the following equation [(Brown, 2000)](https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm).
 
@@ -210,7 +210,7 @@ $$P_i = P_o + 4 \frac{T}{R}$$
 
 $P_i$ denotes the pressure within a bubble and therefore is relabeled as $P_b$. $P_o$ denotes the pressure outside of the bubble and is relabeled $P_r$.
 
-The pressure outside of the bubble (i.e. the pressure within the liquid) can be equated to atmospheric pressure, plus a change in pressure due to the height difference between the reactor and the vent ([Equation 3](#Equation-3)), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent ([Equation 5](#Equation-5)).
+The pressure outside of the bubble (i.e. the pressure within the liquid) can be equated to atmospheric pressure, plus a change in pressure due to the height difference between the reactor and the vent [(Equation 3)](#Equation-3), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent [(Equation 5)](#Equation-5).
 
 $$\Delta P = \rho g \Delta h$$
 

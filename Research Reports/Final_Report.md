@@ -4,10 +4,9 @@
 
 ### 8 December, 2018
 
-
 ## Abstract
 
-Excess dissolved air in a water treatment plant’s influent water decreases the functionality of the treatment plant's filters and sedimentation tanks. The Dissolved Gas subteam began its first semester with the goal to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant, using a fluidized bed. The subteam gathered literature, developed a design, and fabricated a small-scale prototype reactor and accompanying system. The subteam will iterate improvements based on experimental data to work towards a prototype that may be scaled up for application in an AguaClara plant.
+Excess dissolved air in a water treatment plant’s influent water decreases the functionality of the plant's filters and sedimentation tanks. The Dissolved Gas subteam began its first semester with the goal to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant, using a fluidized bed. The subteam gathered literature, developed a design, and fabricated a small-scale prototype reactor and an accompanying system. The subteam will iterate improvements based on experimental data to work towards a prototype that may be scaled up for application in an AguaClara plant.
 
 ## Table of Contents
 
@@ -34,11 +33,11 @@ Excess dissolved air in a water treatment plant’s influent water decreases the
 
 Excess dissolved gas in influent water of AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles.
 
-Due to the presence of this excess gas, bubbles form in the plants' sedimentation tanks. Flocs adhere to these bubbles and rise, causing materials that should settle to float and to continue into the remainder of the plant. Bubbles also form in the plants' sand filters between sand particles, effectively clogging the filters [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy these issues, the Dissolved Gas subteam intends to design a reactor that removes such dissolved gas from influent water prior to entering the plant.
+Due to the presence of this excess gas, bubbles form in the plants' sedimentation tanks. Flocs adhere to these bubbles and rise, causing materials that should settle to float and to continue into the remainder of the plants. Bubbles also form in the plants' sand filters between sand particles, effectively clogging the filters [(Scardina, 2004)](https://vtechworks.lib.vt.edu/bitstream/handle/10919/26497/PaoloScardinaDissertation2004.pdf?sequence=1). To remedy these issues, the Dissolved Gas subteam intends to develop a reactor that removes such dissolved gas from influent water prior to entering the plant.
 
 For the sake of efficiency, this report uses the term “supersaturated water” to denote water containing excess dissolved gas, whether air or otherwise.
 
-The basic concept of the system design is as follows. Influent water will flow from its source at a high elevation. Once the influent water has descended and is near to the AguaClara plant, piping will direct it upwards into a reactor. Atmospheric pressure decreases as elevation increases [(Hodanbosi)](https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html). According to Henry’s Law, gas becomes less soluble at lower pressures, making bubble formation more likely [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html). Additional aspects of the reactor will further encourage bubble formation (i.e. nucleation) in the reactor. Subsequently, the water and the gas bubbles that formed will flow upward and out of the reactor. Piping will direct this effluent downward into a basin containing a vent through which the gas bubbles may escape into the atmosphere. The water, no longer supersaturated, will then flow into the treatment plant. Figure 1 illustrates this general design.
+The basic concept of the system design is as follows. Influent water will flow from its source at a high elevation. Once the influent water has descended and is near to the AguaClara plant, piping will direct it upwards into a reactor. Atmospheric pressure decreases as elevation increases [(Hodanbosi)](https://www.grc.nasa.gov/www/k-12/WindTunnel/Activities/fluid_pressure.html). According to Henry’s Law, gas becomes less soluble at lower pressures, making bubble formation more likely [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html). Additional aspects of the reactor will further encourage bubble formation (i.e. nucleation) in the reactor. Subsequently, the water and the gas bubbles that form will flow upward and out of the reactor. Piping will direct this effluent downward into a basin containing a vent through which the gas bubbles may escape into the atmosphere. The water, no longer supersaturated, will then flow into the treatment plant. Figure 1 illustrates this general design.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Figure%201_%20GeneralUpdated.png?raw=true" height=450>
@@ -104,30 +103,30 @@ $v$ = Kinematic viscosity of water
 $\rho_s$ = Density of sand particles
 $\rho_w$ = Density of water
 
-In the reactor the subteam plans to use, sand will serve as the granular solid and water as the fluid. Water has a known density and kinematic viscosity, but the material properties of sand may vary. The subteam used silica sand to design the prototype reactor, as it was readily available in the AguaClara laboratory. The subteam experimentally determined the silica sand's porosity and average grain diameter, as discussed in the Methods section. The subteam found silica sand's density in a presentation by [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf).
+In the prototype reactor the subteam has fabricated, sand serves as the granular solid and water serves as the fluid. Water has a known density and kinematic viscosity, but the material properties of sand may vary. The subteam used silica sand to design the prototype reactor, as it was readily available in the AguaClara laboratory. The subteam experimentally determined the silica sand's porosity and average grain diameter, as discussed in the Methods section. The subteam found silica sand's density in a presentation by [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf).
 
 Because of the reactor’s dependence on bubble formation, the subteam also directed research toward bubble nucleation sites. The subteam found that the solid particles in the fluidized beds would provide nucleation sites for bubble formation.
 
 Typically, small, solid particles can provide a place for bubbles to grow large enough so they rise to the top of a reactor and escape [(Boudreau et al., 2005)](https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments). Boudreau found that bubbles that form in sand-like sediments are spherical, in contrast to the oblate spheroid-shaped bubbles that form in muddy sediments. His research suggests that the difference in shape is caused by the differences in responses to the stress of the materials; while mud fractures under stress, sand “acts fluidly or plastically in response to growth stresses.” This informed the subteam as to what type of materials to use in the reactor because the subteam needs the particles to have a fluid-like behavior.
 
-Bubble formation and size in gas-solid fluidized beds is fairly predictable at low gas velocities [(Harrison and Leung, 1961)](https://www.nature.com/articles/190433a0). However, Schulz states that this is not the case for liquid-solid fluidized beds: “In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.” [(Schulz, 2004)](https://www.opuscula.agh.edu.pl/vol24/1/art/opuscula_math_2412.pdf). This instability could cause problems for the subteam, but luckily there are solutions to commonly reported issues.
+Bubble formation and size in gas-solid fluidized beds is fairly predictable at low gas velocities [(Harrison and Leung, 1961)](https://www.nature.com/articles/190433a0). However, Schulz states that this is not the case for liquid-solid fluidized beds: “In most liquid-fluidized beds, … although instability is present and can be seen in the form of wavy structures this does not lead rapidly to bubble formation.” [(Schulz, 2004)](https://www.opuscula.agh.edu.pl/vol24/1/art/opuscula_math_2412.pdf). This instability could cause problems for the subteam, but there are solutions to commonly reported issues.
 
 If bubble formation is slow or inconsistent, it may be due to the ratio between the density of the particles and the density of water. Schulz found that bubble formation was present in fluidized beds with high ratios, so the subteam may want to consider using denser particles if problems arise.
 
-The subteam aims to remove the most gas from the influent water as possible by creating bubbles. As previously stated, bubbles can be created by providing nucleation sites on sand grains, and it can also be done by decreasing gas solubility.
+The subteam aims to remove the most gas from the influent water as possible by creating bubbles. As previously stated, bubbles can be created by providing nucleation sites on sand grains; it can also be done by decreasing gas solubility.
 
 ### Controlling Pressure
 
-The solubility of a gas in a solution is directly proportional to its partial pressure above said solution. It is also dependent on a particular constant, determined by the composition of the gas and the solution, and the temperature of both. [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
+The solubility of a gas in a solution is directly proportional to its partial pressure above said solution. It is also dependent on a particular constant, determined by the composition of the gas and the solution, and the temperature of both [(Averill & Eldredge)](https://2012books.lardbucket.org/books/principles-of-general-chemistry-v1.0/s17-04-effects-of-temperature-and-pre.html).
 
-A formula that illustrates this relationship is Henry's Law, which is represented by the following equation.
+Henry's Law quantifies this relationship, represented by the following equation.
 
 #### Equation 2
 
 $$ C=k P $$
 
 **Variables**
-$C$ = Dissolved gas’s concentration at equilibrium
+$C$ = Dissolved gas’s concentration in a solvent at equilibrium
 $k$ = Henry’s Law constant, which is determined experimentally for each combination of gas, solvent, and temperature. In this case, the interface may be considered as the border between the bubble and the surrounding water.
 $P$ = Dissolved gas’s partial pressure at the interface of liquid and gas
 
@@ -145,7 +144,7 @@ $\rho$ = Density of the material
 $g$ = Acceleration due to gravity
 $\Delta h$ = Change in depth
 
-Because water pressure decreases in shallower depths, building a reactor at a greater height in the water column will minimize pressure inside the reactor, and as a result, minimize gas solubility.
+Because water pressure decreases at lesser depths, building a reactor at a greater height in the water column will minimize pressure inside the reactor, and as a result, minimize gas solubility.
 
 Another factor that influences the pressure difference between the reactor and the vent is that of *head loss*; head loss corresponds to energy lost due to friction, which in turn depends on material properties of the piping [(CodeCogs, 2012)](http://www.codecogs.com/library/engineering/fluid_mechanics/pipes/head_loss/pipe-head-loss.php). In this case, the relevant piping is the effluent pipe through which water exits the reactor and passes into the vent. Head loss is dependent on tubing parameters according to the following equation [(Brown, 2000)](https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm).
 
@@ -195,9 +194,9 @@ $R$ = Bubble radius
 
 The dissolved gas subteam plans on using the principles of this formula to even further decrease the pressure inside the bubble. Because it is known that an increase in radius will result in a decrease in pressure, the subteam must find a way to increase bubble radius.
 
-One way to increase radius may be to prevent the bubbles in the reactor from quickly escaping; if bubbles stay inside the reactor for a longer period of time, it will have a longer time to expand.
+One way to increase radius may be to prevent the bubbles in the reactor from quickly escaping; if a bubble stays inside the reactor for a longer period of time, it will have a longer time to expand.
 
-In the Analysis section, Equations 2-6 are evaluated and related to one another to form one basis for parameters of the system design. In the following weeks, the subteam plans to fabricate and test the effectiveness of a fluidized bed reactor whose parameters are informed by this basis.
+In the Analysis of Literature section, Equations 2-6 are evaluated and related to one another to form one basis for parameters of the system design.
 
 ### Analysis of Literature
 
@@ -212,9 +211,9 @@ As shown in [Equation 6](#Equation-6), the pressure within a bubble is directly 
 
 $$P_i = P_o + 4 \frac{T}{R}$$
 
-$P_i$ denotes the pressure within a bubble and therefore is relabeled as $P_b$. $P_o$ denotes the pressure outside of the bubble and is relabeled $P_r$.
+$P_i$ denotes the pressure within a bubble and therefore is relabeled as $P_b$. $P_o$ denotes the pressure outside of the bubble and is relabeled $P_r$ (i.e. pressure in the liquid within the reactor).
 
-The pressure outside of the bubble (i.e. the pressure within the liquid) can be equated to atmospheric pressure, plus a change in pressure due to the height difference between the reactor and the vent [(Equation 3)](#Equation-3), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent [(Equation 5)](#Equation-5).
+The pressure outside of the bubble can be equated to atmospheric pressure, plus a change in pressure due to the height difference between the reactor and the vent [(Equation 3)](#Equation-3), plus a change in pressure due to head loss in the tubing connecting the reactor and the vent [(Equation 5)](#Equation-5).
 
 $$\Delta P = \rho g \Delta h$$
 
@@ -257,18 +256,16 @@ While [Equation 7](#Equation-7) is powerful in its efficiency, it may only act a
 
 ## Methods
 
-The subteam fabricated a prototype reactor and assembled an accompanying system, as shown in Figure 4. The Methods section explains the subteam's procedures to determine the reactor's parameters and to fabricate the reactor.
+The subteam fabricated a prototype fluidized bed reactor and assembled an accompanying system, as shown in Figure 4. The Methods section explains the subteam's procedures to determine the reactor's parameters and to fabricate the reactor.
 
 In order to calculate the fluidization velocity of the sand bed contained by the reactor, the subteam needed to determine the sand bed's porosity, the average diameter of the sand grains, and the average cross-sectional area of the pipe. The importance of these values is illustrated by [Equation 1](#Equation-1). The Determining Reactor Parameters section describes how the subteam determined these values.
 
-The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
+The prototype reactor design aligns with that illustrated in Figure 6. The Fabrication Details section describes the composition of the reactor, how the subteam constructed the prototype reactor, and how the subteam assembled the system.
 
-The prototype reactor design aligns with that illustrated in Figure 6. Exact parameters are found in the Fabrication Details section.
+The prototype system’s design is as follows: a peristaltic pump pumps hot water (since water saturated with air, once heated, becomes supersaturated [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
+)) into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. The influent water's velocity is controlled by the ProCoDa code, found in the ProCoDa Code section of the Manual, via the peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their nucleation sites, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. This bucket acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
 
-The prototype system’s design is as follows: a peristaltic pump pumps hot water (since hot water is supersaturated with gas [(Florida State University)](https://www.chem.fsu.edu/chemlab/chm1046course/solubility.html
-) into a tube system and through the fluidized bed reactor. The reactor, a transparent PVC pipe shown in Figure 9, contains a silica sand bed. This is fluidized by the influent water, which travels at no slower than the sand’s fluidization velocity. The influent water's velocity is controlled by the ProCoDa code found in the ProCoDa Code section of the manual via a peristaltic pump. Ideally, as the supersaturated water flows through the reactor, excess air particles in the water accumulate on the sand grains and form bubbles. Such bubbles then depart from their sand grains, flow upward out of the reactor (through the effluent tubing), and flow into a bucket. This bucket acts as the open-faced vent (as illustrated in Figure 1) for the air bubbles to escape into the atmosphere.
-
-One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. Figure 8, which can be found in the Fabrication Details section, illustrates this.
+One should note that a mesh screen is installed at the bottom of the reactor to prevent any sand from falling down/out of the reactor. Figure 8, found in the Fabrication Details section, further depicts this.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_Diagram.jpg?raw=true" height=450>
@@ -279,7 +276,7 @@ One should note that a mesh screen is installed at the bottom of the reactor to 
 
 The subteam built the prototype reactor intending to minimize head loss and to maximize the difference in depth between the reactor and the bucket. The relationship between these parameters is illustrated in [Equation 7](#Equation-7). The subteam aimed to minimize gas' solubility in the reactor and therefore maximize bubble formation in the reactor.
 
-The Testing the System section describes the subteam's methods for their attempts to fluidize the sand bed.
+The Testing the System section describes the subteam's methods in attempting to fluidize the sand bed in the prototype reactor.
 
 ### Determining Reactor Parameters
 
@@ -314,18 +311,19 @@ In order to determine the average size of the sand grains, ten randomly selected
 
 The subteam acquired a clear PVC pipe of approximate 1-inch diameter.
 
-After marking the pipe at approximately 0.5 m in length with a permanent marker (the length was measured using measuring tape), the pipe was cut at that mark using a Sawzawll reciprocating saw. To maintain the correct orientation of the pipe, the subteam labeled the pipe with colored tape, with white tape denoting the bottom end (where the influent water travels into the reactor) and red tape denoting the top end (where the effluent water leaves the reactor).
+After marking the pipe at approximately 0.5 m in length with a permanent marker (the length was measured using measuring tape), the pipe was cut at that mark using a Sawzawll reciprocating saw.
 
-The cut pipe's measured dimensions are given in Tables 3 and 4 in the Results and Analysis section. Measurements were taken using a caliper in units of millimeters. Measurements were taken at both ends of the pipe: influent (marked with white) and effluent (red). The pipe's "inner diameter" was calculated by subtracting twice the thickness of the pipe's wall from the pipe's outer diameter.
+The cut pipe's measured dimensions are given in Tables 3 and 4 in the Results and Analysis section. Measurements were taken at both ends of the pipe: influent (marked with white) and effluent (red). The pipe's "inner diameter" was calculated by subtracting twice the thickness of the pipe's wall from the pipe's outer diameter.
 
-This cut pipe was used as the main component of the prototype reactor.
+This cut pipe was used as the body of the prototype reactor.
 
 ### Fabrication Details
 
 The clear PVC pipe, cut to 0.5 m as described in the prior section, was labeled with the following bands of tape to denote certain attributes. A photograph is shown in Figure 9.
+
 1. Orange: subteam name, member names and NetIDs
-2. Red: top / effluent end of the reactor
-3. White: bottom / influent end of the reactor
+2. Red: top end of the reactor, where the effluent water leaves the reactor
+3. White: bottom end of the reactor, where the influent water travels into the reactor
 4. Pink: prototype number (i.e. Prototype 1)
 
 Two watertight flow connectors, shown in Figure 7, were attached to either side of the PVC pipe to connect the influent and effluent tubing to the reactor.
@@ -335,7 +333,7 @@ Two watertight flow connectors, shown in Figure 7, were attached to either side 
 
 **Figure 7**: The above flow connector enables the reactor (pipe) to be connected to clear flex tubing.
 
-A fine, wire mesh sheet was cut into a circle of approximately the same cross-sectional area as the pipe and was placed at the bottom of the PVC pipe (i.e. between the pipe and flow connector) to prevent sand from falling out of the reactor.
+A fine, wire mesh sheet was cut into a circle of approximately the same cross-sectional area as the pipe and was placed at the bottom of the PVC pipe, between the pipe and flow connector, to prevent sand from falling out of the reactor.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/Mesh_1.jpg?raw=true" height=250>
@@ -357,7 +355,7 @@ The following image shows the labeled reactor, capped at either end with the con
 
 **Figure 9**: The above photograph shows the Prototype 1 reactor labeled with subteam members' names and with the appropriate influent (white) and effluent (red) tape labels. The Prototype 1 reactor contains a silica sand bed (indicated with a green circle in the figure).
 
-The Prototype 1 reactor contains 70 mL of silica sand, measured with a graduated cylinder. The subteam chose the 70 mL volume such that when the sand bed fluidized, it would not expand to be larger than the reactor. Dividing that volume of sand by the cross-sectional area of the reactor, which we determined to be 4.811 cm$^2$ (shown in the Results & Analysis section), resulting in the height of the sand bed in the reactor being 15 cm; this is much less than the height of the reactor.
+The Prototype 1 reactor contains 70 mL of silica sand, measured with a graduated cylinder. The subteam chose the 70 mL volume such that when the sand bed fluidized, it would not expand to be larger than the reactor. Dividing 70 mL by the cross-sectional area of the reactor, which was determined to be 4.811 cm$^2$ (described in the Results & Analysis section), shows the height of the sand bed in the reactor to be 15 cm, much less than the reactor's height.
 
 The subteam mounted the reactor above a table, attached to an 80 20 beam with four metal hose clamps. The 80 20 arm was previously fabricated and installed by the [Spring 2018 Filter Constrictions subteam](https://raw.githubusercontent.com/AguaClara/filter-constrictions/master/Reports_Tutorials/FinalReport.md). The subteam attached tubing as appropriate to complete the flow path, and placed a bucket on the table to catch effluent water.
 
@@ -376,22 +374,22 @@ All tubes are connected to each other using push-to-connect components and barbe
 
 ### Testing the system
 
-The subteam tested the system's functionality by activating the peristaltic pump to full capacity while inputting water from the sink. The results of this test, which were unsatisfactory, are described in the Results and Analysis section.
+The subteam tested the system's functionality by activating the peristaltic pump to full capacity while inputting water from the sink. The unsatisfactory results of this basic test are described in the Results and Analysis section.
 
-After determining that the 100 RPM peristaltic pump was insufficient to fluidize the sand bed, the subteam assembled a parallel pump-head system, as shown in Figure 10. The subteam activated the peristaltic pump to determine whether the sand bed would fluidize.
+After determining that the 100 RPM peristaltic pump was insufficient to fluidize the sand bed, the subteam assembled a parallel pump-head system, as shown in Figure 10. The subteam activated the peristaltic pump to determine whether the sand bed would fluidize. The results of this test are also described in the Results and Analysis section.
 
 <p style="text-align: center;">
 <img src="https://github.com/AguaClara/Dissolved-Gas/blob/master/Images/Prototype_1/PeristalticPump_ParallelArrangement.jpg?raw=true" height=400>
 
 </p>
 
-**Figure 10**: The above photograph shows the parallel pump-head system that the subteam assembled to evaluate the functionality of the system.
+**Figure 10**: The above photograph shows the parallel pump-head system that the subteam assembled to evaluate the system's functionality.
 
 ## Results and Analysis
 
 By following the procedures outlined in the Methods section, the subteam compiled data and arranged them into tables.
 
-The Dissolved Gas subteam analyzed data mainly through the use of the StandardDeviation.py code found in the Manual. The measurements taken were averaged and the standard deviation was determined for each set of data to determine the data's reliability.
+The Dissolved Gas subteam analyzed data mainly through the use of the StandardDeviation.py code found in the Manual. The measurements taken were averaged, and the standard deviation was determined for each set of data to determine the data's reliability.
 
 ### Determining Porosity of Sand
 
@@ -402,9 +400,9 @@ The Dissolved Gas subteam analyzed data mainly through the use of the StandardDe
 | 3 | 40 | 150 | 136 | 14 | 0.35 |
 **Table 1**: This table shows the data collected by the subteam to calculate the porosity of the sand bed.
 
-The subteam calculated the porosity of the sand and found it to be 0.35, with a standard deviation of 0.0%. These statistics were calculated using the StandardDeviation.py code given in the Manual.
+The subteam calculated the porosity of the sand and found it to be 0.35, with a surprising standard deviation of 0.0%.
 
-This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 (when the calculated value is rounded to one significant figure).
+This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 when the calculated value is rounded to one significant figure.
 
 ### Determining Sand Grain Dimensions
 
@@ -420,9 +418,9 @@ This has a percent difference of 0% compared to [Weber-Shirk](https://courses.ci
 | 8 | 0.76 | 0.92 | 0.70 |
 | 9 | 0.69 | 0.70 | 0.76 |
 |10 | 0.91 | 0.74 | 1.10 |
-**Table 2**: This table shows the sand dimensions measured by each subteam member.
+**Table 2**: This table shows the sand dimensions measured by the subteam.
 
-The average measured diameter of the sand grains was 0.91 mm, with a standard deviation of 0.21 mm. This was calculated using the StandardDeviation.py code given in the Manual.
+The average measured diameter of the sand grains was 0.91 mm, with a standard deviation of 0.21 mm.
 
 ### Determining the Reactor's Cross-Sectional Area
 
@@ -433,7 +431,7 @@ The average measured diameter of the sand grains was 0.91 mm, with a standard de
 |    2    | 4.39 | 33.36 | 24.58 | 474.5 |
 |    3    | 4.40 | 33.46 | 24.66 | 477.6 |
 | Average | 4.38 | 33.45 | 24.69 | 478.9 |
-**Table 3**: This table shows the measured diameters of the influent side of the pipe. The table also shows the cross-sectional area as well as average values.
+**Table 3**: This table shows the measured dimensions of the influent side of the pipe, the calculated cross-sectional areas, and the corresponding average values.
 
 ##### Effluent side
 | Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross-Sectional Area (mm$^2$) |
@@ -442,15 +440,15 @@ The average measured diameter of the sand grains was 0.91 mm, with a standard de
 |    2    | 4.67 | 33.44 | 24.10 | 456.2 |
 |    3    | 4.20 | 33.41 | 25.01 | 491.3 |
 | Average | 4.38 | 33.5  | 24.75 | 481.3 |
-**Table 4**: This table shows the average values of various dimensions of the pipe, the focus being the pipe's cross-sectional area.
+**Table 4**: This table shows the measured dimensions of the effluent side of the pipe, the calculated cross-sectional areas, and the corresponding average values.
 
 The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1 mm$^2$, with a standard deviation of 1.697 mm$^2$.
 
 ### Calculating the Sand Bed's Fluidization Flow
 
-Using the code FluidizationVelocity.py, based upon [Equation 1](Equation-1), and using the applicable measured and calculated values, the subteam calculated the sand bed's fluidization flow (i.e. the minimum flow rate required to fluidize the sand bed). The code is given in the Python Code section.
+Using the code FluidizationVelocity.py, based upon [Equation 1](Equation-1), and using the applicable measured and calculated values, the subteam calculated the sand bed's fluidization flow. The code is given in the Python Code section.
 
-The following values were used for the parameters relevant to the calculation:
+The subteam used the following values for the parameters relevant to the calculation:
 
 Cross-sectional area of the reactor: 481.1 mm$^2$
 Porosity of the silica sand: 0.35
@@ -462,19 +460,19 @@ The sand bed's fluidization flow was calculated to be 2.54 mL/s.
 
 ### Testing the System
 
-When the subteam activated the 100 RPM peristaltic pump at full capacity with input water from the sink, the sand bed was unable to fluidize. The subteam needed a peristaltic pump with greater capacity or a new reactor design with a smaller diameter.
+When the subteam activated the 100 RPM peristaltic pump at full capacity with input water from the sink, the sand bed did not fluidize. The subteam needed a peristaltic pump with greater capacity or a new reactor design with a smaller diameter.
 
-To compensate, the subteam assembled a parallel pump-head arrangement, as shown in Figure 10. When the subteam activated the pump, the fluidized bed momentarily fluidized, as shown in [this video](https://drive.google.com/file/d/0B8i8Cm87we2icGkzNHlGcTdnVzZHdXZoTDV0OEpHTmhuWWMw/view?usp=sharing). While bubbles were visible in the video, these bubbles are likely from air in the influent tubing, not the fluidized bed itself.
+To temporarily compensate, the subteam assembled a parallel pump-head arrangement, as shown in Figure 10. When the subteam activated the pump, the fluidized bed momentarily fluidized, as shown in [this video](https://drive.google.com/file/d/0B8i8Cm87we2icGkzNHlGcTdnVzZHdXZoTDV0OEpHTmhuWWMw/view?usp=sharing). While bubbles were visible, these bubbles were likely from air caught in the influent tubing, not forming in the fluidized bed itself.
 
-This system was unstable, and it frequently leaked. The tubes connecting the pumps in parallel frequently came out of their barbed connections. Because of these issues, the subteam decided that this set-up would not work in the long run and that they should consider alternative solutions.
+This parallel system was unstable, and it frequently leaked. The tubes connecting the pump heads in parallel frequently came out of their barbed connections. Because of these issues, the subteam decided that this set-up would not work in the long run.
 
 ## Conclusions
 
-The Dissolved Gas subteam's first semester involved research, design, fabrication, and basic experimentation to develop a reactor to remove excess dissolved gas from influent water in AguaClara plants.
+The Dissolved Gas subteam's first semester involved research, design, fabrication, and basic experimentation to begin development of a reactor to remove excess dissolved gas from influent water in AguaClara plants.
 
-The subteam began development of a fluidized bed reactor that would encourage bubble formation by providing bubble nucleation sites. The subteam gathered literature on concepts including fluidization, bubble nucleation, and gas solubility. After analysis of literature, the subteam experimentally determined relevant system parameters, then designed and fabricated a prototype system.
+The subteam began development of a fluidized bed reactor that would encourage bubble formation by providing bubble nucleation sites. The subteam gathered literature on concepts including fluidization, bubble nucleation, and gas solubility. After analyzing the literature, the subteam experimentally determined relevant system parameters, then designed and fabricated a prototype system.
 
-After fabricating the prototype system, the subteam ran basic tests to determine its functionality. The reactor's sand bed failed to consistently fluidize while using a 100 RPM peristaltic pump, in both one-pump-head and four-pump-head configurations.
+After fabricating the prototype system, the subteam ran basic tests to determine its functionality. The reactor's sand bed failed to consistently fluidize while using a 100 RPM peristaltic pump, in both one-pump-head and parallel four-pump-head configurations.
 
 The subteam must acquire a peristaltic pump of greater capacity. The subteam currently awaits the arrival of a new 600 RPM peristaltic pump to incorporate into the system. The Future Work section further describes the subteam's plan to complete the apparatus so as to reliably be able to fluidize the sand bed.
 
@@ -486,9 +484,9 @@ Because the subteam was unable to consistently fluidize the sand using the avail
 
 The subteam will test the functionality of the prototype system in two ways. First, the subteam will determine qualitatively, likely with the assistance of a camera, if bubbles form inside the reactor. If this is true, the premise of using a fluidized bed to encourage bubble formation and to remove excess dissolved air from water is valid.
 
-After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content since the source of the dissolved oxygen is air from the atmosphere. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of dissolved gas.
+After modifying the system as necessary to achieve qualitative success, the subteam will move on to a quantitative analysis of the prototype. The subteam will use dissolved oxygen probes to determine the difference in concentration of dissolved oxygen between the influent and effluent water. The subteam expects that the water's dissolved oxygen content is proportional to the water's dissolved air content since the major source of the dissolved oxygen is air. Therefore, the system's effectiveness in removing dissolved oxygen should be proportional to the system's effectiveness in removing dissolved air. After analysis of concentration data, the subteam will modify the system to optimize the removal of dissolved gas.
 
-In future semesters, the subteam must also keep in mind the end goal of scaling up the prototype. The prototype's method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed. In order to reliably scale up a fluidized bed reactor, the fluidization flow rate must be reliably calculable.
+In future semesters, the subteam must also consider the end goal of scaling up the prototype. The prototype's method to remove excess dissolved gas from influent water must feasibly apply on a practical scale. As part of this end goal, as pertaining to a fluidized bed reactor, the subteam must evaluate the validity of the calculated fluidization flow of the sand bed. In order to reliably scale up a fluidized bed reactor, the fluidization flow must be reliably calculable.
 
 The subteam looks forward to future semesters' experimentation and iteration to analyze and improve the system, and to eventually develop a practical reactor.
 
@@ -538,7 +536,7 @@ This manual lays out the details of the materials and methods used for the afore
 
 #### Determining the Porosity of Silica Sand
 
-The porosity of silica sand was a necessary quantity to calculate the sand bed's fluidization velocity ([Equation 1](#Equation-1)). The following procedure was used to determine the porosity of the silica sand used in the reactor, based on the procedure outlined by [Worth, 2018](https://socratic.org/questions/how-do-scientists-measure-the-porosity-of-soil). The equation for determining porosity may be verified by dimensional analysis in comparison with the equation found in the source: [Department of Chemical Engineering, 2017](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf).
+The porosity of silica sand was needed to calculate the sand bed's fluidization velocity ([Equation 1](#Equation-1)). The following procedure was used to determine the porosity of the silica sand used in the reactor, based on the procedure outlined by [Worth, 2018](https://socratic.org/questions/how-do-scientists-measure-the-porosity-of-soil). The equation for determining porosity may be verified by dimensional analysis in comparison with the equation found in the source: [Department of Chemical Engineering, 2017](http://ww2.che.ufl.edu/unit-ops-lab/experiments/FB/FB-manual.pdf).
 
 **Set-Up**
 1. Acquire silica sand, water, and two graduated cylinders.
@@ -547,23 +545,21 @@ The porosity of silica sand was a necessary quantity to calculate the sand bed's
 
 **Experiment**
 1. Pour water from its graduated cylinder into the graduated cylinder containing sand until the meniscus’ peak is level with that of the sand bed. This equates to saturating the sand with water.
-2. Record the volume of water remaining in its respective graduated cylinder. Subtract this volume from the initial volume of water present in the graduated cylinder; the difference is the volume of water used to saturate the sand. This quantity is equal to the "pore volume", $V_{pore}$.
-4. Repeat the Set-Up and Experimental Steps 1-2  until three trials’ worth of data has been recorded.
-5. Use [Equation 8](#Equation-8) to calculate the sand’s porosity ($\phi$).
+2. Record the volume of water remaining in its respective graduated cylinder. Subtract this volume from the initial volume of water present in the graduated cylinder; the difference is the volume of water used to saturate the sand. This quantity is the "pore volume", $V_{pore}$.
+3. Repeat the Set-Up and Experimental Steps 1-2  until three trials’ worth of data has been recorded.
+4. Use [Equation 8](#Equation-8) to calculate the sand’s average porosity ($\phi$).
 
 $$\phi = \frac{V_{pore}}{V_{sample}}$$
 
 
 #### Determining the Average Diameter of Silica Sand Grains
 
-The average diameter of the silica sand grains was a necessary quantity to calculate the sand bed’s fluidization velocity ([Equation 1](#Equation-1)). The subteam used the following procedure to approximate the average diameter of the sand grains.
+The average diameter of the silica sand grains was needed to calculate the sand bed’s fluidization velocity ([Equation 1](#Equation-1)). The subteam used the following procedure to approximate the average diameter of the sand grains.
 
 1. Acquire a sample of silica sand and a digital caliper.
 2. Randomly select a number of sand grains, preferably greater than or equal to ten, from the sample.
 3. Using the caliper, measure each sand grain’s diameter three times to account for the grains’ asymmetrical natures. Record these measurements.
 4. Compute the average diameter for all sand grains in the sample.
-
-Note: the subteam used the file StandardDeviation.py to calculate such average values; this code is detailed in the section Python Code.
 
 #### Measuring Pipe Dimensions
 
@@ -573,14 +569,14 @@ The prototype fluidized bed reactor was comprised of a transparent PVC pipe cont
 The subteam cut the pipe to be a particular length prior to taking measurements.
 1. Acquire a transparent PVC pipe of approximately 1” diameter, a Sawzall reciprocating saw, colored tape in two shades, permanent markers, measuring tape, and a caliper.
 2. Use a measuring tape and marker to indicate a length of 0.5 m on the PVC pipe. Cut the PVC pipe using the Sawzall such that it matches this length.
-3. Wrap tape of opposing colors on opposing ends of the pipe, but *leave several inches between the edge of the pipe and the tape itself*. The tape should be several inches from the edge of the pipe. Use this tape to maintain consistent awareness of the ends of the pipe.
+3. Wrap tape of opposing colors on opposing ends of the pipe, but *leave several inches between the edge of the pipe and the tape itself*. The tape should be several inches from the edge of the pipe. Use this tape to maintain awareness of the pipe's orientation.
 
 **Measurement**
 1. Use a caliper to take the following measurements on both opposite ends of the pipe:
 - Measure the thickness of the pipe’s wall in three locations. Compute the average thickness of the pipe’s wall.
 - Measure the diameter of the pipe (including the wall) in three locations. These measurements are of the pipe’s “outer diameter”. Compute the average outer diameter of the pipe.
 - Subtract twice the wall’s thickness from the outer diameter; the difference is the “inner diameter”. Use this quantity to calculate the cross-sectional area of the pipe.
-2. Compute the average cross-sectional area of the pipe, using the measurements from both ends.
+2. Compute the average cross-sectional area of the pipe, using the measurements taken at both ends.
 
 ### Fabrication Manual
 
@@ -619,7 +615,7 @@ Recall **Figure 7** from the Methods section. The above flow connector enables t
 
 #### Determining the Sand Bed's Fluidization Flow
 
-The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page, to estimate the fluidization velocity & fluidization flow of the sand bed in the prototype reactor. The code is based on [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
+The subteam used the following code, copied from the file FluidizationVelocity.py found on the subteam's GitHub page, to estimate the fluidization velocity and fluidization flow of the sand bed in the prototype reactor. The code is based on [Equation 1](#Equation-1). The code requests as input: the reactor's cross-sectional area; the kinematic viscosity of water at a particular temperature (e.g. room temperature); the sand's porosity, which the subteam experimentally determined; silica sand's density; the average diameter of the sand grains, which the subteam measured. The code outputs the velocity and flow of water required to fluidize the sand bed.
 
 The following values were used for the subteam to calculate the fluidization flow of 2.54 mL/s:
 
@@ -706,7 +702,7 @@ print("The list you've entered has an average value of " + str(ut.sig(average, 4
 
 #### Determining Head Loss in the Effluent Tubing
 
-This code follows [Equation 4](#Equation-4).
+This code follows [Equation 4](#Equation-4), and may be found on the subteam's GitHub page. It outputs the head loss in tubing containing a laminar flow, and requests as input: the absolute viscosity of water; the tubing length, the water's velocity, the and the pipe's diameter.
 
 ```python
 
@@ -731,7 +727,7 @@ print("The Head Loss due to the effluent tubing is "+ str(ut.sig(Head_Loss,3))+"
 
 ### ProCoDa Code
 
-The following code allows the Dissolved Gas subteam to turn on the peristaltic pump at the desired speed.
+The following code allows the Dissolved Gas subteam to turn on the peristaltic pump at a desired speed.
 
 #### States
 - *OFF*: The system (peristaltic pump) is off.

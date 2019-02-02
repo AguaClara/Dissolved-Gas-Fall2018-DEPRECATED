@@ -65,7 +65,7 @@ Weber-Shirk, M. *Flow Control and Measurement* [PowerPoint Slides]. Retrieved fr
 $$ h_f = \frac{32\mu L V}{\rho g D^2} $$
 
 $h_f=$ head loss
-$\mu=$ kinematic viscosity of water
+$\mu=$ dynamic viscosity of water
 $L=$ length of the pipe in question
 $g=$ acceleration due to gravity
 $\rho=$ density of water

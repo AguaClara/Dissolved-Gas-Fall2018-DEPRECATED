@@ -393,18 +393,22 @@ The Dissolved Gas subteam analyzed data mainly through the use of the StandardDe
 
 ### Determining Porosity of Sand
 
+**Table 1**: This table shows the data collected by the subteam to calculate the porosity of the sand bed.
+
 | Trial number | Measured volume of sand (mL) $(V_{sample})$ | Volume of water in cylinder (mL) |Volume of water remaining in cylinder after saturating sand (mL) | Pore Volume (mL) $(V_{pore})$| Calculated Porosity $(\phi)$|
 |:-:|:--:|:---:|:---:|:--:|:----:|
 | 1 | 40 | 150 | 136 | 14 | 0.35 |
 | 2 | 40 | 150 | 136 | 14 | 0.35 |
 | 3 | 40 | 150 | 136 | 14 | 0.35 |
-**Table 1**: This table shows the data collected by the subteam to calculate the porosity of the sand bed.
 
-The subteam calculated the porosity of the sand and found it to be 0.35, with a surprising standard deviation of 0.0%.
+
+The subteam calculated the porosity of the sand and found it to be 0.35, with a surprising standard deviation of 0.0%. As evidenced by [Equation 1](#Equation-1), the lower the porosity of a material, the lower the material's fluidization velocity.
 
 This has a percent difference of 0% compared to [Weber-Shirk](https://courses.cit.cornell.edu/cee4540/pdf/Filtration.pdf)'s suggested value of 0.4 when the calculated value is rounded to one significant figure.
 
 ### Determining Sand Grain Dimensions
+
+**Table 2**: This table shows the sand dimensions measured by the subteam.
 
 | Sand grain | Measurement 1 (mm)| Measurement 2 (mm) | Measurement 3 (mm)|
 |:-:|:----:|:----:|:----:|
@@ -418,31 +422,36 @@ This has a percent difference of 0% compared to [Weber-Shirk](https://courses.ci
 | 8 | 0.76 | 0.92 | 0.70 |
 | 9 | 0.69 | 0.70 | 0.76 |
 |10 | 0.91 | 0.74 | 1.10 |
-**Table 2**: This table shows the sand dimensions measured by the subteam.
 
-The average measured diameter of the sand grains was 0.91 mm, with a standard deviation of 0.21 mm.
+The average measured diameter of the sand grains was 0.91 mm, with a standard deviation of 0.21 mm. As evidenced by [Equation 1](#Equation-1), the smaller the sand grain's diameter, the lower the sand bed's fluidization velocity.
 
 ### Determining the Reactor's Cross-Sectional Area
 
 ##### Influent side
+
+**Table 3**: This table shows the measured dimensions of the influent side of the pipe, the calculated cross-sectional areas, and the corresponding average values.
+
 | Measurement | Thickness of Pipe Wall| Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross-Sectional Area (mm$^2$) |
 |:-------:|:----:|:-----:|:-----:|:-----:|
 |    1    | 4.35 | 33.54 | 24.84 | 484.6 |
 |    2    | 4.39 | 33.36 | 24.58 | 474.5 |
 |    3    | 4.40 | 33.46 | 24.66 | 477.6 |
 | Average | 4.38 | 33.45 | 24.69 | 478.9 |
-**Table 3**: This table shows the measured dimensions of the influent side of the pipe, the calculated cross-sectional areas, and the corresponding average values.
+
+**Further significance**:
 
 ##### Effluent side
+
+**Table 4**: This table shows the measured dimensions of the effluent side of the pipe, the calculated cross-sectional areas, and the corresponding average values.
+
 | Measurement | Thickness of Pipe Wall | Outer Diameter | Calculated Inner Diameter | Calculated Inner Cross-Sectional Area (mm$^2$) |
 |:-------:|:----:|:-----:|:-----:|:-----:|
 |    1    | 4.26 | 33.66 | 25.14 | 496.4 |
 |    2    | 4.67 | 33.44 | 24.10 | 456.2 |
 |    3    | 4.20 | 33.41 | 25.01 | 491.3 |
 | Average | 4.38 | 33.5  | 24.75 | 481.3 |
-**Table 4**: This table shows the measured dimensions of the effluent side of the pipe, the calculated cross-sectional areas, and the corresponding average values.
 
-The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1 mm$^2$, with a standard deviation of 1.697 mm$^2$.
+The percent difference between the calculated, inner, cross-sectional area of the pipe at either end is 0.500%. The overall average cross-sectional area of the pipe is 481.1 mm$^2$, with a standard deviation of 1.697 mm$^2$. These calculations indicate that the pipe is a suitably uniform container for the fluidized bed.
 
 ### Calculating the Sand Bed's Fluidization Flow
 
@@ -457,6 +466,8 @@ Average diameter of the silica sand grains: 0.91 mm
 Kinematic viscosity of water: 0.9344 mm$^2$/s [(Anton Paar)](https://wiki.anton-paar.com/en/water/)
 
 The sand bed's fluidization flow was calculated to be 2.54 mL/s.
+
+**Further significance**: A relatively low fluidization flow may be advantageous in the application of a fluidized bed. An AguaClara water treatment plant generally intakes water at a flow rate of _____. This may indicate ____. 
 
 ### Testing the System
 

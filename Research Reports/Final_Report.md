@@ -467,7 +467,7 @@ Kinematic viscosity of water: 0.9344 mm$^2$/s [(Anton Paar)](https://wiki.anton-
 
 The sand bed's fluidization flow was calculated to be 2.54 mL/s.
 
-**Further significance**: A relatively low fluidization flow may be advantageous in the application of a fluidized bed. An AguaClara water treatment plant generally intakes water at a flow rate of _____. This may indicate ____. 
+**Further significance**: A relatively low fluidization flow may be advantageous in the application of a fluidized bed. An AguaClara water treatment plant generally intakes water at a flow rate of _____. This may indicate ____.
 
 ### Testing the System
 
@@ -723,7 +723,7 @@ import aide_design as ad
 from aide_design import utility as ut
 from aide_design.play import*
 
-viscosity = float(input("What is the absolute viscosity of water, in units of Pascal seconds?\n"))*u.kg/u.m/u.s
+viscosity = float(input("What is the dynamic (i.e. absolute) viscosity of water, in units of millipascal seconds?\n"))*(1/1000) * u.kg/u.m/u.s
 effluent_tubing_length = float(input("What is the length of the effluent tubing, in units of meters?\n"))*u.m
 velocity = float(input("What is the velocity of water in the effluent piping, in units of meters per second?\n"))*u.m/u.s
 

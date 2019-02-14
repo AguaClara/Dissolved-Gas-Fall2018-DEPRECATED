@@ -15,7 +15,6 @@ Excess dissolved air in a treatment plant’s influent water decreases the funct
 - [Previous Work](#Previous-Work)
 
 ## Introduction
-**Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?**
 
 Excess dissolved gas in influent water of AguaClara plants at Tamara, Honduras and EL PODA, Nicaragua has significantly reduced the plants' efficiencies. To clarify: “excess dissolved gas” does not entail *bubbles* being present in influent water. The influent water is *supersaturated* with gas: gas molecules are dispersed throughout the water, not congregated in bubbles.
 

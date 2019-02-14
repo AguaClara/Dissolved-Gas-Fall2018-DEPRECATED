@@ -255,7 +255,7 @@ Averill, B., & Eldredge, P. (n.d.). *Principles of General Chemistry* (Vol. 1). 
 
 Boudreau, B. P., Algar, C., Johnson, B. D., Croudace, I., Reed, A., Furukawa, Y., … Gardiner, Bruce S. (2005, June 5). *Bubble growth and rise in soft sediments.* Retrieved September 17, 2018, from https://pubs.geoscienceworld.org/gsa/geology/article/33/6/517/103815/bubble-growth-and-rise-in-soft-sediments
 
-Bradford, Dokko, Harris (2018). Filter Constrictions, Spring 2018. https://raw.githubusercontent.com/AguaClara/filter-constrictions/master/Reports_Tutorials/FinalReport.md
+Bradford, Dokko, Harris (2018). Filter Constrictions, Spring 2018. Retrieved from https://raw.githubusercontent.com/AguaClara/filter-constrictions/master/Reports_Tutorials/FinalReport.md
 
 Brown, G. (2000, June 22). *The Darcy-Weisbach Equation*. Retrieved from https://bae.okstate.edu/faculty-sites/Darcy/DarcyWeisbach/Darcy-WeisbachEq.htm
 

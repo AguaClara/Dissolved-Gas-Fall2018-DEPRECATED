@@ -84,3 +84,5 @@ The diameter of a grain of sand can vary from 0.05mm up to 2 mm, with the averag
 *Viscosity of Water – Viscosity table and viscosity chart* : Anton Paar Wiki. (2018). Retrieved October 29, 2018, from https://wiki.anton-paar.com/en/water/
 
 Kinematic Viscosity of Water at various temperatures.
+
+## Source 8: Process Fluid Mechanics | Entrainment Velocity

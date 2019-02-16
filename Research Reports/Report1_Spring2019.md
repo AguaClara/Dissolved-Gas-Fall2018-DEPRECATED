@@ -2,6 +2,8 @@
 #### Saul Bernaber, Thomas Bradford, Emily Wood
 #### 22 February 2018
 
+Hola!
+
 ## Abstract
 Excess dissolved air in a treatment plant’s influent water decreases the functionality of the plant's filters and sedimentation tanks. The Dissolved Gas subteam’s goal is to design a gravity-powered apparatus that extracts this excess gas from influent water prior to entry into the treatment plant, using a fluidized bed. The Fall 2018 subteam gathered literature, developed a small-scale prototype, and fabricated a small-scale prototype reactor and an accompanying system. The Spring 2019 subteam will iterate improvements based on experimental data to work towards a prototype that may be scaled up for application in an AguaClara plant.
 

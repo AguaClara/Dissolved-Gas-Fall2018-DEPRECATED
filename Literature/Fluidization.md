@@ -83,6 +83,21 @@ The diameter of a grain of sand can vary from 0.05mm up to 2 mm, with the averag
 #### Citation
 *Viscosity of Water – Viscosity table and viscosity chart* : Anton Paar Wiki. (2018). Retrieved October 29, 2018, from https://wiki.anton-paar.com/en/water/
 
-Kinematic Viscosity of Water at various temperatures.
+#### Useful information
+This website tabulates the kinematic viscosity of water at various temperatures.
 
-## Source 8: Process Fluid Mechanics | Entrainment Velocity
+## Source 8: Process Fluid Mechanics | *Entrainment Velocity*
+#### Citation
+Denn, M. (1980). Process Fluid Mechanics (pp. 72-73). Upper Saddle River, NJ: Prentice Hall PTR.
+
+#### Useful information
+There is a threshold velocity above which a fluidized bed's constituent particles will begin to flow upwards with the fluidizing agent, rather than remaining in suspended fluidization. The following equation (equation 55 in the textbook) solves for this velocity.
+
+$$ v_{max} = \frac{(\rho_{p}-\rho)g D^2_p}{18\eta}$$
+
+$v_{max}$ = entrainment velocity of the fluidized bed
+$\rho_{p}$ = density of the fluidized bed's particles
+$\rho$ = density of the fluidizing agent
+$\eta $ = dynamic viscosity of the fluidizing agent
+$D_p $ = average diameter of the fluidized bed's particles
+$g $ = acceleration due to gravity
